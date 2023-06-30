@@ -1,19 +1,31 @@
+library(readr)
+library(dplyr)
+
+
 # Importing the raw 2021 census data
-raw_data_long <- read.csv("data/RAW_Census_Profile_2021_Gen3 - Copy.csv")
+raw_data_long <- read_csv("data/RAW_Census_Profile_2021_Gen3 - Copy.csv")
 # Importing the CSV file with SES index, numerator and denominator
-num_den <- read.csv("data/2021_CensusDataProcessing/SES indexes.csv")
+num_den <- read_csv("data/SES indexes.csv")
+
 # Convert the raw census data from long to wide
 raw_data_wide = as.data.frame(t(raw_data_long))
 #Adding column names and removing text rows
 df = raw_data_wide %>%
   slice(-2)
+
+
 colnames(df) = df[1, ]
+
 df = df %>%
   slice(-1)
 typeof(df$ID1)
+
+
 df[df == "x"] <- NA
 #Converting column types to numeric
 df_2 <- df %>% mutate_at(1:2601, as.numeric)
+
+
 #Mutate
 df_3 = df_2 %>%
   mutate("ONE" = 1)
