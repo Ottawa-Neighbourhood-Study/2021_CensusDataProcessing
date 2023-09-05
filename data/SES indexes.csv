@@ -1,17 +1,13 @@
 SES Index,Numerator,Denominator
-test,1+2,ONE
-percent of residents aged 25-64 with no high school degree or diploma,2059,2058
-percent of residents living in low income (LIM-AT),171,166
-unemployment rate,1965,1963
-percent of families that are lone-parent,235,230
-average household income (after tax) ,65,1
-Median Market Income,67,1
-Participation rate,1967,1
-Unaffordable housing,350,348
-Unsuitable housing,351,348
-Inadequate housing,352,348
-Median employment income ($),70,1
-Median government transfers ($),73,1
-Median EI ($),76,1
-Median COVID-19 emergency and recovery benefits ($),79,ONE
-% sep/divorced/widowed,51+52+53,46
+Percent of residents aged 25-64 with no high school degree or diploma,2059,2058
+Percent of residents living in low income (LIM-AT),171,166
+Unemployment rate (15 years +),1965,1963
+Percent of census families that are lone-parent,397,389
+"Average household income (after tax, 2020)",245,ONE
+"Median Market Income (individual, 2020)",67,ONE
+Participation rate,1967,ONE
+Unaffordable1: % households spending 30% or more of income on shelter costs,360,358
+Unaffordable2: % households spending 30% to less than 100% of income on shelter costs,361,358
+Unsuitable housing: % households not suitable,322,320
+Inadequate housing: % households major repairs needed,334,332
+Percent households in core housing need,363,362
