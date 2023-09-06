@@ -1,0 +1,97 @@
+Parameter,Numerator Data_ID,Denominator Data_ID,Number or percentage,Category
+Total population,1,ONE,Number,Demographics
+Percent of pop that are seniors 65+,17,1,Percentage 2,Demographics
+Number of seniors 65+,30,ONE,Number,Demographics
+Average age of the population,32,ONE,Average,Demographics
+Median age of the population,33,ONE,Median,Demographics
+Number of children living in one-parent families,40,ONE,Number,Demographics
+Percent of children living in one-parent families,40,38,Percentage 2,Demographics
+Number of pop living alone,42,ONE,Number,Family comp
+Percent of pop living alone,42,34,Percentage 2,Family comp
+Average after-tax income in 2020 among recipients ($),65,ONE,Average,Income/work
+Average market income in 2020 among recipients ($),68,ONE,Average,Income/work
+Percent of income from government transfers (2020),84,ONE,Percentage 1,Income/work
+Average after-tax income in 2019 among recipients ($),143,ONE,Average,Income/work
+Average market income in 2019 among recipients ($),146,ONE,Average,Income/work
+Percent of income from government transfers (2019),159,ONE,Percentage 1,Income/work
+Number of people in low-income based on LIM-AT,171,ONE,Number,Income/work
+Percent of people in low income based on LIM-AT,171,166,Percentage 2,Income/work
+Number of people 0-17 in low income based on LIM-AT,172,ONE,Number,Income/work
+Percent of people 0-17 in low income based on LIM-AT,172,167,Percentage 2,Income/work
+Number of people 18-64 in low income based on LIM-AT,174,ONE,Number,Income/work
+Percent of people 18-64 in low income based on LIM-AT,174,169,Percentage 2,Income/work
+Number of people 65+ in low-income based on LIM-AT,175,ONE,Number,Income/work
+Percent of people 65+ in low-income based on LIM-AT,175,170,Percentage 2,Income/work
+Number of pop living alone (i.e. 1-person household),224,ONE,Number,Family comp
+Average household size,229,ONE,Average,Family comp
+Number of owner households,298,ONE,Number,Housing
+Percent of owner households,298,297,Percentage 2,Housing
+Percent of renter households,299,297,Percentage 2,Housing
+Percent of households living in core housing need,363,362,Percentage 2,Housing
+Number of households living in core housing need,363,ONE,Number,Housing
+Percent of owner households in core housing need,368,ONE,Percentage 1,Housing
+Median monthly shelter costs for owned dwellings ($),369,ONE,Median,Housing
+Average monthly shelter costs for owned dwellings ($),370,ONE,Average,Housing
+Number of tenant households,373,ONE,Number,Housing
+Percent of tenant households living in subsidized housing,374,ONE,Percentage 1,Housing
+Percent of renter households in core housing need,376,ONE,Percentage 1,Housing
+Median monthly shelter costs for rented dwellings ($),377,ONE,Median,Housing
+Average monthly shelter costs for rented dwellings ($),378,ONE,Average,Housing
+Average size of census families,388,ONE,Average,Family comp
+Percent of census families that are one-parent families,397,389,Percentage 2,Family comp
+Number of one-parent families,397,ONE,Number,Family comp
+Percent of all census families that are one-parent families,397,389,Percentage 2,Family comp
+Average number of children in census families with children,400,ONE,Average,Family comp
+Average after-tax income of all economic families,405,ONE,Average,Income/work
+Average after-tax income of couple-with-children economic families,416,ONE,Average,Income/work
+Average after-tax income of one-parent economic families,423,ONE,Average,Income/work
+Number of people with knowledge of only French as an official language,427,ONE,Number,Language
+Percent of people with knowledge of only French as an official language,427,425,Percentage 2,Language
+Percent of pop with knowledge of neither English nor French,429,425,Percentage 2,Language
+Number of people with knowledge of neither English nor French,429,ONE,Number,Language
+Percent of pop that are Indigenous,1445,1444,Percentage 2,Indigenous
+Number of people who are Indigenous,1445,ONE,Number,Indigenous
+Percent of Pop that are FN,1447,1444,Percentage 2,Indigenous
+Number of people who are FN,1447,ONE,Number,Indigenous
+Percent of Pop that are Metis,1448,1444,Percentage 2,Indigenous
+Number of people who are Metis,1448,ONE,Number,Indigenous
+Percent of Pop that are Inuit,1449,1444,Percentage 2,Indigenous
+Number of people who are Inuit,1449,ONE,Number,Indigenous
+Percent of pop that are immigrants,1485,1483,Percentage 2,Immigration
+Number of immigrants,1485,ONE,Number,Immigration
+Percent of pop that are recent immigrants (arr. 2016-2021),1492,1483,Percentage 2,Immigration
+Number of recent immigrants (arr. 2016-2021),1492,ONE,Number,Immigration
+Percent of pop that are refugees,1630,1,Percentage 2,Immigration
+Percent of immigrants that are refugees,1630,1625,Percentage 2,Immigration
+Number of refugees,1630,ONE,Number,Immigration
+Percent of pop that are visible minority,1640,1639,Percentage 2,Demographics
+Number of people who are visible minority,1640,ONE,Number,Demographics
+Percent in the labour force (participation rate),1963,1962,Percentage 2,Income/work
+Number of pop in labour force,1963,ONE,Number,Income/work
+Unemployment rate,1965,1963,Percentage 2,Income/work
+Number of pop unemployed,1965,ONE,Number,Income/work
+Number of people age 25-64 w/no high school diploma or equivalent,2059,ONE,Number,Education
+Percent of pop age 25-64 with no high school diploma or equivalent,2059,2058,Percentage 2,Education
+Number of people age 25-64 with a high school diploma,2060,ONE,Number,Education
+Percent of people age 25-64 with a high school diploma,2060,2058,Percentage 2,Education
+Number of pop age 25-64 with postsecondary degree/diploma/certificate,2064,ONE,Number,Education
+Percent of pop age 25-64 with postsecondary degree/diploma/certificate,2064,2061,Percentage 2,Education
+Number of workers age 15+ who work at home,2564,ONE,Number,Income/work
+Percent of workers age 15+ who work at home,2564,,Percentage 2,Income/work
+Number of workers age 15+ who have no fixed workplace address,2566,ONE,Number,Income/work
+Percent of workers age 15+ who have no fixed workplace address,2566,,Percentage 2,Income/work
+"Number of workers age 15+ who commute by car, truck, or van",2574,ONE,Number,Commuting
+"Percent of workers age 15+ who commute by car, truck, or van",2574,2573,Percentage 2,Commuting
+Number of workers age 15+ who commute by public transit,2577,ONE,Number,Commuting
+Percent of workers age 15+ who commute by public transit,2577,2573,Percentage 2,Commuting
+Number of workers age 15+ who commute by walking,2578,ONE,Number,Commuting
+Percent of workers age 15+ who commute by walking,2578,2573,Percentage 2,Commuting
+Number of workers age 15+ who commute by bicycle,2579,ONE,Number,Commuting
+Percent of workers age 15+ who commute by bicycle,2579,2573,Percentage 2,Commuting
+Number of workers age 15+ who commute by other means,2580,ONE,Number,Commuting
+Percent of workers age 15+ who commute by other means,2580,2573,Percentage 2,Commuting
+Percent of workers who commute for 60 minutes and over,2586,2581,Percentage 2,Commuting
+Number of youth age 15-24,7+8,ONE,Number,Demographics
+Percent of of pop that are youth age 15-24,7+8,1,Percentage 1,Demographics
+Number of people with French as a language most spoken at home,781+1103+1105+1106,ONE,Number,Language
+Percent of people with French as a language most spoken at home,781+1103+1105+1106,777,Percentage 2,Language
