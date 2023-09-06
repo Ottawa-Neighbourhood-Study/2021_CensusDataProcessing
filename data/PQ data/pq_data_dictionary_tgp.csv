@@ -1,0 +1,48 @@
+variables,Numerator,Denominator,Number or percentage,Category
+Number of seniors age 65+,17,ONE,Number,Demographics
+Percent of pop that are seniors age 65+,17,1,Percentage 2,Demographics
+Average age of the population,32,ONE,Average,Demographics
+Median age of the population,33,ONE,Median,Demographics
+Number of people living alone,42,ONE,Number,Family comp
+Percent of people living alone,42,34,Percentage 2,Family comp
+Number of after-tax income recipients age 15+,63,ONE,Number,Income/work
+Average after-tax income in 2020 among recipients ($),65,ONE,Average,Income/work
+Number of market income recipients age 15+,66,ONE,Number,Income/work
+Average market income in 2020 among recipients ($),68,ONE,Average,Income/work
+Percent of income from government transfers (2020),84,ONE,Percentage 1,Income/work
+Average after-tax income in 2019 among recipients ($),143,ONE,Average,Income/work
+Average market income in 2019 among recipients ($),146,ONE,Average,Income/work
+Percent of income from government transfers (2019),159,ONE,Percentage 1,Income/work
+Number of people in low-income based on LIM-AT,171,ONE,Number,Income/work
+Percent of people in low income based on LIM-AT,171,166,Percentage 2,Income/work
+Number of people who know neither English nor French,218,ONE,Number,Language
+Percent of people who know neither English nor French,218,214,Percentage 2,Language
+Percent of pop that are Indigenous,1234,1233,Percentage 2,Indigenous
+Number of people who are Indigenous,1234,ONE,Number,Indigenous
+Percent of Pop that are FN,1236,1233,Percentage 2,Indigenous
+Number of people who are FN,1236,ONE,Number,Indigenous
+Percent of Pop that are Metis,1237,1233,Percentage 2,Indigenous
+Number of people who are Metis,1237,ONE,Number,Indigenous
+Percent of Pop that are Inuit,1238,1233,Percentage 2,Indigenous
+Number of people who are Inuit,1238,ONE,Number,Indigenous
+Percent of pop that are visible minority,1429,1428,Percentage 2,Demographics
+Number of people who are visible minority,1429,ONE,Number,Demographics
+Number of pop in labour force,1752,ONE,Number,Income/work
+Percent of pop in labour force (participation rate),1752,1751,Percentage 2,Income/work
+Number of pop unemployed,1754,ONE,Number,Income/work
+Unemployment rate,1754,1752,Percentage 2,Income/work
+Number of people age 25-64 with no high school diploma,1848,ONE,Number,Education
+Percent of people age 25-64 with no high school diploma,1848,1847,Percentage 2,Education
+Number of people age 25-64 with a high school diploma,1849,ONE,Number,Education
+Percent of people age 25-64 with a high school diploma,1849,1847,Percentage 2,Education
+"Number of people age 25-64 with a postsecondary degree, diploma, or certificate",1853,ONE,Number,Education
+"Percent of people age 25-64 with a postsecondary degree, diploma, or certificate",1853,1850,Percentage 2,Education
+Number of workers age 15+ who work at home,2353,ONE,Number,Income/work
+Percent of workers age 15+ who work at home,2353,2352,Percentage 2,Income/work
+Number of workers age 15+ who have no fixed workplace address,2355,ONE,Number,Income/work
+Percent of workers age 15+ who have no fixed workplace address,2355,2352,Percentage 2,Income/work
+Percent of workers age 15+ who commute for 60 minutes and over,2375,2370,Percentage 2,Commuting
+Number of people with French as a language most spoken at home,570+892+894+895,ONE,Number,Language
+Percent of people with French as a language most spoken at home,570+892+894+895,566,Percentage 2,Language
+Number of youth age 15-24,7+8,ONE,Number,Demographics
+Percent of pop that are youth age 15-24,7+8,1,Percentage 2,Demographics
