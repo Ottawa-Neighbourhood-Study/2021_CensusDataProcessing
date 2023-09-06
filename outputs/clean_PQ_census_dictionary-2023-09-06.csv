@@ -1,0 +1,97 @@
+V1,V2,V3,V4,V5,V6
+Total population,1,ONE,Number,Demographics,total_population
+Percent of pop that are seniors 65+,17,1,Percentage 2,Demographics,percent_of_pop_that_are_seniors_65
+Number of seniors 65+,17,ONE,Number,Demographics,number_of_seniors_65
+Average age of the population,32,ONE,Average,Demographics,average_age_of_the_population
+Median age of the population,33,ONE,Median,Demographics,median_age_of_the_population
+Number of children living in one-parent families,40,ONE,Number,Demographics,number_of_children_living_in_one_parent_families
+Percent of children living in one-parent families,40,38,Percentage 2,Demographics,percent_of_children_living_in_one_parent_families
+Number of pop living alone,42,ONE,Number,Family comp,number_of_pop_living_alone
+Percent of pop living alone,42,34,Percentage 2,Family comp,percent_of_pop_living_alone
+Average after-tax income in 2020 among recipients ($),65,ONE,Average,Income/work,average_after_tax_income_in_2020_among_recipients
+Average market income in 2020 among recipients ($),68,ONE,Average,Income/work,average_market_income_in_2020_among_recipients
+Percent of income from government transfers (2020),84,ONE,Percentage 1,Income/work,percent_of_income_from_government_transfers_2020
+Average after-tax income in 2019 among recipients ($),143,ONE,Average,Income/work,average_after_tax_income_in_2019_among_recipients
+Average market income in 2019 among recipients ($),146,ONE,Average,Income/work,average_market_income_in_2019_among_recipients
+Percent of income from government transfers (2019),159,ONE,Percentage 1,Income/work,percent_of_income_from_government_transfers_2019
+Number of people in low-income based on LIM-AT,171,ONE,Number,Income/work,number_of_people_in_low_income_based_on_lim_at
+Percent of people in low income based on LIM-AT,171,166,Percentage 2,Income/work,percent_of_people_in_low_income_based_on_lim_at
+Number of people 0-17 in low income based on LIM-AT,172,ONE,Number,Income/work,number_of_people_0_17_in_low_income_based_on_lim_at
+Percent of people 0-17 in low income based on LIM-AT,172,167,Percentage 2,Income/work,percent_of_people_0_17_in_low_income_based_on_lim_at
+Number of people 18-64 in low income based on LIM-AT,174,ONE,Number,Income/work,number_of_people_18_64_in_low_income_based_on_lim_at
+Percent of people 18-64 in low income based on LIM-AT,174,169,Percentage 2,Income/work,percent_of_people_18_64_in_low_income_based_on_lim_at
+Number of people 65+ in low-income based on LIM-AT,175,ONE,Number,Income/work,number_of_people_65_in_low_income_based_on_lim_at
+Percent of people 65+ in low-income based on LIM-AT,175,170,Percentage 2,Income/work,percent_of_people_65_in_low_income_based_on_lim_at
+Number of pop living alone (i.e. 1-person household),224,ONE,Number,Family comp,number_of_pop_living_alone_i_e_1_person_household
+Average household size,229,ONE,Average,Family comp,average_household_size
+Number of owner households,298,ONE,Number,Housing,number_of_owner_households
+Percent of owner households,298,297,Percentage 2,Housing,percent_of_owner_households
+Percent of renter households,299,297,Percentage 2,Housing,percent_of_renter_households
+Percent of households living in core housing need,363,362,Percentage 2,Housing,percent_of_households_living_in_core_housing_need
+Number of households living in core housing need,363,ONE,Number,Housing,number_of_households_living_in_core_housing_need
+Percent of owner households in core housing need,368,ONE,Percentage 1,Housing,percent_of_owner_households_in_core_housing_need
+Median monthly shelter costs for owned dwellings ($),369,ONE,Median,Housing,median_monthly_shelter_costs_for_owned_dwellings
+Average monthly shelter costs for owned dwellings ($),370,ONE,Average,Housing,average_monthly_shelter_costs_for_owned_dwellings
+Number of tenant households,373,ONE,Number,Housing,number_of_tenant_households
+Percent of tenant households living in subsidized housing,374,ONE,Percentage 1,Housing,percent_of_tenant_households_living_in_subsidized_housing
+Percent of renter households in core housing need,376,ONE,Percentage 1,Housing,percent_of_renter_households_in_core_housing_need
+Median monthly shelter costs for rented dwellings ($),377,ONE,Median,Housing,median_monthly_shelter_costs_for_rented_dwellings
+Average monthly shelter costs for rented dwellings ($),378,ONE,Average,Housing,average_monthly_shelter_costs_for_rented_dwellings
+Average size of census families,388,ONE,Average,Family comp,average_size_of_census_families
+Percent of census families that are one-parent families,397,389,Percentage 2,Family comp,percent_of_census_families_that_are_one_parent_families
+Number of one-parent families,397,ONE,Number,Family comp,number_of_one_parent_families
+Percent of all census families that are one-parent families,397,389,Percentage 2,Family comp,percent_of_all_census_families_that_are_one_parent_families
+Average number of children in census families with children,400,ONE,Average,Family comp,average_number_of_children_in_census_families_with_children
+Average after-tax income of all economic families,405,ONE,Average,Income/work,average_after_tax_income_of_all_economic_families
+Average after-tax income of couple-with-children economic families,416,ONE,Average,Income/work,average_after_tax_income_of_couple_with_children_economic_families
+Average after-tax income of one-parent economic families,423,ONE,Average,Income/work,average_after_tax_income_of_one_parent_economic_families
+Number of people with knowledge of only French as an official language,427,ONE,Number,Language,number_of_people_with_knowledge_of_only_french_as_an_official_language
+Percent of people with knowledge of only French as an official language,427,425,Percentage 2,Language,percent_of_people_with_knowledge_of_only_french_as_an_official_language
+Percent of pop with knowledge of neither English nor French,429,425,Percentage 2,Language,percent_of_pop_with_knowledge_of_neither_english_nor_french
+Number of people with knowledge of neither English nor French,429,ONE,Number,Language,number_of_people_with_knowledge_of_neither_english_nor_french
+Percent of pop that are Indigenous,1445,1444,Percentage 2,Indigenous,percent_of_pop_that_are_indigenous
+Number of people who are Indigenous,1445,ONE,Number,Indigenous,number_of_people_who_are_indigenous
+Percent of Pop that are FN,1447,1444,Percentage 2,Indigenous,percent_of_pop_that_are_fn
+Number of people who are FN,1447,ONE,Number,Indigenous,number_of_people_who_are_fn
+Percent of Pop that are Metis,1448,1444,Percentage 2,Indigenous,percent_of_pop_that_are_metis
+Number of people who are Metis,1448,ONE,Number,Indigenous,number_of_people_who_are_metis
+Percent of Pop that are Inuit,1449,1444,Percentage 2,Indigenous,percent_of_pop_that_are_inuit
+Number of people who are Inuit,1449,ONE,Number,Indigenous,number_of_people_who_are_inuit
+Percent of pop that are immigrants,1485,1483,Percentage 2,Immigration,percent_of_pop_that_are_immigrants
+Number of immigrants,1485,ONE,Number,Immigration,number_of_immigrants
+Percent of pop that are recent immigrants (arr. 2016-2021),1492,1483,Percentage 2,Immigration,percent_of_pop_that_are_recent_immigrants_arr_2016_2021
+Number of recent immigrants (arr. 2016-2021),1492,ONE,Number,Immigration,number_of_recent_immigrants_arr_2016_2021
+Percent of pop that are refugees,1630,1,Percentage 2,Immigration,percent_of_pop_that_are_refugees
+Percent of immigrants that are refugees,1630,1625,Percentage 2,Immigration,percent_of_immigrants_that_are_refugees
+Number of refugees,1630,ONE,Number,Immigration,number_of_refugees
+Percent of pop that are visible minority,1640,1639,Percentage 2,Demographics,percent_of_pop_that_are_visible_minority
+Number of people who are visible minority,1640,ONE,Number,Demographics,number_of_people_who_are_visible_minority
+Percent in the labour force (participation rate),1963,1962,Percentage 2,Income/work,percent_in_the_labour_force_participation_rate
+Number of pop in labour force,1963,ONE,Number,Income/work,number_of_pop_in_labour_force
+Unemployment rate,1965,1963,Percentage 2,Income/work,unemployment_rate
+Number of pop unemployed,1965,ONE,Number,Income/work,number_of_pop_unemployed
+Number of people age 25-64 w/no high school diploma or equivalent,2059,ONE,Number,Education,number_of_people_age_25_64_w_no_high_school_diploma_or_equivalent
+Percent of pop age 25-64 with no high school diploma or equivalent,2059,2058,Percentage 2,Education,percent_of_pop_age_25_64_with_no_high_school_diploma_or_equivalent
+Number of people age 25-64 with a high school diploma,2060,ONE,Number,Education,number_of_people_age_25_64_with_a_high_school_diploma
+Percent of people age 25-64 with a high school diploma,2060,2058,Percentage 2,Education,percent_of_people_age_25_64_with_a_high_school_diploma
+Number of pop age 25-64 with postsecondary degree/diploma/certificate,2064,ONE,Number,Education,number_of_pop_age_25_64_with_postsecondary_degree_diploma_certificate
+Percent of pop age 25-64 with postsecondary degree/diploma/certificate,2064,2061,Percentage 2,Education,percent_of_pop_age_25_64_with_postsecondary_degree_diploma_certificate
+Number of workers age 15+ who work at home,2564,ONE,Number,Income/work,number_of_workers_age_15_who_work_at_home
+Percent of workers age 15+ who work at home,2564,NA,Percentage 2,Income/work,percent_of_workers_age_15_who_work_at_home
+Number of workers age 15+ who have no fixed workplace address,2566,ONE,Number,Income/work,number_of_workers_age_15_who_have_no_fixed_workplace_address
+Percent of workers age 15+ who have no fixed workplace address,2566,NA,Percentage 2,Income/work,percent_of_workers_age_15_who_have_no_fixed_workplace_address
+"Number of workers age 15+ who commute by car, truck, or van",2574,ONE,Number,Commuting,number_of_workers_age_15_who_commute_by_car_truck_or_van
+"Percent of workers age 15+ who commute by car, truck, or van",2574,2573,Percentage 2,Commuting,percent_of_workers_age_15_who_commute_by_car_truck_or_van
+Number of workers age 15+ who commute by public transit,2577,ONE,Number,Commuting,number_of_workers_age_15_who_commute_by_public_transit
+Percent of workers age 15+ who commute by public transit,2577,2573,Percentage 2,Commuting,percent_of_workers_age_15_who_commute_by_public_transit
+Number of workers age 15+ who commute by walking,2578,ONE,Number,Commuting,number_of_workers_age_15_who_commute_by_walking
+Percent of workers age 15+ who commute by walking,2578,2573,Percentage 2,Commuting,percent_of_workers_age_15_who_commute_by_walking
+Number of workers age 15+ who commute by bicycle,2579,ONE,Number,Commuting,number_of_workers_age_15_who_commute_by_bicycle
+Percent of workers age 15+ who commute by bicycle,2579,2573,Percentage 2,Commuting,percent_of_workers_age_15_who_commute_by_bicycle
+Number of workers age 15+ who commute by other means,2580,ONE,Number,Commuting,number_of_workers_age_15_who_commute_by_other_means
+Percent of workers age 15+ who commute by other means,2580,2573,Percentage 2,Commuting,percent_of_workers_age_15_who_commute_by_other_means
+Percent of workers who commute for 60 minutes and over,2586,2581,Percentage 2,Commuting,percent_of_workers_who_commute_for_60_minutes_and_over
+Number of youth age 15-24,7+8,ONE,Number,Demographics,number_of_youth_age_15_24
+Percent of of pop that are youth age 15-24,7+8,1,Percentage 1,Demographics,percent_of_of_pop_that_are_youth_age_15_24
+Number of people with French as a language most spoken at home,781+1103+1105+1106,ONE,Number,Language,number_of_people_with_french_as_a_language_most_spoken_at_home
+Percent of people with French as a language most spoken at home,781+1103+1105+1106,777,Percentage 2,Language,percent_of_people_with_french_as_a_language_most_spoken_at_home

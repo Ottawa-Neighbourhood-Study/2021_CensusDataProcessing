@@ -4,6 +4,7 @@ library(dplyr)
 library(readr)
 library(usethis)
 library(stringr)
+library(data.table)
 # #load readr
 # # read_csv for tibble
 # 
@@ -11,8 +12,27 @@ library(stringr)
 calculate_ses_indices()
 
 #PART 2- clean the results file and isolate Ottawa neighbourhoods
+dirty_diction <- read_csv("data/PQ data/pq_data_dictionary_census_profile.csv") #change_here
+dirty_diction2<- transpose(dirty_diction)
+colnames(dirty_diction2)<- dirty_diction2[1,]
+
+clean_diction<- dirty_diction2 %>%
+  janitor::clean_names()
+
+clean_diction[nrow(clean_diction)+1,] = colnames(clean_diction)
+
+clean_diction2<-  clean_diction %>%
+  transpose()
+
+
+#write CSV
+filename2 <- paste0("outputs/clean_PQ_census_dictionary-", Sys.Date(),".csv") #change_here
+readr::write_csv(clean_diction2, filename2)
+message("Results saved to ", filename2)
+
+
 # load data
-dirty_data<- read_csv("outputs/ses_indices-2023-09-04.csv")
+dirty_data<- read_csv("outputs/pq_general_census_profile2023-09-06.csv") #change_here
 # remove non-ONS hoods
 dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
 
@@ -32,24 +52,23 @@ dirty3<-dirty2 %>%
     ONS_ID = as.numeric(substr(dirty2$name, nchar(dirty2$name) - n_last + 1, nchar(dirty2$name))))
 
 #filter Ottawa hoods based on ONS_ID and drop NA cases
-clean<- dirty3[dirty3$ONS_ID < 3400,] %>%
-  na.omit(clean)
+clean<- dirty3[dirty3$ONS_ID < 3400,]
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_ses_rawdata-", Sys.Date(),".csv")
+filename2 <- paste0("outputs/clean_pq_general_census_profile-", Sys.Date(),".csv") #change_here
 readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
 
-
-calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/pq_data_dictionary_census_profile.csv"){
-  nameoffile <- "pq_general_census_profile"
+#change_here
+calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/pq_data_dictionary_census_profile.csv") {
+  nameoffile <- "pq_general_census_profile" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
   
   # Importing the CSV file with SES index, numerator and denominator
-  message("Loading SES index numerator/denominator data: ", num_den_filename)
+  message("Loading numerator/denominator data: ", num_den_filename)
   num_den <- readr::read_csv(num_den_filename, col_types = readr::cols())
   
   
@@ -77,7 +96,7 @@ calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_P
   # set up a tibble that will contain our results. one row per region
   results <- dplyr::select(data_pivoted, name)
   
-  message("Calculating SES indices:")
+  message("Calculating variables:")
   # loop through all ses indices in the dictionary
   for (i in 1:nrow(num_den)) {
     
@@ -182,3 +201,4 @@ create_synthetic_numerator <- function( data_pivoted, numerator_index,  num_inde
   return(data_pivoted)
   
 }
+
