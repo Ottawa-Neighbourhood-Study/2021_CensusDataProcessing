@@ -43,7 +43,7 @@ message("Results saved to ", filename2)
 
 
 calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/pq_data_dictionary_census_profile.csv"){
-  
+  nameoffile <- "pq_general_census_profile"
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
@@ -82,14 +82,14 @@ calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_P
   for (i in 1:nrow(num_den)) {
     
     # extract the metadata for the index we are computing right now
-    ses_index <- num_den[i,]
-    ses_index_name <- ses_index$`SES Index`
+    variables <- num_den[i,]
+    variables_name <- variables$`variables`
     
     # get the column names/indices.
     # we keep the raw denominator index for comparison later to see is it a true
     # index, or if are we just using the number 1 as our denominator
     
-    numerator_index <- ses_index$Numerator
+    numerator_index <- variables$Numerator
     num_index <- paste0("ID", numerator_index)
     
     # check to see if the numerator contains non-numeric values, meaning it is
@@ -100,11 +100,11 @@ calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_P
     
     
     
-    den_index_raw <- ses_index$Denominator
+    den_index_raw <- variables$Denominator
     den_index <- paste0("ID", den_index_raw)
     
     # print an update to the console
-    message( "    ", i, ": ", ses_index_name)
+    message( "    ", i, ": ", variables_name)
     
     # calculate the index and put it in a tibble called result
     
@@ -116,14 +116,14 @@ calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_P
       ## variable does, the := operator, and the !!rlang::sym() call.
       ## you can read all about it here! https://adv-r.hadley.nz/metaprogramming.html
       result <- data_pivoted |>
-        dplyr::transmute(name,  {{ses_index_name}} := !!rlang::sym(num_index) / !!rlang::sym(den_index)) |>
+        dplyr::transmute(name,  {{variables_name}} := !!rlang::sym(num_index) / !!rlang::sym(den_index)) |>
         janitor::clean_names()
       
     } else {
       # otherwise, if the denominator index is NOT a number, the denominator should just be 1
       
       result <- data_pivoted |>
-        dplyr::transmute(name,  {{ses_index_name}} := !!rlang::sym(num_index) ) |>
+        dplyr::transmute(name,  {{variables_name}} := !!rlang::sym(num_index) ) |>
         janitor::clean_names()
     }
     
@@ -137,7 +137,7 @@ calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_P
   ## results can now be written to file
   
   
-  filename <- paste0("outputs/ses_indices-", Sys.Date(),".csv")
+  filename <- paste0("outputs/ses_indices-",nameoffile,Sys.Date(),".csv")
   readr::write_csv(results, filename)
   message("Results saved to ", filename)
   

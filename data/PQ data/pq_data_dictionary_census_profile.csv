@@ -1,4 +1,4 @@
-Parameter,Numerator Data_ID,Denominator Data_ID,Number or percentage,Category
+variables,Numerator,Denominator,Number or percentage,Category
 Total population,1,ONE,Number,Demographics
 Percent of pop that are seniors 65+,17,1,Percentage 2,Demographics
 Number of seniors 65+,30,ONE,Number,Demographics
