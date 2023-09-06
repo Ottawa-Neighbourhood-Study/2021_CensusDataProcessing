@@ -137,7 +137,7 @@ calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_P
   ## results can now be written to file
   
   
-  filename <- paste0("outputs/ses_indices-",nameoffile,Sys.Date(),".csv")
+  filename <- paste0("outputs/",nameoffile,Sys.Date(),".csv")
   readr::write_csv(results, filename)
   message("Results saved to ", filename)
   

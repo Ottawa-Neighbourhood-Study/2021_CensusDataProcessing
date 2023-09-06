@@ -1,7 +1,7 @@
 variables,Numerator,Denominator,Number or percentage,Category
 Total population,1,ONE,Number,Demographics
 Percent of pop that are seniors 65+,17,1,Percentage 2,Demographics
-Number of seniors 65+,30,ONE,Number,Demographics
+Number of seniors 65+,17,ONE,Number,Demographics
 Average age of the population,32,ONE,Average,Demographics
 Median age of the population,33,ONE,Median,Demographics
 Number of children living in one-parent families,40,ONE,Number,Demographics
