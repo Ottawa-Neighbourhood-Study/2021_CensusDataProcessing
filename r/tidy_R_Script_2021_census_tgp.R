@@ -12,7 +12,7 @@ library(data.table)
 calculate_ses_indices()
 
 #PART 2- clean the results file and isolate Ottawa neighbourhoods
-dirty_diction <- read_csv("data/PQ data/pq_data_dictionary_census_profile.csv") #change_here
+dirty_diction <- read_csv("data/PQ data/pq_data_dictionary_tgp.csv") #change_here the data dictionary
 dirty_diction2<- transpose(dirty_diction)
 colnames(dirty_diction2)<- dirty_diction2[1,]
 
@@ -26,13 +26,13 @@ clean_diction2<-  clean_diction %>%
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_PQ_census_dictionary-", Sys.Date(),".csv") #change_here
+filename2 <- paste0("outputs/clean_PQ_census_dictionary_tgp-", Sys.Date(),".csv") #change_here
 readr::write_csv(clean_diction2, filename2)
 message("Results saved to ", filename2)
 
 
 # load data
-dirty_data<- read_csv("outputs/pq_general_census_profile2023-09-06.csv") #change_here
+dirty_data<- read_csv("outputs/pq_tgp_65plus_2023-09-06.csv") #change_here
 # remove non-ONS hoods
 dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
 
@@ -56,13 +56,13 @@ clean<- dirty3[dirty3$ONS_ID < 3400,]
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_pq_general_census_profile-", Sys.Date(),".csv") #change_here
+filename2 <- paste0("outputs/clean_pq_tgp_immigrant_all-", Sys.Date(),".csv") #change_here
 readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
 
 #change_here
-calculate_ses_indices <- function(raw_data_filename = "data/PQ data/tgp_age_15to24.csv", num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv") {
-  nameoffile <- "pq_tgp_15to24" #change_here
+calculate_ses_indices <- function(raw_data_filename = "data/PQ data/tgp_immigrant_all.csv", num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv") {
+  nameoffile <- "pq_tgp_immigrant_all_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
@@ -201,4 +201,3 @@ create_synthetic_numerator <- function( data_pivoted, numerator_index,  num_inde
   return(data_pivoted)
   
 }
-
