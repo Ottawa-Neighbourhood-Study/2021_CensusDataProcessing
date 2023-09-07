@@ -1,4 +1,5 @@
 V1,V2,V3,V4,V5,V6
+Total population,1,ONE,Number,Demographics,total_population
 Number of seniors age 65+,17,ONE,Number,Demographics,number_of_seniors_age_65
 Percent of pop that are seniors age 65+,17,1,Percentage 2,Demographics,percent_of_pop_that_are_seniors_age_65
 Average age of the population,32,ONE,Average,Demographics,average_age_of_the_population
