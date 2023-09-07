@@ -1,4 +1,5 @@
 variables,Numerator,Denominator,Number or percentage,Category
+Total population,1,ONE,Number,Demographics
 Number of seniors age 65+,17,ONE,Number,Demographics
 Percent of pop that are seniors age 65+,17,1,Percentage 2,Demographics
 Average age of the population,32,ONE,Average,Demographics
