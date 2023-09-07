@@ -77,9 +77,9 @@ Percent of people age 25-64 with a high school diploma,2060,2058,Percentage 2,Ed
 Number of pop age 25-64 with postsecondary degree/diploma/certificate,2064,ONE,Number,Education
 Percent of pop age 25-64 with postsecondary degree/diploma/certificate,2064,2061,Percentage 2,Education
 Number of workers age 15+ who work at home,2564,ONE,Number,Income/work
-Percent of workers age 15+ who work at home,2564,,Percentage 2,Income/work
+Percent of workers age 15+ who work at home,2564,2563,Percentage 2,Income/work
 Number of workers age 15+ who have no fixed workplace address,2566,ONE,Number,Income/work
-Percent of workers age 15+ who have no fixed workplace address,2566,,Percentage 2,Income/work
+Percent of workers age 15+ who have no fixed workplace address,2566,2563,Percentage 2,Income/work
 "Number of workers age 15+ who commute by car, truck, or van",2574,ONE,Number,Commuting
 "Percent of workers age 15+ who commute by car, truck, or van",2574,2573,Percentage 2,Commuting
 Number of workers age 15+ who commute by public transit,2577,ONE,Number,Commuting
