@@ -1,0 +1,74 @@
+V1,V2,V3,V4,V5,V6,V7,V8
+Total population,1,ONE,Number,Demographics,ind,VAR1,total_population
+Number of seniors age 65+,17,ONE,Number,Demographics,ind,VAR3,number_of_seniors_age_65
+Percent of pop that are seniors age 65+,17,1,Percentage 2,Demographics,ind,VAR2,percent_of_pop_that_are_seniors_age_65
+Average age of the population,32,ONE,Average,Demographics,ind,VAR4,average_age_of_the_population
+Median age of the population,33,ONE,Median,Demographics,ind,VAR5,median_age_of_the_population
+Number of people living alone,42,ONE,Number,Family comp,ind,VAR8,number_of_people_living_alone
+Percent of people living alone,42,34,Percentage 2,Family comp,ind,VAR9,percent_of_people_living_alone
+Number of after-tax income recipients age 15+,63,ONE,Number,Income/work,ind,VAR10,number_of_after_tax_income_recipients_age_15
+Average after-tax income in 2020 among recipients ($),65,ONE,Average,Income/work,ind,VAR11,average_after_tax_income_in_2020_among_recipients
+Number of market income recipients age 15+,66,ONE,Number,Income/work,ind,VAR12,number_of_market_income_recipients_age_15
+Average market income in 2020 among recipients ($),68,ONE,Average,Income/work,ind,VAR13,average_market_income_in_2020_among_recipients
+Percent of income from government transfers (2020),84,ONE,Percentage 1,Income/work,ind,VAR14,percent_of_income_from_government_transfers_2020
+Average after-tax income in 2019 among recipients ($),143,ONE,Average,Income/work,ind,VAR15,average_after_tax_income_in_2019_among_recipients
+Average market income in 2019 among recipients ($),146,ONE,Average,Income/work,ind,VAR16,average_market_income_in_2019_among_recipients
+Percent of income from government transfers (2019),159,ONE,Percentage 1,Income/work,ind,VAR17,percent_of_income_from_government_transfers_2019
+Number of people 0-17 in low income based on LIM-AT,167,ONE,Number,Income/work,ind,VAR20,number_of_people_0_17_in_low_income_based_on_lim_at
+Percent of people 0-17 in low income based on LIM-AT,167,166,Percentage 2,Income/work,ind,VAR21,percent_of_people_0_17_in_low_income_based_on_lim_at
+Number of people 18-64 in low income based on LIM-AT,169,ONE,Number,Income/work,ind,VAR22,number_of_people_18_64_in_low_income_based_on_lim_at
+Percent of people 18-64 in low income based on LIM-AT,169,166,Percentage 2,Income/work,ind,VAR23,percent_of_people_18_64_in_low_income_based_on_lim_at
+Number of people 65+ in low-income based on LIM-AT,170,ONE,Number,Income/work,ind,VAR24,number_of_people_65_in_low_income_based_on_lim_at
+Percent of people 65+ in low-income based on LIM-AT,170,166,Percentage 2,Income/work,ind,VAR25,percent_of_people_65_in_low_income_based_on_lim_at
+Number of people in low-income based on LIM-AT,171,ONE,Number,Income/work,ind,VAR18,number_of_people_in_low_income_based_on_lim_at
+Percent of people in low income based on LIM-AT,171,166,Percentage 2,Income/work,ind,VAR19,percent_of_people_in_low_income_based_on_lim_at
+Number of people with knowledge of only French as an official language,216,ONE,Number,Language,ind,VAR49,number_of_people_with_knowledge_of_only_french_as_an_official_language
+Percent of people with knowledge of only French as an official language,216,214,Percentage 2,Language,ind,VAR50,percent_of_people_with_knowledge_of_only_french_as_an_official_language
+Number of people who know neither English nor French,218,ONE,Number,Language,ind,VAR52,number_of_people_who_know_neither_english_nor_french
+Percent of people who know neither English nor French,218,214,Percentage 2,Language,ind,VAR51,percent_of_people_who_know_neither_english_nor_french
+Percent of pop that are Indigenous,1234,1233,Percentage 2,Indigenous,ind,VAR53,percent_of_pop_that_are_indigenous
+Number of people who are Indigenous,1234,ONE,Number,Indigenous,ind,VAR54,number_of_people_who_are_indigenous
+Percent of Pop that are FN,1236,1233,Percentage 2,Indigenous,ind,VAR55,percent_of_pop_that_are_fn
+Number of people who are FN,1236,ONE,Number,Indigenous,ind,VAR56,number_of_people_who_are_fn
+Percent of Pop that are Metis,1237,1233,Percentage 2,Indigenous,ind,VAR57,percent_of_pop_that_are_metis
+Number of people who are Metis,1237,ONE,Number,Indigenous,ind,VAR58,number_of_people_who_are_metis
+Percent of Pop that are Inuit,1238,1233,Percentage 2,Indigenous,ind,VAR59,percent_of_pop_that_are_inuit
+Number of people who are Inuit,1238,ONE,Number,Indigenous,ind,VAR60,number_of_people_who_are_inuit
+Number of immigrants,1274,ONE,Number,Immigration,ind,VAR62,number_of_immigrants
+Percent of pop that are immigrants,1274,1272,Percentage 2,Immigration,ind,VAR61,percent_of_pop_that_are_immigrants
+Percent of pop that are recent immigrants (arr. 2016-2021),1281,1272,Percentage 2,Immigration,ind,VAR63,percent_of_pop_that_are_recent_immigrants_arr_2016_2021
+Number of recent immigrants (arr. 2016-2021),1281,ONE,Number,Immigration,ind,VAR64,number_of_recent_immigrants_arr_2016_2021
+Percent of pop that are refugees,1419,1,Percentage 2,Immigration,ind,VAR65,percent_of_pop_that_are_refugees
+Percent of immigrants that are refugees,1419,1414,Percentage 2,Immigration,ind,VAR66,percent_of_immigrants_that_are_refugees
+Number of refugees,1419,ONE,Number,Immigration,ind,VAR67,number_of_refugees
+Percent of pop that are visible minority,1429,1428,Percentage 2,Demographics,ind,VAR68,percent_of_pop_that_are_visible_minority
+Number of people who are visible minority,1429,ONE,Number,Demographics,ind,VAR69,number_of_people_who_are_visible_minority
+Number of pop in labour force,1752,ONE,Number,Income/work,ind,VAR71,number_of_pop_in_labour_force
+Percent of pop in labour force (participation rate),1752,1751,Percentage 2,Income/work,ind,VAR70,percent_of_pop_in_labour_force_participation_rate
+Number of pop unemployed,1754,ONE,Number,Income/work,ind,VAR73,number_of_pop_unemployed
+Unemployment rate,1754,1752,Percentage 2,Income/work,ind,VAR72,unemployment_rate
+Number of people age 25-64 with no high school diploma,1848,ONE,Number,Education,ind,VAR74,number_of_people_age_25_64_with_no_high_school_diploma
+Percent of people age 25-64 with no high school diploma,1848,1847,Percentage 2,Education,ind,VAR75,percent_of_people_age_25_64_with_no_high_school_diploma
+Number of people age 25-64 with a high school diploma,1849,ONE,Number,Education,ind,VAR76,number_of_people_age_25_64_with_a_high_school_diploma
+Percent of people age 25-64 with a high school diploma,1849,1847,Percentage 2,Education,ind,VAR77,percent_of_people_age_25_64_with_a_high_school_diploma
+"Number of people age 25-64 with a postsecondary degree, diploma, or certificate",1853,ONE,Number,Education,ind,VAR78,number_of_people_age_25_64_with_a_postsecondary_degree_diploma_or_certificate
+"Percent of people age 25-64 with a postsecondary degree, diploma, or certificate",1853,1850,Percentage 2,Education,ind,VAR79,percent_of_people_age_25_64_with_a_postsecondary_degree_diploma_or_certificate
+Number of workers age 15+ who work at home,2353,ONE,Number,Income/work,ind,VAR80,number_of_workers_age_15_who_work_at_home
+Percent of workers age 15+ who work at home,2353,2352,Percentage 2,Income/work,ind,VAR81,percent_of_workers_age_15_who_work_at_home
+Number of workers age 15+ who have no fixed workplace address,2355,ONE,Number,Income/work,ind,VAR82,number_of_workers_age_15_who_have_no_fixed_workplace_address
+Percent of workers age 15+ who have no fixed workplace address,2355,2352,Percentage 2,Income/work,ind,VAR83,percent_of_workers_age_15_who_have_no_fixed_workplace_address
+"Number of workers age 15+ who commute by car, truck, or van",2363,ONE,Number,Commuting,ind,VAR84,number_of_workers_age_15_who_commute_by_car_truck_or_van
+"Percent of workers age 15+ who commute by car, truck, or van",2363,2362,Percentage 2,Commuting,ind,VAR85,percent_of_workers_age_15_who_commute_by_car_truck_or_van
+Number of workers age 15+ who commute by public transit,2366,ONE,Number,Commuting,ind,VAR86,number_of_workers_age_15_who_commute_by_public_transit
+Percent of workers age 15+ who commute by public transit,2366,2362,Percentage 2,Commuting,ind,VAR87,percent_of_workers_age_15_who_commute_by_public_transit
+Number of workers age 15+ who commute by walking,2367,ONE,Number,Commuting,ind,VAR88,number_of_workers_age_15_who_commute_by_walking
+Percent of workers age 15+ who commute by walking,2367,2362,Percentage 2,Commuting,ind,VAR89,percent_of_workers_age_15_who_commute_by_walking
+Number of workers age 15+ who commute by bicycle,2368,ONE,Number,Commuting,ind,VAR90,number_of_workers_age_15_who_commute_by_bicycle
+Percent of workers age 15+ who commute by bicycle,2368,2362,Percentage 2,Commuting,ind,VAR91,percent_of_workers_age_15_who_commute_by_bicycle
+Number of workers age 15+ who commute by other means,2369,ONE,Number,Commuting,ind,VAR92,number_of_workers_age_15_who_commute_by_other_means
+Percent of workers age 15+ who commute by other means,2369,2362,Percentage 2,Commuting,ind,VAR93,percent_of_workers_age_15_who_commute_by_other_means
+Percent of workers age 15+ who commute for 60 minutes and over,2375,2370,Percentage 2,Commuting,ind,VAR94,percent_of_workers_age_15_who_commute_for_60_minutes_and_over
+Number of people with French as a language most spoken at home,570+892+894+895,ONE,Number,Language,ind,VAR97,number_of_people_with_french_as_a_language_most_spoken_at_home
+Percent of people with French as a language most spoken at home,570+892+894+895,566,Percentage 2,Language,ind,VAR98,percent_of_people_with_french_as_a_language_most_spoken_at_home
+Number of youth age 15-24,7+8,ONE,Number,Demographics,ind,VAR95,number_of_youth_age_15_24
+Percent of pop that are youth age 15-24,7+8,1,Percentage 2,Demographics,ind,VAR96,percent_of_pop_that_are_youth_age_15_24

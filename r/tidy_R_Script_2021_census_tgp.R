@@ -8,14 +8,14 @@ library(data.table)
 # #load readr
 # # read_csv for tibble
 
-tgp_format1 <- read_csv("data/PQ data/tgp_indigenous_all.csv", locale=locale(encoding="latin1")) #change here
+tgp_format1 <- read_csv("data/PQ data/tgp_immigrant_2011_2015.csv", locale=locale(encoding="latin1")) #change here
 
 #Try to mutate all columns in immigrant TGP to numeric
 tgp_format2 <-  tgp_format1 %>% 
   mutate(across(-c("Data_ID", "Age (33P)"), as.numeric))
 
 
-filename3 <- paste0("data/PQ data/tgp_indigenous_all.csv") #change_here
+filename3 <- paste0("data/PQ data/tgp_immigrant_2011_2015.csv") #change_here
 readr::write_csv(tgp_format2, filename3)
 message("Results saved to ", filename3)
 
@@ -43,7 +43,7 @@ message("Results saved to ", filename2)
 
 
 # load data
-dirty_data<- read_csv("outputs/pq_tgp_indigenous_all_2023-09-07.csv") #change_here
+dirty_data<- read_csv("outputs/pq_tgp_visible_min_south_asian_2023-09-08.csv") #change_here
 # remove non-ONS hoods
 dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
 
@@ -67,7 +67,7 @@ clean<- dirty3[dirty3$ONS_ID < 3400,]
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_pq_tgp_indigenous_all-", Sys.Date(),".csv") #change_here
+filename2 <- paste0("outputs/clean_pq_tgp_visible_min_south_asian-", Sys.Date(),".csv") #change_here
 readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
 
@@ -82,8 +82,8 @@ num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv"
 
 
 #change_here
-calculate_ses_indices <- function(raw_data_filename = "data/PQ data/tgp_indigenous_all.csv", num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv") {
-  nameoffile <- "pq_tgp_indigenous_all_" #change_here
+calculate_ses_indices <- function(raw_data_filename = "data/PQ data/tgp_visible_min_south_asian.csv", num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv") {
+  nameoffile <- "pq_tgp_visible_min_south_asian_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())

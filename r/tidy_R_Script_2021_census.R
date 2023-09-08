@@ -32,7 +32,7 @@ message("Results saved to ", filename2)
 
 
 # load data
-dirty_data<- read_csv("outputs/pq_general_census_profile2023-09-07.csv") #change_here
+dirty_data<- read_csv("outputs/pq_general_census_profile2023-09-08.csv") #change_here
 # remove non-ONS hoods
 dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
 
@@ -62,7 +62,7 @@ message("Results saved to ", filename2)
 
 #change_here
 calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/pq_data_dictionary_census_profile.csv") {
-  nameoffile <- "pq_general_census_profile" #change_here
+  nameoffile <- "pq_general_census_profile_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
