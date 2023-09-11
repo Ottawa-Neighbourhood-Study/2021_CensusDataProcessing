@@ -15,7 +15,7 @@ dictionary_indiv<- dictionary_indiv[-c(1,2,nrow(dictionary_indiv)),]
 
 poptype= "Youth_15-24"
 #working pop type
-filetouse<- "outputs/pq outputs/processed/clean_pq_tgp_age_15to24-2023-09-08.csv"
+filetouse<- "outputs/pq outputs/processed/clean_pq_tgp_age_65plus-2023-09-08.csv"
 #create clean data file (insert source file for each here above)
 raw_file <- read_csv(filetouse)
 colnames(raw_file) <- raw_file[1,]
@@ -62,19 +62,41 @@ for (i in 1:40) {
   compare3[,i] <- as.numeric(compare3[,i])
   print(typeof(compare3[,1]))
 }
-ranked<-compare3
+
+test=as.tibble(compare3$VAR2)
+
+#remove non populated hoods
+ranked=compare3[-c(1,6,19,30,42,51,57,83),]
 
 #rank
 for (i in 1:40) {
-  ranked[,i] <- rank(ranked[,i],ties.method="average")
+  ranked[,i] <- rank(ranked[,i],ties.method="average",na.last=NA)
   print(ranked[,i])
 }
 
+nrow(ranked)
+
 #quintiles
 for (i in 1:40) {
-  ranked[,i] <- if(ranked[,i],ties.method="average")
+  ranked[,i] <- ifelse(ranked[,i]<22.5,"Q1",
+                       ifelse(ranked[,i]<43.5,"Q2",
+                              ifelse(ranked[,i]<64.5,"Q3",
+                                     ifelse(ranked[,i]<85.5,"Q4",
+                                            ifelse(ranked[,i]>85.49,"Q5","MISTAKE!")))))
   print(ranked[,i])
 }
-?if
-write_csv(compare3,"outputs/pq outputs/processed/forQs_youth.csv")
-write_csv(ranked,"outputs/pq outputs/processed/ranked_youth.csv")
+
+quintiles<- ranked %>%
+  mutate(
+    VAR_ID=
+  )
+
+quintiles<- as.data.frame(t(ranked))%>%
+  mutate(VAR_ID= rownames(quintiles)
+         )
+compare3<- as.data.frame(t(compare3))%>%
+  mutate(VAR_ID= rownames(quintiles)
+  )
+
+write_csv(compare3,"outputs/pq outputs/processed/quintiles/forQs_youth.csv")
+write_csv(quintiles,"outputs/pq outputs/processed/quintiles/Quintiles_youth.csv")
