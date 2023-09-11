@@ -13,7 +13,7 @@ dictionary_indiv<- as.tibble(read_csv("outputs/pq outputs/processed/clean_pq_tgp
 colnames(dictionary_indiv) <- c("VAR_ID","type","category", "description")
 dictionary_indiv<- dictionary_indiv[-c(1,2,nrow(dictionary_indiv)),]
 
-poptype= "Youth_15-24"
+poptype= "seniors"
 #working pop type
 filetouse<- "outputs/pq outputs/processed/clean_pq_tgp_age_65plus-2023-09-08.csv"
 #create clean data file (insert source file for each here above)
@@ -35,8 +35,9 @@ clean_file<-clean_file %>%
 clean_file[1,1]="VAR_ID"
 colnames(clean_file) <- clean_file[1,]
 clean_file<- clean_file[-1,]
+colnames(clean_file)
 clean_file<-subset(clean_file, select =-65)
-
+colnames(clean_file)
 clean_file<-as.tibble(clean_file)
 colnames(clean_file)
 
@@ -58,13 +59,14 @@ comparable_data2 <- comparable_data2[-c(1,2,3,4),]
 compare3 <-comparable_data2
 
 #convert to numeric
+ncol(compare3)
 for (i in 1:40) {
   compare3[,i] <- as.numeric(compare3[,i])
   print(typeof(compare3[,1]))
 }
 
 test=as.tibble(compare3$VAR2)
-
+print(as.list(test))
 #remove non populated hoods
 ranked=compare3[-c(1,6,19,30,42,51,57,83),]
 
@@ -86,17 +88,19 @@ for (i in 1:40) {
   print(ranked[,i])
 }
 
-quintiles<- ranked %>%
-  mutate(
-    VAR_ID=
-  )
 
-quintiles<- as.data.frame(t(ranked))%>%
+quintiles<- as.data.frame(t(ranked))
+quintiles<-quintiles %>%
   mutate(VAR_ID= rownames(quintiles)
          )
-compare3<- as.data.frame(t(compare3))%>%
-  mutate(VAR_ID= rownames(quintiles)
+compare3 <- as.data.frame(compare3) %>%
+  t()
+
+compare3<- compare3 %>%
+  mutate(VAR_ID= rownames(compare3)
   )
 
-write_csv(compare3,"outputs/pq outputs/processed/quintiles/forQs_youth.csv")
-write_csv(quintiles,"outputs/pq outputs/processed/quintiles/Quintiles_youth.csv")
+colnames(compare3)
+
+write_csv(compare3,"outputs/pq outputs/processed/quintiles/forQs_seniors.csv")
+write_csv(quintiles,"outputs/pq outputs/processed/quintiles/Quintiles_seniors.csv")
