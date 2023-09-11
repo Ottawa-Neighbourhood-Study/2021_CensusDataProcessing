@@ -1,12 +1,46 @@
-# library(tidyr)
-# library(janitor)
-# library(dplyr)
-# library(readr)
-# library(usethis)
+library(tidyr)
+library(janitor)
+library(dplyr)
+library(readr)
+library(usethis)
+library(stringr)
 # #load readr
 # # read_csv for tibble
 # 
+#PART 1- run the script to calculate get the results:
 # calculate_ses_indices()
+
+#PART 2- clean the results file and isolate Ottawa neighbourhoods
+# load data
+dirty_data<- read_csv("outputs/ses_indices-2023-09-04.csv")
+# remove non-ONS hoods
+dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
+
+# remove census jargon
+dirty2$name <- gsub("\\_00000.*", "", dirty2$name)
+dirty2$name <- gsub("ons2022_\\.*", "", dirty2$name)
+dirty2$name <- gsub("\\_999.*", "", dirty2$name)
+dirty2$name <- gsub("\\_0999.*", "", dirty2$name)
+dirty2$name <- gsub("\\_000.*", "", dirty2$name)
+dirty2$name <- gsub("\\_00919.*", "", dirty2$name)
+dirty2$name <- gsub("\\_03030.*", "", dirty2$name)
+
+# create ONS_ID
+n_last<- 4
+dirty3<-dirty2 %>%
+  mutate(
+    ONS_ID = as.numeric(substr(dirty2$name, nchar(dirty2$name) - n_last + 1, nchar(dirty2$name))))
+
+#filter Ottawa hoods based on ONS_ID and drop NA cases
+clean<- dirty3[dirty3$ONS_ID < 3400,] %>%
+  na.omit(clean)
+
+
+#write CSV
+filename2 <- paste0("outputs/clean_ses_rawdata-", Sys.Date(),".csv")
+readr::write_csv(clean, filename2)
+message("Results saved to ", filename2)
+
 
 calculate_ses_indices <- function(raw_data_filename = "data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/SES indexes.csv"){
   
