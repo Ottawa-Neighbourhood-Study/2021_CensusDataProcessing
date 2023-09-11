@@ -13,9 +13,9 @@ dictionary_indiv<- as.tibble(read_csv("outputs/pq outputs/processed/clean_pq_tgp
 colnames(dictionary_indiv) <- c("VAR_ID","type","category", "description")
 dictionary_indiv<- dictionary_indiv[-c(1,2,nrow(dictionary_indiv)),]
 
-poptype= "Racialized"
+poptype= "genpop"
 #working pop type
-filetouse<- "outputs/pq outputs/processed/clean_pq_tgp_visible_min_all-2023-09-08.csv"
+filetouse<- "outputs/pq outputs/processed/clean_pq_general_census_profile-2023-09-08.csv"
 #create clean data file (insert source file for each here above)
 raw_file <- read_csv(filetouse)
 colnames(raw_file) <- raw_file[1,]
@@ -102,6 +102,6 @@ compare3<- as.data.frame(compare3) %>%
 
 colnames(compare3)
 
-write_csv(compare3,"outputs/pq outputs/processed/quintiles/forQs_Racialized.csv")
-write_csv(quintiles,"outputs/pq outputs/processed/quintiles/Quintiles_Racialized.csv")
+write_csv(compare3,"outputs/pq outputs/processed/quintiles/forQs_genpop.csv")
+write_csv(quintiles,"outputs/pq outputs/processed/quintiles/Quintiles_genpop.csv")
 
