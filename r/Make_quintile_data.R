@@ -15,7 +15,7 @@ dictionary_indiv<- dictionary_indiv[-c(1,2,nrow(dictionary_indiv)),]
 
 poptype= "Racialized"
 #working pop type
-filetouse<- "outputs/pq outputs/processed/clean_pq_tgp_visible_min_all-2023-09-08.csv"
+filetouse<- "data/PQ data/ForQs_pq_data_non_census_wide.csv"
 #create clean data file (insert source file for each here above)
 raw_file <- read_csv(filetouse)
 colnames(raw_file) <- raw_file[1,]
@@ -25,7 +25,7 @@ raw_file <- raw_file[-c(1,2,3),]
 
 
 #cleaning the file
-clean_file<- as.data.frame(raw_file[,-1] %>%
+clean_file<- as.data.frame(raw_file %>%
   t())
 
 clean_file<-clean_file %>%
@@ -53,6 +53,8 @@ comparable_data<- left_join(
   by="VAR_ID"
 )
 
+# comparable_data<- clean_file    ---a little different for the non-census data here
+
 comparable_data2 <- as.data.frame(t(comparable_data))
 colnames(comparable_data2)<- comparable_data2[1,]
 comparable_data2 <- comparable_data2[-c(1,2,3,4),]
@@ -60,23 +62,34 @@ compare3 <-comparable_data2
 
 #convert to numeric
 ncol(compare3)
-for (i in 1:40) {
+for (i in 1:23) {
   compare3[,i] <- as.numeric(compare3[,i])
   print(typeof(compare3[,1]))
 }
 
-test=as.tibble(compare3$VAR2)
+#checking on data- insert variable name here as a test
+test=as.tibble(compare3$bikescore_mean)
 print(as.list(test))
+
 #remove non populated hoods
 ranked=compare3[-c(1,6,19,30,42,51,57,83),]
 
+
+## a little different here too for non-census: ranked=compare3[-c(1,2),] (removing Ottawa from quintile analysis)
+
+ranked=compare3[-c(1,2),]
+
 #rank
-for (i in 1:40) {
-  ranked[,i] <- rank(ranked[,i],ties.method="average",na.last=NA)
+for (i in 1:23) {
+  ranked[,i+1] <- rank(ranked[,i],ties.method="average",na.last=NA)
   print(ranked[,i])
 }
 
 nrow(ranked)
+ranked<-ranked %>%
+  mutate(
+    ranked$new <- NA
+  )
 
 #quintiles
 for (i in 1:40) {
