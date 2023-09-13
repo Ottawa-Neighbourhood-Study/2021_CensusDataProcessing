@@ -1,0 +1,1305 @@
+﻿Data_ID,Non-official languages spoken most often at home,lang_count,ONS_ID
+ID877,            Kabyle,0,3003
+ID878,            Tamazight,0,3003
+ID881,            Hausa,0,3003
+ID882,            Mina,0,3003
+ID883,          Coptic,0,3003
+ID885,            Bilen,0,3003
+ID886,            Oromo,0,3003
+ID887,            Somali,220,3003
+ID890,            Amharic,30,3003
+ID891,            Arabic,855,3003
+ID893,              Assyrian Neo-Aramaic,0,3003
+ID894,              Chaldean Neo-Aramaic,0,3003
+ID895,"              Aramaic, n.o.s.",0,3003
+ID896,            Harari,0,3003
+ID897,            Hebrew,0,3003
+ID898,            Maltese,0,3003
+ID899,            Tigrigna,60,3003
+ID902,          Khmer (Cambodian),60,3003
+ID903,          Vietnamese,175,3003
+ID906,          Bikol,0,3003
+ID907,"          Bisaya, n.o.s.",15,3003
+ID908,          Cebuano,25,3003
+ID909,          Fijian,0,3003
+ID910,          Hiligaynon,0,3003
+ID911,          Ilocano,25,3003
+ID912,          Indonesian,0,3003
+ID913,          Kankanaey,0,3003
+ID914,          Kinaray-a,0,3003
+ID916,            Merina,0,3003
+ID917,"            Malagasy, n.o.s.",0,3003
+ID918,          Malay,0,3003
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3003
+ID920,          Pangasinan,0,3003
+ID921,"          Tagalog (Pilipino, Filipino)",250,3003
+ID922,          Waray-Waray,0,3003
+ID925,          Haitian Creole,25,3003
+ID926,          Jamaican English Creole,0,3003
+ID927,          Krio,0,3003
+ID928,          Morisyen,0,3003
+ID929,          Sango,0,3003
+ID930,"          Creole, n.o.s.",0,3003
+ID933,          Kannada,0,3003
+ID934,          Malayalam,0,3003
+ID935,          Tamil,145,3003
+ID936,          Telugu,50,3003
+ID937,          Tulu,0,3003
+ID939,        Georgian,0,3003
+ID942,          Albanian,0,3003
+ID943,          Armenian,0,3003
+ID946,              Latvian,0,3003
+ID947,              Lithuanian,0,3003
+ID949,              Belarusian,0,3003
+ID950,              Bulgarian,0,3003
+ID951,              Czech,10,3003
+ID952,              Macedonian,0,3003
+ID953,              Polish,15,3003
+ID954,              Russian,25,3003
+ID955,              Rusyn,0,3003
+ID956,              Serbo-Croatian,60,3003
+ID957,                Bosnian,30,3003
+ID958,                Croatian,0,3003
+ID959,                Serbian,30,3003
+ID960,"                Serbo-Croatian, n.i.e.",0,3003
+ID961,              Slovak,0,3003
+ID962,              Slovene (Slovenian),0,3003
+ID963,              Ukrainian,0,3003
+ID966,            Irish,0,3003
+ID967,            Scottish Gaelic,0,3003
+ID968,            Welsh,0,3003
+ID971,            Frisian,0,3003
+ID973,              German,0,3003
+ID974,              Pennsylvania German,0,3003
+ID975,              Swiss German,0,3003
+ID976,              Yiddish,0,3003
+ID978,              Afrikaans,0,3003
+ID979,              Dutch,0,3003
+ID980,"              Low German, n.o.s.",0,3003
+ID981,              Low Saxon,0,3003
+ID982,              Plautdietsch,0,3003
+ID983,              Vlaams (Flemish),0,3003
+ID985,              Danish,0,3003
+ID986,              Icelandic,0,3003
+ID987,              Norwegian,0,3003
+ID988,              Swedish,0,3003
+ID990,          Greek,0,3003
+ID993,              Assamese,0,3003
+ID994,              Bengali,85,3003
+ID995,              Gujarati,120,3003
+ID996,              Hindi,160,3003
+ID997,              Kacchi,0,3003
+ID998,              Kashmiri,0,3003
+ID999,              Konkani,0,3003
+ID1000,              Marathi,0,3003
+ID1001,              Nepali,0,3003
+ID1003,                Odia,0,3003
+ID1004,"                Oriya, n.o.s.",0,3003
+ID1005,              Punjabi (Panjabi),50,3003
+ID1006,              Rohingya,0,3003
+ID1007,              Sindhi,15,3003
+ID1008,              Sinhala (Sinhalese),0,3003
+ID1009,              Urdu,125,3003
+ID1012,              Baluchi,0,3003
+ID1013,              Kurdish,20,3003
+ID1014,              Parsi,0,3003
+ID1015,              Pashto,65,3003
+ID1017,                Dari,65,3003
+ID1018,                Iranian Persian,90,3003
+ID1019,"                Persian (Farsi), n.o.s.",0,3003
+ID1023,            Catalan,0,3003
+ID1024,            Italian,20,3003
+ID1025,            Portuguese,30,3003
+ID1026,            Romanian,25,3003
+ID1027,            Spanish,125,3003
+ID1030,        Japanese,0,3003
+ID1031,        Korean,0,3003
+ID1032,        Mongolian,0,3003
+ID1034,          Akan (Twi),0,3003
+ID1035,          Bamanankan,0,3003
+ID1036,          Edo,0,3003
+ID1037,          Éwé,0,3003
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3003
+ID1039,          Ga,0,3003
+ID1040,          Ganda,0,3003
+ID1041,          Gikuyu,0,3003
+ID1042,          Igbo,0,3003
+ID1043,          Kinyarwanda (Rwanda),0,3003
+ID1044,          Lingala,0,3003
+ID1045,          Luba-Kasai,0,3003
+ID1046,          Mòoré,0,3003
+ID1047,          Mwani,0,3003
+ID1048,          Ndebele,0,3003
+ID1049,          Rundi (Kirundi),0,3003
+ID1050,          Shona,0,3003
+ID1051,          Soninke,0,3003
+ID1053,          Swahili,0,3003
+ID1054,          Wojenaka,0,3003
+ID1055,          Wolof,0,3003
+ID1056,          Yoruba,0,3003
+ID1059,          Dinka,0,3003
+ID1060,          Nuer,0,3003
+ID1062,"          African, n.o.s.",0,3003
+ID1064,          American Sign Language,0,3003
+ID1065,          Quebec Sign Language,0,3003
+ID1069,            Hakka,0,3003
+ID1070,            Mandarin,105,3003
+ID1071,            Min Dong,0,3003
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",10,3003
+ID1073,            Wu (Shanghainese),0,3003
+ID1074,            Yue (Cantonese),100,3003
+ID1075,"            Chinese, n.o.s.",0,3003
+ID1078,            Burmese,0,3003
+ID1081,              S'gaw Karen,0,3003
+ID1083,            Tibetan,0,3003
+ID1087,          Lao,0,3003
+ID1088,          Thai,0,3003
+ID1091,          Azerbaijani,0,3003
+ID1092,          Kazakh,0,3003
+ID1093,          Turkish,35,3003
+ID1094,          Uyghur,0,3003
+ID1095,          Uzbek,0,3003
+ID1098,          Estonian,0,3003
+ID1099,          Finnish,0,3003
+ID1100,          Hungarian,0,3003
+ID877,            Kabyle,0,3013
+ID878,            Tamazight,0,3013
+ID881,            Hausa,0,3013
+ID882,            Mina,0,3013
+ID883,          Coptic,0,3013
+ID885,            Bilen,0,3013
+ID886,            Oromo,0,3013
+ID887,            Somali,0,3013
+ID890,            Amharic,0,3013
+ID891,            Arabic,210,3013
+ID893,              Assyrian Neo-Aramaic,0,3013
+ID894,              Chaldean Neo-Aramaic,0,3013
+ID895,"              Aramaic, n.o.s.",0,3013
+ID896,            Harari,0,3013
+ID897,            Hebrew,0,3013
+ID898,            Maltese,0,3013
+ID899,            Tigrigna,0,3013
+ID902,          Khmer (Cambodian),0,3013
+ID903,          Vietnamese,85,3013
+ID906,          Bikol,0,3013
+ID907,"          Bisaya, n.o.s.",0,3013
+ID908,          Cebuano,0,3013
+ID909,          Fijian,0,3013
+ID910,          Hiligaynon,0,3013
+ID911,          Ilocano,0,3013
+ID912,          Indonesian,0,3013
+ID913,          Kankanaey,0,3013
+ID914,          Kinaray-a,0,3013
+ID916,            Merina,0,3013
+ID917,"            Malagasy, n.o.s.",0,3013
+ID918,          Malay,0,3013
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3013
+ID920,          Pangasinan,0,3013
+ID921,"          Tagalog (Pilipino, Filipino)",30,3013
+ID922,          Waray-Waray,0,3013
+ID925,          Haitian Creole,0,3013
+ID926,          Jamaican English Creole,0,3013
+ID927,          Krio,0,3013
+ID928,          Morisyen,0,3013
+ID929,          Sango,0,3013
+ID930,"          Creole, n.o.s.",0,3013
+ID933,          Kannada,0,3013
+ID934,          Malayalam,0,3013
+ID935,          Tamil,0,3013
+ID936,          Telugu,0,3013
+ID937,          Tulu,0,3013
+ID939,        Georgian,0,3013
+ID942,          Albanian,0,3013
+ID943,          Armenian,0,3013
+ID946,              Latvian,0,3013
+ID947,              Lithuanian,0,3013
+ID949,              Belarusian,0,3013
+ID950,              Bulgarian,0,3013
+ID951,              Czech,0,3013
+ID952,              Macedonian,0,3013
+ID953,              Polish,30,3013
+ID954,              Russian,0,3013
+ID955,              Rusyn,0,3013
+ID956,              Serbo-Croatian,0,3013
+ID957,                Bosnian,0,3013
+ID958,                Croatian,0,3013
+ID959,                Serbian,0,3013
+ID960,"                Serbo-Croatian, n.i.e.",0,3013
+ID961,              Slovak,0,3013
+ID962,              Slovene (Slovenian),0,3013
+ID963,              Ukrainian,0,3013
+ID966,            Irish,0,3013
+ID967,            Scottish Gaelic,0,3013
+ID968,            Welsh,0,3013
+ID971,            Frisian,0,3013
+ID973,              German,15,3013
+ID974,              Pennsylvania German,0,3013
+ID975,              Swiss German,0,3013
+ID976,              Yiddish,0,3013
+ID978,              Afrikaans,0,3013
+ID979,              Dutch,0,3013
+ID980,"              Low German, n.o.s.",0,3013
+ID981,              Low Saxon,0,3013
+ID982,              Plautdietsch,0,3013
+ID983,              Vlaams (Flemish),0,3013
+ID985,              Danish,0,3013
+ID986,              Icelandic,0,3013
+ID987,              Norwegian,0,3013
+ID988,              Swedish,0,3013
+ID990,          Greek,0,3013
+ID993,              Assamese,0,3013
+ID994,              Bengali,0,3013
+ID995,              Gujarati,0,3013
+ID996,              Hindi,65,3013
+ID997,              Kacchi,0,3013
+ID998,              Kashmiri,0,3013
+ID999,              Konkani,0,3013
+ID1000,              Marathi,0,3013
+ID1001,              Nepali,0,3013
+ID1003,                Odia,0,3013
+ID1004,"                Oriya, n.o.s.",0,3013
+ID1005,              Punjabi (Panjabi),30,3013
+ID1006,              Rohingya,0,3013
+ID1007,              Sindhi,0,3013
+ID1008,              Sinhala (Sinhalese),0,3013
+ID1009,              Urdu,15,3013
+ID1012,              Baluchi,0,3013
+ID1013,              Kurdish,0,3013
+ID1014,              Parsi,0,3013
+ID1015,              Pashto,0,3013
+ID1017,                Dari,0,3013
+ID1018,                Iranian Persian,10,3013
+ID1019,"                Persian (Farsi), n.o.s.",0,3013
+ID1023,            Catalan,0,3013
+ID1024,            Italian,100,3013
+ID1025,            Portuguese,15,3013
+ID1026,            Romanian,0,3013
+ID1027,            Spanish,25,3013
+ID1030,        Japanese,0,3013
+ID1031,        Korean,0,3013
+ID1032,        Mongolian,0,3013
+ID1034,          Akan (Twi),0,3013
+ID1035,          Bamanankan,0,3013
+ID1036,          Edo,0,3013
+ID1037,          Éwé,0,3013
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3013
+ID1039,          Ga,0,3013
+ID1040,          Ganda,0,3013
+ID1041,          Gikuyu,0,3013
+ID1042,          Igbo,0,3013
+ID1043,          Kinyarwanda (Rwanda),0,3013
+ID1044,          Lingala,0,3013
+ID1045,          Luba-Kasai,0,3013
+ID1046,          Mòoré,0,3013
+ID1047,          Mwani,0,3013
+ID1048,          Ndebele,0,3013
+ID1049,          Rundi (Kirundi),0,3013
+ID1050,          Shona,0,3013
+ID1051,          Soninke,0,3013
+ID1053,          Swahili,0,3013
+ID1054,          Wojenaka,0,3013
+ID1055,          Wolof,0,3013
+ID1056,          Yoruba,0,3013
+ID1059,          Dinka,0,3013
+ID1060,          Nuer,0,3013
+ID1062,"          African, n.o.s.",0,3013
+ID1064,          American Sign Language,0,3013
+ID1065,          Quebec Sign Language,0,3013
+ID1069,            Hakka,0,3013
+ID1070,            Mandarin,45,3013
+ID1071,            Min Dong,0,3013
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",0,3013
+ID1073,            Wu (Shanghainese),0,3013
+ID1074,            Yue (Cantonese),45,3013
+ID1075,"            Chinese, n.o.s.",0,3013
+ID1078,            Burmese,0,3013
+ID1081,              S'gaw Karen,0,3013
+ID1083,            Tibetan,0,3013
+ID1087,          Lao,0,3013
+ID1088,          Thai,0,3013
+ID1091,          Azerbaijani,0,3013
+ID1092,          Kazakh,0,3013
+ID1093,          Turkish,25,3013
+ID1094,          Uyghur,0,3013
+ID1095,          Uzbek,0,3013
+ID1098,          Estonian,0,3013
+ID1099,          Finnish,0,3013
+ID1100,          Hungarian,0,3013
+ID877,            Kabyle,0,3015
+ID878,            Tamazight,0,3015
+ID881,            Hausa,0,3015
+ID882,            Mina,0,3015
+ID883,          Coptic,0,3015
+ID885,            Bilen,0,3015
+ID886,            Oromo,0,3015
+ID887,            Somali,20,3015
+ID890,            Amharic,10,3015
+ID891,            Arabic,200,3015
+ID893,              Assyrian Neo-Aramaic,0,3015
+ID894,              Chaldean Neo-Aramaic,0,3015
+ID895,"              Aramaic, n.o.s.",0,3015
+ID896,            Harari,0,3015
+ID897,            Hebrew,0,3015
+ID898,            Maltese,0,3015
+ID899,            Tigrigna,0,3015
+ID902,          Khmer (Cambodian),0,3015
+ID903,          Vietnamese,55,3015
+ID906,          Bikol,0,3015
+ID907,"          Bisaya, n.o.s.",0,3015
+ID908,          Cebuano,0,3015
+ID909,          Fijian,0,3015
+ID910,          Hiligaynon,0,3015
+ID911,          Ilocano,0,3015
+ID912,          Indonesian,0,3015
+ID913,          Kankanaey,0,3015
+ID914,          Kinaray-a,0,3015
+ID916,            Merina,0,3015
+ID917,"            Malagasy, n.o.s.",0,3015
+ID918,          Malay,0,3015
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3015
+ID920,          Pangasinan,0,3015
+ID921,"          Tagalog (Pilipino, Filipino)",30,3015
+ID922,          Waray-Waray,0,3015
+ID925,          Haitian Creole,15,3015
+ID926,          Jamaican English Creole,0,3015
+ID927,          Krio,0,3015
+ID928,          Morisyen,0,3015
+ID929,          Sango,0,3015
+ID930,"          Creole, n.o.s.",0,3015
+ID933,          Kannada,0,3015
+ID934,          Malayalam,0,3015
+ID935,          Tamil,25,3015
+ID936,          Telugu,0,3015
+ID937,          Tulu,0,3015
+ID939,        Georgian,0,3015
+ID942,          Albanian,15,3015
+ID943,          Armenian,0,3015
+ID946,              Latvian,0,3015
+ID947,              Lithuanian,0,3015
+ID949,              Belarusian,0,3015
+ID950,              Bulgarian,0,3015
+ID951,              Czech,0,3015
+ID952,              Macedonian,0,3015
+ID953,              Polish,15,3015
+ID954,              Russian,110,3015
+ID955,              Rusyn,0,3015
+ID956,              Serbo-Croatian,15,3015
+ID957,                Bosnian,10,3015
+ID958,                Croatian,0,3015
+ID959,                Serbian,0,3015
+ID960,"                Serbo-Croatian, n.i.e.",0,3015
+ID961,              Slovak,0,3015
+ID962,              Slovene (Slovenian),0,3015
+ID963,              Ukrainian,25,3015
+ID966,            Irish,0,3015
+ID967,            Scottish Gaelic,0,3015
+ID968,            Welsh,0,3015
+ID971,            Frisian,0,3015
+ID973,              German,0,3015
+ID974,              Pennsylvania German,0,3015
+ID975,              Swiss German,0,3015
+ID976,              Yiddish,0,3015
+ID978,              Afrikaans,0,3015
+ID979,              Dutch,0,3015
+ID980,"              Low German, n.o.s.",0,3015
+ID981,              Low Saxon,0,3015
+ID982,              Plautdietsch,0,3015
+ID983,              Vlaams (Flemish),0,3015
+ID985,              Danish,0,3015
+ID986,              Icelandic,0,3015
+ID987,              Norwegian,0,3015
+ID988,              Swedish,0,3015
+ID990,          Greek,0,3015
+ID993,              Assamese,0,3015
+ID994,              Bengali,30,3015
+ID995,              Gujarati,0,3015
+ID996,              Hindi,40,3015
+ID997,              Kacchi,0,3015
+ID998,              Kashmiri,0,3015
+ID999,              Konkani,0,3015
+ID1000,              Marathi,0,3015
+ID1001,              Nepali,0,3015
+ID1003,                Odia,0,3015
+ID1004,"                Oriya, n.o.s.",0,3015
+ID1005,              Punjabi (Panjabi),60,3015
+ID1006,              Rohingya,0,3015
+ID1007,              Sindhi,0,3015
+ID1008,              Sinhala (Sinhalese),0,3015
+ID1009,              Urdu,10,3015
+ID1012,              Baluchi,0,3015
+ID1013,              Kurdish,0,3015
+ID1014,              Parsi,0,3015
+ID1015,              Pashto,0,3015
+ID1017,                Dari,0,3015
+ID1018,                Iranian Persian,55,3015
+ID1019,"                Persian (Farsi), n.o.s.",0,3015
+ID1023,            Catalan,0,3015
+ID1024,            Italian,25,3015
+ID1025,            Portuguese,60,3015
+ID1026,            Romanian,30,3015
+ID1027,            Spanish,80,3015
+ID1030,        Japanese,0,3015
+ID1031,        Korean,0,3015
+ID1032,        Mongolian,0,3015
+ID1034,          Akan (Twi),0,3015
+ID1035,          Bamanankan,0,3015
+ID1036,          Edo,0,3015
+ID1037,          Éwé,0,3015
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3015
+ID1039,          Ga,0,3015
+ID1040,          Ganda,0,3015
+ID1041,          Gikuyu,0,3015
+ID1042,          Igbo,0,3015
+ID1043,          Kinyarwanda (Rwanda),0,3015
+ID1044,          Lingala,0,3015
+ID1045,          Luba-Kasai,0,3015
+ID1046,          Mòoré,0,3015
+ID1047,          Mwani,0,3015
+ID1048,          Ndebele,0,3015
+ID1049,          Rundi (Kirundi),0,3015
+ID1050,          Shona,0,3015
+ID1051,          Soninke,0,3015
+ID1053,          Swahili,0,3015
+ID1054,          Wojenaka,0,3015
+ID1055,          Wolof,0,3015
+ID1056,          Yoruba,0,3015
+ID1059,          Dinka,0,3015
+ID1060,          Nuer,0,3015
+ID1062,"          African, n.o.s.",0,3015
+ID1064,          American Sign Language,0,3015
+ID1065,          Quebec Sign Language,0,3015
+ID1069,            Hakka,0,3015
+ID1070,            Mandarin,25,3015
+ID1071,            Min Dong,0,3015
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",0,3015
+ID1073,            Wu (Shanghainese),0,3015
+ID1074,            Yue (Cantonese),0,3015
+ID1075,"            Chinese, n.o.s.",0,3015
+ID1078,            Burmese,0,3015
+ID1081,              S'gaw Karen,0,3015
+ID1083,            Tibetan,0,3015
+ID1087,          Lao,0,3015
+ID1088,          Thai,15,3015
+ID1091,          Azerbaijani,0,3015
+ID1092,          Kazakh,0,3015
+ID1093,          Turkish,55,3015
+ID1094,          Uyghur,0,3015
+ID1095,          Uzbek,0,3015
+ID1098,          Estonian,0,3015
+ID1099,          Finnish,0,3015
+ID1100,          Hungarian,20,3015
+ID877,            Kabyle,0,3058
+ID878,            Tamazight,0,3058
+ID881,            Hausa,0,3058
+ID882,            Mina,0,3058
+ID883,          Coptic,0,3058
+ID885,            Bilen,0,3058
+ID886,            Oromo,0,3058
+ID887,            Somali,0,3058
+ID890,            Amharic,0,3058
+ID891,            Arabic,125,3058
+ID893,              Assyrian Neo-Aramaic,0,3058
+ID894,              Chaldean Neo-Aramaic,0,3058
+ID895,"              Aramaic, n.o.s.",0,3058
+ID896,            Harari,0,3058
+ID897,            Hebrew,0,3058
+ID898,            Maltese,0,3058
+ID899,            Tigrigna,0,3058
+ID902,          Khmer (Cambodian),0,3058
+ID903,          Vietnamese,45,3058
+ID906,          Bikol,0,3058
+ID907,"          Bisaya, n.o.s.",0,3058
+ID908,          Cebuano,0,3058
+ID909,          Fijian,0,3058
+ID910,          Hiligaynon,0,3058
+ID911,          Ilocano,0,3058
+ID912,          Indonesian,0,3058
+ID913,          Kankanaey,0,3058
+ID914,          Kinaray-a,0,3058
+ID916,            Merina,0,3058
+ID917,"            Malagasy, n.o.s.",0,3058
+ID918,          Malay,0,3058
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3058
+ID920,          Pangasinan,0,3058
+ID921,"          Tagalog (Pilipino, Filipino)",40,3058
+ID922,          Waray-Waray,0,3058
+ID925,          Haitian Creole,0,3058
+ID926,          Jamaican English Creole,0,3058
+ID927,          Krio,0,3058
+ID928,          Morisyen,0,3058
+ID929,          Sango,0,3058
+ID930,"          Creole, n.o.s.",0,3058
+ID933,          Kannada,0,3058
+ID934,          Malayalam,35,3058
+ID935,          Tamil,35,3058
+ID936,          Telugu,0,3058
+ID937,          Tulu,0,3058
+ID939,        Georgian,0,3058
+ID942,          Albanian,0,3058
+ID943,          Armenian,0,3058
+ID946,              Latvian,0,3058
+ID947,              Lithuanian,0,3058
+ID949,              Belarusian,0,3058
+ID950,              Bulgarian,0,3058
+ID951,              Czech,0,3058
+ID952,              Macedonian,0,3058
+ID953,              Polish,25,3058
+ID954,              Russian,50,3058
+ID955,              Rusyn,0,3058
+ID956,              Serbo-Croatian,0,3058
+ID957,                Bosnian,0,3058
+ID958,                Croatian,0,3058
+ID959,                Serbian,0,3058
+ID960,"                Serbo-Croatian, n.i.e.",0,3058
+ID961,              Slovak,0,3058
+ID962,              Slovene (Slovenian),0,3058
+ID963,              Ukrainian,0,3058
+ID966,            Irish,0,3058
+ID967,            Scottish Gaelic,0,3058
+ID968,            Welsh,0,3058
+ID971,            Frisian,0,3058
+ID973,              German,0,3058
+ID974,              Pennsylvania German,0,3058
+ID975,              Swiss German,0,3058
+ID976,              Yiddish,0,3058
+ID978,              Afrikaans,0,3058
+ID979,              Dutch,0,3058
+ID980,"              Low German, n.o.s.",0,3058
+ID981,              Low Saxon,0,3058
+ID982,              Plautdietsch,0,3058
+ID983,              Vlaams (Flemish),0,3058
+ID985,              Danish,0,3058
+ID986,              Icelandic,0,3058
+ID987,              Norwegian,0,3058
+ID988,              Swedish,0,3058
+ID990,          Greek,0,3058
+ID993,              Assamese,0,3058
+ID994,              Bengali,0,3058
+ID995,              Gujarati,40,3058
+ID996,              Hindi,15,3058
+ID997,              Kacchi,0,3058
+ID998,              Kashmiri,0,3058
+ID999,              Konkani,0,3058
+ID1000,              Marathi,0,3058
+ID1001,              Nepali,0,3058
+ID1003,                Odia,0,3058
+ID1004,"                Oriya, n.o.s.",0,3058
+ID1005,              Punjabi (Panjabi),50,3058
+ID1006,              Rohingya,0,3058
+ID1007,              Sindhi,0,3058
+ID1008,              Sinhala (Sinhalese),0,3058
+ID1009,              Urdu,0,3058
+ID1012,              Baluchi,0,3058
+ID1013,              Kurdish,0,3058
+ID1014,              Parsi,0,3058
+ID1015,              Pashto,0,3058
+ID1017,                Dari,0,3058
+ID1018,                Iranian Persian,0,3058
+ID1019,"                Persian (Farsi), n.o.s.",0,3058
+ID1023,            Catalan,0,3058
+ID1024,            Italian,10,3058
+ID1025,            Portuguese,20,3058
+ID1026,            Romanian,20,3058
+ID1027,            Spanish,30,3058
+ID1030,        Japanese,0,3058
+ID1031,        Korean,0,3058
+ID1032,        Mongolian,0,3058
+ID1034,          Akan (Twi),0,3058
+ID1035,          Bamanankan,0,3058
+ID1036,          Edo,0,3058
+ID1037,          Éwé,0,3058
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3058
+ID1039,          Ga,0,3058
+ID1040,          Ganda,0,3058
+ID1041,          Gikuyu,0,3058
+ID1042,          Igbo,0,3058
+ID1043,          Kinyarwanda (Rwanda),0,3058
+ID1044,          Lingala,0,3058
+ID1045,          Luba-Kasai,0,3058
+ID1046,          Mòoré,0,3058
+ID1047,          Mwani,0,3058
+ID1048,          Ndebele,0,3058
+ID1049,          Rundi (Kirundi),0,3058
+ID1050,          Shona,0,3058
+ID1051,          Soninke,0,3058
+ID1053,          Swahili,0,3058
+ID1054,          Wojenaka,0,3058
+ID1055,          Wolof,0,3058
+ID1056,          Yoruba,0,3058
+ID1059,          Dinka,0,3058
+ID1060,          Nuer,0,3058
+ID1062,"          African, n.o.s.",0,3058
+ID1064,          American Sign Language,0,3058
+ID1065,          Quebec Sign Language,0,3058
+ID1069,            Hakka,0,3058
+ID1070,            Mandarin,30,3058
+ID1071,            Min Dong,0,3058
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",0,3058
+ID1073,            Wu (Shanghainese),0,3058
+ID1074,            Yue (Cantonese),55,3058
+ID1075,"            Chinese, n.o.s.",0,3058
+ID1078,            Burmese,0,3058
+ID1081,              S'gaw Karen,0,3058
+ID1083,            Tibetan,0,3058
+ID1087,          Lao,0,3058
+ID1088,          Thai,0,3058
+ID1091,          Azerbaijani,0,3058
+ID1092,          Kazakh,0,3058
+ID1093,          Turkish,0,3058
+ID1094,          Uyghur,0,3058
+ID1095,          Uzbek,0,3058
+ID1098,          Estonian,0,3058
+ID1099,          Finnish,0,3058
+ID1100,          Hungarian,0,3058
+ID877,            Kabyle,0,3063
+ID878,            Tamazight,0,3063
+ID881,            Hausa,0,3063
+ID882,            Mina,0,3063
+ID883,          Coptic,0,3063
+ID885,            Bilen,0,3063
+ID886,            Oromo,0,3063
+ID887,            Somali,0,3063
+ID890,            Amharic,0,3063
+ID891,            Arabic,75,3063
+ID893,              Assyrian Neo-Aramaic,0,3063
+ID894,              Chaldean Neo-Aramaic,0,3063
+ID895,"              Aramaic, n.o.s.",0,3063
+ID896,            Harari,0,3063
+ID897,            Hebrew,0,3063
+ID898,            Maltese,0,3063
+ID899,            Tigrigna,0,3063
+ID902,          Khmer (Cambodian),0,3063
+ID903,          Vietnamese,0,3063
+ID906,          Bikol,0,3063
+ID907,"          Bisaya, n.o.s.",0,3063
+ID908,          Cebuano,0,3063
+ID909,          Fijian,0,3063
+ID910,          Hiligaynon,0,3063
+ID911,          Ilocano,25,3063
+ID912,          Indonesian,0,3063
+ID913,          Kankanaey,0,3063
+ID914,          Kinaray-a,0,3063
+ID916,            Merina,0,3063
+ID917,"            Malagasy, n.o.s.",0,3063
+ID918,          Malay,0,3063
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3063
+ID920,          Pangasinan,0,3063
+ID921,"          Tagalog (Pilipino, Filipino)",40,3063
+ID922,          Waray-Waray,0,3063
+ID925,          Haitian Creole,0,3063
+ID926,          Jamaican English Creole,0,3063
+ID927,          Krio,0,3063
+ID928,          Morisyen,0,3063
+ID929,          Sango,0,3063
+ID930,"          Creole, n.o.s.",0,3063
+ID933,          Kannada,0,3063
+ID934,          Malayalam,15,3063
+ID935,          Tamil,20,3063
+ID936,          Telugu,0,3063
+ID937,          Tulu,0,3063
+ID939,        Georgian,0,3063
+ID942,          Albanian,0,3063
+ID943,          Armenian,0,3063
+ID946,              Latvian,0,3063
+ID947,              Lithuanian,0,3063
+ID949,              Belarusian,0,3063
+ID950,              Bulgarian,0,3063
+ID951,              Czech,0,3063
+ID952,              Macedonian,0,3063
+ID953,              Polish,25,3063
+ID954,              Russian,20,3063
+ID955,              Rusyn,0,3063
+ID956,              Serbo-Croatian,0,3063
+ID957,                Bosnian,0,3063
+ID958,                Croatian,0,3063
+ID959,                Serbian,0,3063
+ID960,"                Serbo-Croatian, n.i.e.",0,3063
+ID961,              Slovak,0,3063
+ID962,              Slovene (Slovenian),0,3063
+ID963,              Ukrainian,0,3063
+ID966,            Irish,0,3063
+ID967,            Scottish Gaelic,0,3063
+ID968,            Welsh,0,3063
+ID971,            Frisian,0,3063
+ID973,              German,0,3063
+ID974,              Pennsylvania German,0,3063
+ID975,              Swiss German,0,3063
+ID976,              Yiddish,0,3063
+ID978,              Afrikaans,0,3063
+ID979,              Dutch,0,3063
+ID980,"              Low German, n.o.s.",0,3063
+ID981,              Low Saxon,0,3063
+ID982,              Plautdietsch,0,3063
+ID983,              Vlaams (Flemish),0,3063
+ID985,              Danish,0,3063
+ID986,              Icelandic,0,3063
+ID987,              Norwegian,0,3063
+ID988,              Swedish,0,3063
+ID990,          Greek,15,3063
+ID993,              Assamese,0,3063
+ID994,              Bengali,20,3063
+ID995,              Gujarati,15,3063
+ID996,              Hindi,0,3063
+ID997,              Kacchi,0,3063
+ID998,              Kashmiri,0,3063
+ID999,              Konkani,0,3063
+ID1000,              Marathi,0,3063
+ID1001,              Nepali,0,3063
+ID1003,                Odia,0,3063
+ID1004,"                Oriya, n.o.s.",0,3063
+ID1005,              Punjabi (Panjabi),0,3063
+ID1006,              Rohingya,0,3063
+ID1007,              Sindhi,0,3063
+ID1008,              Sinhala (Sinhalese),0,3063
+ID1009,              Urdu,0,3063
+ID1012,              Baluchi,0,3063
+ID1013,              Kurdish,0,3063
+ID1014,              Parsi,0,3063
+ID1015,              Pashto,0,3063
+ID1017,                Dari,0,3063
+ID1018,                Iranian Persian,45,3063
+ID1019,"                Persian (Farsi), n.o.s.",0,3063
+ID1023,            Catalan,0,3063
+ID1024,            Italian,40,3063
+ID1025,            Portuguese,40,3063
+ID1026,            Romanian,0,3063
+ID1027,            Spanish,85,3063
+ID1030,        Japanese,0,3063
+ID1031,        Korean,0,3063
+ID1032,        Mongolian,0,3063
+ID1034,          Akan (Twi),0,3063
+ID1035,          Bamanankan,0,3063
+ID1036,          Edo,0,3063
+ID1037,          Éwé,0,3063
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3063
+ID1039,          Ga,0,3063
+ID1040,          Ganda,0,3063
+ID1041,          Gikuyu,0,3063
+ID1042,          Igbo,0,3063
+ID1043,          Kinyarwanda (Rwanda),0,3063
+ID1044,          Lingala,0,3063
+ID1045,          Luba-Kasai,0,3063
+ID1046,          Mòoré,0,3063
+ID1047,          Mwani,0,3063
+ID1048,          Ndebele,0,3063
+ID1049,          Rundi (Kirundi),0,3063
+ID1050,          Shona,0,3063
+ID1051,          Soninke,0,3063
+ID1053,          Swahili,0,3063
+ID1054,          Wojenaka,0,3063
+ID1055,          Wolof,0,3063
+ID1056,          Yoruba,0,3063
+ID1059,          Dinka,0,3063
+ID1060,          Nuer,0,3063
+ID1062,"          African, n.o.s.",0,3063
+ID1064,          American Sign Language,0,3063
+ID1065,          Quebec Sign Language,0,3063
+ID1069,            Hakka,0,3063
+ID1070,            Mandarin,100,3063
+ID1071,            Min Dong,0,3063
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",15,3063
+ID1073,            Wu (Shanghainese),0,3063
+ID1074,            Yue (Cantonese),15,3063
+ID1075,"            Chinese, n.o.s.",0,3063
+ID1078,            Burmese,0,3063
+ID1081,              S'gaw Karen,0,3063
+ID1083,            Tibetan,0,3063
+ID1087,          Lao,0,3063
+ID1088,          Thai,0,3063
+ID1091,          Azerbaijani,0,3063
+ID1092,          Kazakh,0,3063
+ID1093,          Turkish,0,3063
+ID1094,          Uyghur,0,3063
+ID1095,          Uzbek,0,3063
+ID1098,          Estonian,0,3063
+ID1099,          Finnish,0,3063
+ID1100,          Hungarian,0,3063
+ID877,            Kabyle,0,3092
+ID878,            Tamazight,0,3092
+ID881,            Hausa,0,3092
+ID882,            Mina,0,3092
+ID883,          Coptic,0,3092
+ID885,            Bilen,0,3092
+ID886,            Oromo,0,3092
+ID887,            Somali,15,3092
+ID890,            Amharic,0,3092
+ID891,            Arabic,35,3092
+ID893,              Assyrian Neo-Aramaic,0,3092
+ID894,              Chaldean Neo-Aramaic,0,3092
+ID895,"              Aramaic, n.o.s.",0,3092
+ID896,            Harari,0,3092
+ID897,            Hebrew,0,3092
+ID898,            Maltese,0,3092
+ID899,            Tigrigna,15,3092
+ID902,          Khmer (Cambodian),0,3092
+ID903,          Vietnamese,15,3092
+ID906,          Bikol,0,3092
+ID907,"          Bisaya, n.o.s.",0,3092
+ID908,          Cebuano,0,3092
+ID909,          Fijian,0,3092
+ID910,          Hiligaynon,0,3092
+ID911,          Ilocano,0,3092
+ID912,          Indonesian,0,3092
+ID913,          Kankanaey,0,3092
+ID914,          Kinaray-a,0,3092
+ID916,            Merina,0,3092
+ID917,"            Malagasy, n.o.s.",0,3092
+ID918,          Malay,0,3092
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3092
+ID920,          Pangasinan,0,3092
+ID921,"          Tagalog (Pilipino, Filipino)",0,3092
+ID922,          Waray-Waray,0,3092
+ID925,          Haitian Creole,0,3092
+ID926,          Jamaican English Creole,0,3092
+ID927,          Krio,0,3092
+ID928,          Morisyen,0,3092
+ID929,          Sango,0,3092
+ID930,"          Creole, n.o.s.",0,3092
+ID933,          Kannada,0,3092
+ID934,          Malayalam,0,3092
+ID935,          Tamil,0,3092
+ID936,          Telugu,0,3092
+ID937,          Tulu,0,3092
+ID939,        Georgian,0,3092
+ID942,          Albanian,0,3092
+ID943,          Armenian,0,3092
+ID946,              Latvian,0,3092
+ID947,              Lithuanian,0,3092
+ID949,              Belarusian,0,3092
+ID950,              Bulgarian,0,3092
+ID951,              Czech,0,3092
+ID952,              Macedonian,0,3092
+ID953,              Polish,0,3092
+ID954,              Russian,20,3092
+ID955,              Rusyn,0,3092
+ID956,              Serbo-Croatian,0,3092
+ID957,                Bosnian,0,3092
+ID958,                Croatian,0,3092
+ID959,                Serbian,0,3092
+ID960,"                Serbo-Croatian, n.i.e.",0,3092
+ID961,              Slovak,0,3092
+ID962,              Slovene (Slovenian),0,3092
+ID963,              Ukrainian,0,3092
+ID966,            Irish,0,3092
+ID967,            Scottish Gaelic,0,3092
+ID968,            Welsh,0,3092
+ID971,            Frisian,0,3092
+ID973,              German,0,3092
+ID974,              Pennsylvania German,0,3092
+ID975,              Swiss German,0,3092
+ID976,              Yiddish,0,3092
+ID978,              Afrikaans,0,3092
+ID979,              Dutch,0,3092
+ID980,"              Low German, n.o.s.",0,3092
+ID981,              Low Saxon,0,3092
+ID982,              Plautdietsch,0,3092
+ID983,              Vlaams (Flemish),0,3092
+ID985,              Danish,0,3092
+ID986,              Icelandic,0,3092
+ID987,              Norwegian,0,3092
+ID988,              Swedish,0,3092
+ID990,          Greek,0,3092
+ID993,              Assamese,0,3092
+ID994,              Bengali,0,3092
+ID995,              Gujarati,0,3092
+ID996,              Hindi,0,3092
+ID997,              Kacchi,0,3092
+ID998,              Kashmiri,0,3092
+ID999,              Konkani,0,3092
+ID1000,              Marathi,0,3092
+ID1001,              Nepali,0,3092
+ID1003,                Odia,0,3092
+ID1004,"                Oriya, n.o.s.",0,3092
+ID1005,              Punjabi (Panjabi),0,3092
+ID1006,              Rohingya,0,3092
+ID1007,              Sindhi,0,3092
+ID1008,              Sinhala (Sinhalese),0,3092
+ID1009,              Urdu,0,3092
+ID1012,              Baluchi,0,3092
+ID1013,              Kurdish,0,3092
+ID1014,              Parsi,0,3092
+ID1015,              Pashto,0,3092
+ID1017,                Dari,0,3092
+ID1018,                Iranian Persian,50,3092
+ID1019,"                Persian (Farsi), n.o.s.",0,3092
+ID1023,            Catalan,0,3092
+ID1024,            Italian,0,3092
+ID1025,            Portuguese,0,3092
+ID1026,            Romanian,0,3092
+ID1027,            Spanish,15,3092
+ID1030,        Japanese,0,3092
+ID1031,        Korean,0,3092
+ID1032,        Mongolian,0,3092
+ID1034,          Akan (Twi),0,3092
+ID1035,          Bamanankan,0,3092
+ID1036,          Edo,0,3092
+ID1037,          Éwé,0,3092
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3092
+ID1039,          Ga,0,3092
+ID1040,          Ganda,0,3092
+ID1041,          Gikuyu,0,3092
+ID1042,          Igbo,0,3092
+ID1043,          Kinyarwanda (Rwanda),0,3092
+ID1044,          Lingala,0,3092
+ID1045,          Luba-Kasai,0,3092
+ID1046,          Mòoré,0,3092
+ID1047,          Mwani,0,3092
+ID1048,          Ndebele,0,3092
+ID1049,          Rundi (Kirundi),0,3092
+ID1050,          Shona,0,3092
+ID1051,          Soninke,0,3092
+ID1053,          Swahili,0,3092
+ID1054,          Wojenaka,0,3092
+ID1055,          Wolof,0,3092
+ID1056,          Yoruba,0,3092
+ID1059,          Dinka,0,3092
+ID1060,          Nuer,0,3092
+ID1062,"          African, n.o.s.",0,3092
+ID1064,          American Sign Language,0,3092
+ID1065,          Quebec Sign Language,0,3092
+ID1069,            Hakka,0,3092
+ID1070,            Mandarin,20,3092
+ID1071,            Min Dong,0,3092
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",0,3092
+ID1073,            Wu (Shanghainese),0,3092
+ID1074,            Yue (Cantonese),15,3092
+ID1075,"            Chinese, n.o.s.",0,3092
+ID1078,            Burmese,0,3092
+ID1081,              S'gaw Karen,0,3092
+ID1083,            Tibetan,0,3092
+ID1087,          Lao,0,3092
+ID1088,          Thai,0,3092
+ID1091,          Azerbaijani,0,3092
+ID1092,          Kazakh,0,3092
+ID1093,          Turkish,0,3092
+ID1094,          Uyghur,0,3092
+ID1095,          Uzbek,0,3092
+ID1098,          Estonian,0,3092
+ID1099,          Finnish,0,3092
+ID1100,          Hungarian,0,3092
+ID877,            Kabyle,0,3093
+ID878,            Tamazight,0,3093
+ID881,            Hausa,0,3093
+ID882,            Mina,0,3093
+ID883,          Coptic,0,3093
+ID885,            Bilen,0,3093
+ID886,            Oromo,0,3093
+ID887,            Somali,0,3093
+ID890,            Amharic,0,3093
+ID891,            Arabic,30,3093
+ID893,              Assyrian Neo-Aramaic,0,3093
+ID894,              Chaldean Neo-Aramaic,0,3093
+ID895,"              Aramaic, n.o.s.",0,3093
+ID896,            Harari,0,3093
+ID897,            Hebrew,0,3093
+ID898,            Maltese,0,3093
+ID899,            Tigrigna,0,3093
+ID902,          Khmer (Cambodian),0,3093
+ID903,          Vietnamese,0,3093
+ID906,          Bikol,0,3093
+ID907,"          Bisaya, n.o.s.",0,3093
+ID908,          Cebuano,0,3093
+ID909,          Fijian,0,3093
+ID910,          Hiligaynon,0,3093
+ID911,          Ilocano,0,3093
+ID912,          Indonesian,0,3093
+ID913,          Kankanaey,0,3093
+ID914,          Kinaray-a,0,3093
+ID916,            Merina,0,3093
+ID917,"            Malagasy, n.o.s.",0,3093
+ID918,          Malay,0,3093
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3093
+ID920,          Pangasinan,0,3093
+ID921,"          Tagalog (Pilipino, Filipino)",0,3093
+ID922,          Waray-Waray,0,3093
+ID925,          Haitian Creole,0,3093
+ID926,          Jamaican English Creole,0,3093
+ID927,          Krio,0,3093
+ID928,          Morisyen,0,3093
+ID929,          Sango,0,3093
+ID930,"          Creole, n.o.s.",0,3093
+ID933,          Kannada,0,3093
+ID934,          Malayalam,0,3093
+ID935,          Tamil,0,3093
+ID936,          Telugu,0,3093
+ID937,          Tulu,0,3093
+ID939,        Georgian,0,3093
+ID942,          Albanian,0,3093
+ID943,          Armenian,0,3093
+ID946,              Latvian,0,3093
+ID947,              Lithuanian,0,3093
+ID949,              Belarusian,0,3093
+ID950,              Bulgarian,0,3093
+ID951,              Czech,0,3093
+ID952,              Macedonian,0,3093
+ID953,              Polish,0,3093
+ID954,              Russian,25,3093
+ID955,              Rusyn,0,3093
+ID956,              Serbo-Croatian,0,3093
+ID957,                Bosnian,0,3093
+ID958,                Croatian,0,3093
+ID959,                Serbian,0,3093
+ID960,"                Serbo-Croatian, n.i.e.",0,3093
+ID961,              Slovak,0,3093
+ID962,              Slovene (Slovenian),0,3093
+ID963,              Ukrainian,0,3093
+ID966,            Irish,0,3093
+ID967,            Scottish Gaelic,0,3093
+ID968,            Welsh,0,3093
+ID971,            Frisian,0,3093
+ID973,              German,0,3093
+ID974,              Pennsylvania German,0,3093
+ID975,              Swiss German,0,3093
+ID976,              Yiddish,0,3093
+ID978,              Afrikaans,0,3093
+ID979,              Dutch,0,3093
+ID980,"              Low German, n.o.s.",0,3093
+ID981,              Low Saxon,0,3093
+ID982,              Plautdietsch,0,3093
+ID983,              Vlaams (Flemish),0,3093
+ID985,              Danish,0,3093
+ID986,              Icelandic,0,3093
+ID987,              Norwegian,0,3093
+ID988,              Swedish,0,3093
+ID990,          Greek,0,3093
+ID993,              Assamese,0,3093
+ID994,              Bengali,0,3093
+ID995,              Gujarati,0,3093
+ID996,              Hindi,0,3093
+ID997,              Kacchi,0,3093
+ID998,              Kashmiri,0,3093
+ID999,              Konkani,0,3093
+ID1000,              Marathi,0,3093
+ID1001,              Nepali,0,3093
+ID1003,                Odia,0,3093
+ID1004,"                Oriya, n.o.s.",0,3093
+ID1005,              Punjabi (Panjabi),0,3093
+ID1006,              Rohingya,0,3093
+ID1007,              Sindhi,0,3093
+ID1008,              Sinhala (Sinhalese),0,3093
+ID1009,              Urdu,30,3093
+ID1012,              Baluchi,0,3093
+ID1013,              Kurdish,0,3093
+ID1014,              Parsi,0,3093
+ID1015,              Pashto,0,3093
+ID1017,                Dari,0,3093
+ID1018,                Iranian Persian,30,3093
+ID1019,"                Persian (Farsi), n.o.s.",0,3093
+ID1023,            Catalan,0,3093
+ID1024,            Italian,15,3093
+ID1025,            Portuguese,0,3093
+ID1026,            Romanian,0,3093
+ID1027,            Spanish,0,3093
+ID1030,        Japanese,0,3093
+ID1031,        Korean,30,3093
+ID1032,        Mongolian,0,3093
+ID1034,          Akan (Twi),0,3093
+ID1035,          Bamanankan,0,3093
+ID1036,          Edo,0,3093
+ID1037,          Éwé,0,3093
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3093
+ID1039,          Ga,0,3093
+ID1040,          Ganda,0,3093
+ID1041,          Gikuyu,0,3093
+ID1042,          Igbo,0,3093
+ID1043,          Kinyarwanda (Rwanda),0,3093
+ID1044,          Lingala,0,3093
+ID1045,          Luba-Kasai,0,3093
+ID1046,          Mòoré,0,3093
+ID1047,          Mwani,0,3093
+ID1048,          Ndebele,0,3093
+ID1049,          Rundi (Kirundi),0,3093
+ID1050,          Shona,0,3093
+ID1051,          Soninke,0,3093
+ID1053,          Swahili,0,3093
+ID1054,          Wojenaka,0,3093
+ID1055,          Wolof,0,3093
+ID1056,          Yoruba,0,3093
+ID1059,          Dinka,0,3093
+ID1060,          Nuer,0,3093
+ID1062,"          African, n.o.s.",0,3093
+ID1064,          American Sign Language,0,3093
+ID1065,          Quebec Sign Language,0,3093
+ID1069,            Hakka,0,3093
+ID1070,            Mandarin,0,3093
+ID1071,            Min Dong,0,3093
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",0,3093
+ID1073,            Wu (Shanghainese),0,3093
+ID1074,            Yue (Cantonese),15,3093
+ID1075,"            Chinese, n.o.s.",0,3093
+ID1078,            Burmese,0,3093
+ID1081,              S'gaw Karen,0,3093
+ID1083,            Tibetan,0,3093
+ID1087,          Lao,0,3093
+ID1088,          Thai,0,3093
+ID1091,          Azerbaijani,0,3093
+ID1092,          Kazakh,0,3093
+ID1093,          Turkish,0,3093
+ID1094,          Uyghur,0,3093
+ID1095,          Uzbek,0,3093
+ID1098,          Estonian,0,3093
+ID1099,          Finnish,0,3093
+ID1100,          Hungarian,0,3093
+ID877,            Kabyle,0,3117
+ID878,            Tamazight,0,3117
+ID881,            Hausa,0,3117
+ID882,            Mina,0,3117
+ID883,          Coptic,0,3117
+ID885,            Bilen,0,3117
+ID886,            Oromo,0,3117
+ID887,            Somali,0,3117
+ID890,            Amharic,0,3117
+ID891,            Arabic,160,3117
+ID893,              Assyrian Neo-Aramaic,0,3117
+ID894,              Chaldean Neo-Aramaic,0,3117
+ID895,"              Aramaic, n.o.s.",0,3117
+ID896,            Harari,0,3117
+ID897,            Hebrew,0,3117
+ID898,            Maltese,0,3117
+ID899,            Tigrigna,0,3117
+ID902,          Khmer (Cambodian),0,3117
+ID903,          Vietnamese,20,3117
+ID906,          Bikol,0,3117
+ID907,"          Bisaya, n.o.s.",0,3117
+ID908,          Cebuano,0,3117
+ID909,          Fijian,0,3117
+ID910,          Hiligaynon,0,3117
+ID911,          Ilocano,0,3117
+ID912,          Indonesian,0,3117
+ID913,          Kankanaey,0,3117
+ID914,          Kinaray-a,0,3117
+ID916,            Merina,0,3117
+ID917,"            Malagasy, n.o.s.",0,3117
+ID918,          Malay,0,3117
+ID919,"          Pampangan (Kapampangan, Pampango)",0,3117
+ID920,          Pangasinan,0,3117
+ID921,"          Tagalog (Pilipino, Filipino)",20,3117
+ID922,          Waray-Waray,0,3117
+ID925,          Haitian Creole,25,3117
+ID926,          Jamaican English Creole,0,3117
+ID927,          Krio,0,3117
+ID928,          Morisyen,0,3117
+ID929,          Sango,0,3117
+ID930,"          Creole, n.o.s.",0,3117
+ID933,          Kannada,0,3117
+ID934,          Malayalam,0,3117
+ID935,          Tamil,0,3117
+ID936,          Telugu,0,3117
+ID937,          Tulu,0,3117
+ID939,        Georgian,0,3117
+ID942,          Albanian,0,3117
+ID943,          Armenian,0,3117
+ID946,              Latvian,0,3117
+ID947,              Lithuanian,0,3117
+ID949,              Belarusian,0,3117
+ID950,              Bulgarian,0,3117
+ID951,              Czech,0,3117
+ID952,              Macedonian,0,3117
+ID953,              Polish,10,3117
+ID954,              Russian,60,3117
+ID955,              Rusyn,0,3117
+ID956,              Serbo-Croatian,15,3117
+ID957,                Bosnian,0,3117
+ID958,                Croatian,0,3117
+ID959,                Serbian,15,3117
+ID960,"                Serbo-Croatian, n.i.e.",0,3117
+ID961,              Slovak,0,3117
+ID962,              Slovene (Slovenian),0,3117
+ID963,              Ukrainian,15,3117
+ID966,            Irish,0,3117
+ID967,            Scottish Gaelic,0,3117
+ID968,            Welsh,0,3117
+ID971,            Frisian,0,3117
+ID973,              German,0,3117
+ID974,              Pennsylvania German,0,3117
+ID975,              Swiss German,0,3117
+ID976,              Yiddish,0,3117
+ID978,              Afrikaans,0,3117
+ID979,              Dutch,0,3117
+ID980,"              Low German, n.o.s.",0,3117
+ID981,              Low Saxon,0,3117
+ID982,              Plautdietsch,0,3117
+ID983,              Vlaams (Flemish),0,3117
+ID985,              Danish,0,3117
+ID986,              Icelandic,0,3117
+ID987,              Norwegian,0,3117
+ID988,              Swedish,0,3117
+ID990,          Greek,0,3117
+ID993,              Assamese,0,3117
+ID994,              Bengali,0,3117
+ID995,              Gujarati,55,3117
+ID996,              Hindi,0,3117
+ID997,              Kacchi,0,3117
+ID998,              Kashmiri,0,3117
+ID999,              Konkani,0,3117
+ID1000,              Marathi,0,3117
+ID1001,              Nepali,0,3117
+ID1003,                Odia,0,3117
+ID1004,"                Oriya, n.o.s.",0,3117
+ID1005,              Punjabi (Panjabi),0,3117
+ID1006,              Rohingya,0,3117
+ID1007,              Sindhi,0,3117
+ID1008,              Sinhala (Sinhalese),0,3117
+ID1009,              Urdu,0,3117
+ID1012,              Baluchi,0,3117
+ID1013,              Kurdish,0,3117
+ID1014,              Parsi,0,3117
+ID1015,              Pashto,0,3117
+ID1017,                Dari,0,3117
+ID1018,                Iranian Persian,75,3117
+ID1019,"                Persian (Farsi), n.o.s.",0,3117
+ID1023,            Catalan,0,3117
+ID1024,            Italian,60,3117
+ID1025,            Portuguese,20,3117
+ID1026,            Romanian,0,3117
+ID1027,            Spanish,60,3117
+ID1030,        Japanese,0,3117
+ID1031,        Korean,0,3117
+ID1032,        Mongolian,0,3117
+ID1034,          Akan (Twi),0,3117
+ID1035,          Bamanankan,0,3117
+ID1036,          Edo,0,3117
+ID1037,          Éwé,0,3117
+ID1038,"          Fulah (Pular, Pulaar, Fulfulde)",0,3117
+ID1039,          Ga,0,3117
+ID1040,          Ganda,0,3117
+ID1041,          Gikuyu,0,3117
+ID1042,          Igbo,0,3117
+ID1043,          Kinyarwanda (Rwanda),0,3117
+ID1044,          Lingala,0,3117
+ID1045,          Luba-Kasai,0,3117
+ID1046,          Mòoré,0,3117
+ID1047,          Mwani,0,3117
+ID1048,          Ndebele,0,3117
+ID1049,          Rundi (Kirundi),0,3117
+ID1050,          Shona,0,3117
+ID1051,          Soninke,0,3117
+ID1053,          Swahili,20,3117
+ID1054,          Wojenaka,0,3117
+ID1055,          Wolof,0,3117
+ID1056,          Yoruba,0,3117
+ID1059,          Dinka,0,3117
+ID1060,          Nuer,0,3117
+ID1062,"          African, n.o.s.",0,3117
+ID1064,          American Sign Language,0,3117
+ID1065,          Quebec Sign Language,0,3117
+ID1069,            Hakka,0,3117
+ID1070,            Mandarin,80,3117
+ID1071,            Min Dong,0,3117
+ID1072,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",0,3117
+ID1073,            Wu (Shanghainese),0,3117
+ID1074,            Yue (Cantonese),45,3117
+ID1075,"            Chinese, n.o.s.",0,3117
+ID1078,            Burmese,0,3117
+ID1081,              S'gaw Karen,0,3117
+ID1083,            Tibetan,0,3117
+ID1087,          Lao,0,3117
+ID1088,          Thai,0,3117
+ID1091,          Azerbaijani,0,3117
+ID1092,          Kazakh,0,3117
+ID1093,          Turkish,0,3117
+ID1094,          Uyghur,0,3117
+ID1095,          Uzbek,0,3117
+ID1098,          Estonian,0,3117
+ID1099,          Finnish,0,3117
+ID1100,          Hungarian,15,3117
