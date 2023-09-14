@@ -13,7 +13,8 @@ dictionary_indiv<- as.tibble(read_csv("outputs/pq outputs/processed/clean_pq_tgp
 colnames(dictionary_indiv) <- c("VAR_ID","type","category", "description")
 dictionary_indiv<- dictionary_indiv[-c(1,2,nrow(dictionary_indiv)),]
 
-poptype= "Racialized"
+
+
 #working pop type
 filetouse<- "data/PQ data/ForQs_pq_data_non_census_wide.csv"
 #create clean data file (insert source file for each here above)
