@@ -47,54 +47,58 @@ clean_file<-clean_file[-1,]
 Percentages1<- filter(dictionary_indiv, grepl("Percentage",dictionary_indiv$type,))
 Percentages2<- filter(dictionary_indiv, grepl("Median",dictionary_indiv$type,))
 Percentages3<- filter(dictionary_indiv, grepl("Average",dictionary_indiv$type,))
-compare_dictionary<- as.tibble(rbind(Percentages1,Percentages2,Percentages3))
+quintile_dictionary<- as.tibble(rbind(Percentages1,Percentages2,Percentages3))
 
+#pull out that dictionary
+quintile_dictionary<- as.tibble(quintile_dictionary)
+colnames(quintile_dictionary)[1] <- "VAR_ID"
+
+  
+ncol(quintile_dictionary)
+nrow(quintile_dictionary)
+
+## Join here
 comparable_data<- left_join(
-  as.tibble(compare_dictionary),
+  as.tibble(quintile_dictionary),
   as.tibble(clean_file),
   by="VAR_ID"
 )
 
 # comparable_data<- clean_file    ---a little different for the non-census data here
-
 comparable_data2 <- as.data.frame(t(comparable_data))
 colnames(comparable_data2)<- comparable_data2[1,]
-comparable_data2 <- comparable_data2[-c(1,2,3,4),]
-compare3 <-comparable_data2
+comparable_data2 <- comparable_data2[-1,]
+compare3 <-comparable_data2[-c(1,2,3,4,5,6,7,8,9),]
 
 #convert to numeric
 ncol(compare3)
-for (i in 1:23) {
+nrow(compare3)
+for (i in 1:(ncol(compare3))) {
   compare3[,i] <- as.numeric(compare3[,i])
   print(typeof(compare3[,1]))
 }
 
-#checking on data- insert variable name here as a test
-test=as.tibble(compare3$bikescore_mean)
-print(as.list(test))
-
-#remove non populated hoods
-ranked=compare3[-c(1,6,19,30,42,51,57,83),]
-
 
 ## a little different here too for non-census: ranked=compare3[-c(1,2),] (removing Ottawa from quintile analysis)
-
-ranked=compare3[-c(1,2),]
+ranked=compare3
 
 #rank
-for (i in 1:23) {
-  ranked[,i+1] <- rank(ranked[,i],ties.method="average",na.last=NA)
+ncol(ranked)
+nrow(ranked)
+for (i in 1:(ncol(ranked))) {
+  ranked[,i] <- rank(ranked[,i],ties.method="average",na.last="keep")
   print(ranked[,i])
 }
 
-nrow(ranked)
-ranked<-ranked %>%
-  mutate(
-    ranked$new <- NA
-  )
+#check last column of data
+ncol(ranked)
+colnames(ranked[ncol(ranked)])
+print(ranked[,(ncol(ranked))])
+
 
 #quintiles
-for (i in 1:40) {
+x <- ncol(ranked)
+for (i in 1:x) {
   ranked[,i] <- ifelse(ranked[,i]<22.5,"Q1",
                        ifelse(ranked[,i]<43.5,"Q2",
                               ifelse(ranked[,i]<64.5,"Q3",
@@ -103,20 +107,14 @@ for (i in 1:40) {
   print(ranked[,i])
 }
 
-
+#transpose
 quintiles<- as.data.frame(t(ranked))
 quintiles<-quintiles %>%
   mutate(VAR_ID= rownames(quintiles)
          )
-compare3 <- as.data.frame(compare3) %>%
-  t()
+quintiles<-quintiles%>% 
+  relocate("VAR_ID",.before = "3002")
 
-compare3<- as.data.frame(compare3) %>%
-  mutate(VAR_ID= rownames(compare3)
-  )
 
-colnames(compare3)
-
-write_csv(compare3,"outputs/pq outputs/processed/quintiles/forQs_Racialized.csv")
-write_csv(quintiles,"outputs/pq outputs/processed/quintiles/Quintiles_Racialized.csv")
+write_csv(quintiles,"outputs/pq outputs/processed/quintiles/FINAL_Quintiles_CensusProfile.csv")
 
