@@ -4,44 +4,45 @@ library(tidyr)
 library(tidyverse)
 library(dplyr)
 
-#create dictionary using any of the data files
-dictionary_indiv<- as.tibble(read_csv("outputs/pq outputs/processed/clean_pq_tgp_age_15to24-2023-09-08.csv")[c(1,2,3),] %>%
-  t()) %>%
-  mutate(
-    description =as.tibble(colnames(read_csv("outputs/pq outputs/processed/clean_pq_tgp_age_15to24-2023-09-08.csv")))
-  )
-colnames(dictionary_indiv) <- c("VAR_ID","type","category", "description")
-dictionary_indiv<- dictionary_indiv[-c(1,2,nrow(dictionary_indiv)),]
+#create dictionary for quintile-able data only
+quintile_dictionary<- as.tibble(read_csv("data/PQ data/subset_quintile_PQ_dictionary_censusprofile.csv"))
 
 
-
-#working pop type
-filetouse<- "data/PQ data/ForQs_pq_data_non_census_wide.csv"
+#data
+filetouse<- "outputs/pq outputs/CLEAN_2021_census_extract-2023-09-14.csv"
 #create clean data file (insert source file for each here above)
 raw_file <- read_csv(filetouse)
-colnames(raw_file) <- raw_file[1,]
-colnames(raw_file)[1] <- "ONS_Name"
-colnames(raw_file)[2] <- "ONS_ID"
-raw_file <- raw_file[-c(1,2,3),]
 
+#Move ONS id to front
+raw_file<-raw_file%>%
+  relocate("ONS_ID",.before = name)
+
+colnames(raw_file)[1] <- "ONS_ID"
+colnames(raw_file)[2] <- "ONS_Name"
 
 #cleaning the file
 clean_file<- as.data.frame(raw_file %>%
   t())
 
+### THIS NEXT PART YOU CAN PROBABLY OMIT####
+
 clean_file<-clean_file %>%
   mutate(
     VAR_ID = rownames(clean_file)
   ) %>% relocate("VAR_ID",.before = V1)
+
 clean_file[1,1]="VAR_ID"
 colnames(clean_file) <- clean_file[1,]
 clean_file<- clean_file[-1,]
 colnames(clean_file)
-clean_file<-subset(clean_file, select =-65)
-colnames(clean_file)
+
 clean_file<-as.tibble(clean_file)
 colnames(clean_file)
+clean_file<-clean_file[-1,]
 
+
+
+####IGNORE THIS PART IF YOU ALREADY SUBSET YOUR DICTIONARY######
 #subsetting dictionary to include only %
 Percentages1<- filter(dictionary_indiv, grepl("Percentage",dictionary_indiv$type,))
 Percentages2<- filter(dictionary_indiv, grepl("Median",dictionary_indiv$type,))
