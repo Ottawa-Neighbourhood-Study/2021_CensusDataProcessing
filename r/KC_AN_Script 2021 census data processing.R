@@ -1,8 +1,8 @@
-# library(tidyr)
-# library(janitor)
-# library(dplyr)
-# library(readr)
-# library(usethis)
+library(tidyr)
+library(janitor)
+library(dplyr)
+library(readr)
+library(usethis)
 # #load readr
 # # read_csv for tibble
 
