@@ -1,14 +1,52 @@
-# library(tidyr)
-# library(janitor)
-# library(dplyr)
-# library(readr)
-# library(usethis)
+library(tidyr)
+library(janitor)
+library(dplyr)
+library(readr)
+library(usethis)
 # #load readr
 # # read_csv for tibble
-# 
+
+#PART 1- run the script to calculate get the results:
 # calculate_ses_indices()
 
-calculate_ses_indices <- function(raw_data_filename = "data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/SES indexes.csv"){
+#PART 2- clean the results file and isolate Ottawa neighbourhoods
+# load data
+
+inputfile<-"outputs/pq outputs/2021_census_extract-2023-09-14.csv"
+dirty_data<- read_csv(inputfile)
+# remove non-ONS hoods
+dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
+
+# remove census jargon
+dirty2$name <- gsub("\\_00000.*", "", dirty2$name)
+dirty2$name <- gsub("ons2022_\\.*", "", dirty2$name)
+dirty2$name <- gsub("\\_999.*", "", dirty2$name)
+dirty2$name <- gsub("\\_0999.*", "", dirty2$name)
+dirty2$name <- gsub("\\_000.*", "", dirty2$name)
+dirty2$name <- gsub("\\_00919.*", "", dirty2$name)
+dirty2$name <- gsub("\\_03030.*", "", dirty2$name)
+dirty2$name <- gsub("\\_00999.*", "", dirty2$name)
+
+
+# create ONS_ID
+n_last<- 4
+dirty3<-dirty2 %>%
+  mutate(
+    ONS_ID = as.numeric(substr(dirty2$name, nchar(dirty2$name) - n_last + 1, nchar(dirty2$name))))
+print(dirty3$ONS_ID)
+#filter Ottawa hoods based on ONS_ID and drop NA cases
+clean<- dirty3[dirty3$ONS_ID < 3400,] %>%
+  na.omit(clean)
+
+
+#write CSV
+readr::write_csv(clean,"outputs/pq outputs/CLEAN_2021_census_extract-2023-09-14.csv")
+
+
+ 
+###FUNCTIONS START HERE#######
+
+calculate_census_variables <- function(raw_data_filename = "data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/PQ_dictionary_censusprofile.csv"){
   
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
@@ -48,48 +86,48 @@ calculate_ses_indices <- function(raw_data_filename = "data/RAW_Census_Profile_2
   for (i in 1:nrow(num_den)) {
     
     # extract the metadata for the index we are computing right now
-    ses_index <- num_den[i,]
-    ses_index_name <- ses_index$`SES Index`
+    variables <- num_den[i,]
+    variable_name <- variables$`variable_name`
     
-    # get the column names/indices.
+    # get the column names/variables.
     # we keep the raw denominator index for comparison later to see is it a true
     # index, or if are we just using the number 1 as our denominator
     
-    numerator_index <- ses_index$Numerator
-    num_index <- paste0("ID", numerator_index)
+    numerator <- variables$Numerator
+    num_var <- paste0("ID", numerator)
     
     # check to see if the numerator contains non-numeric values, meaning it is
     # a "compound numerator" made up of other 
-    if (suppressWarnings(is.na(as.numeric(numerator_index)))) {
-      data_pivoted <- create_synthetic_numerator(data_pivoted = data_pivoted, numerator_index = numerator_index, num_index = num_index)
+    if (suppressWarnings(is.na(as.numeric(numerator)))) {
+      data_pivoted <- create_synthetic_numerator(data_pivoted = data_pivoted, numerator = numerator, num_var = num_var)
     }
     
     
     
-    den_index_raw <- ses_index$Denominator
-    den_index <- paste0("ID", den_index_raw)
+    denominator <- variables$Denominator
+    den_var <- paste0("ID", denominator)
     
     # print an update to the console
-    message( "    ", i, ": ", ses_index_name)
+    message( "    ", i, ": ", variable_name)
     
     # calculate the index and put it in a tibble called result
     
     # if the denominator index is a number, we use it as expected
-    if (!suppressWarnings(is.na(as.numeric(den_index_raw, warn = FALSE)))){
+    if (!suppressWarnings(is.na(as.numeric(denominator, warn = FALSE)))){
       
       ## this bit of code uses metaprogramming in R -- if you want to use a variable
       ## to select a column it takes some magic. That's what the {{ embraced }}
       ## variable does, the := operator, and the !!rlang::sym() call.
       ## you can read all about it here! https://adv-r.hadley.nz/metaprogramming.html
       result <- data_pivoted |>
-        dplyr::transmute(name,  {{ses_index_name}} := !!rlang::sym(num_index) / !!rlang::sym(den_index)) |>
+        dplyr::transmute(name,  {{variable_name}} := !!rlang::sym(num_var) / !!rlang::sym(den_var)) |>
         janitor::clean_names()
       
     } else {
       # otherwise, if the denominator index is NOT a number, the denominator should just be 1
       
       result <- data_pivoted |>
-        dplyr::transmute(name,  {{ses_index_name}} := !!rlang::sym(num_index) ) |>
+        dplyr::transmute(name,  {{variable_name}} := !!rlang::sym(num_var) ) |>
         janitor::clean_names()
     }
     
@@ -103,7 +141,7 @@ calculate_ses_indices <- function(raw_data_filename = "data/RAW_Census_Profile_2
   ## results can now be written to file
   
   
-  filename <- paste0("outputs/ses_indices-", Sys.Date(),".csv")
+  filename <- paste0("outputs/2021_census_extract-", Sys.Date(),".csv")
   readr::write_csv(results, filename)
   message("Results saved to ", filename)
   
@@ -114,13 +152,13 @@ calculate_ses_indices <- function(raw_data_filename = "data/RAW_Census_Profile_2
 
 
 
-create_synthetic_numerator <- function( data_pivoted, numerator_index,  num_index) {
+create_synthetic_numerator <- function( data_pivoted, numerator,  num_var) {
   
-  indices <- stringr::str_split(numerator_index, "\\D") |> 
+  indices <- stringr::str_split(numerator, "\\D") |> 
     unlist() |>
     (function(x) {paste0("ID", x)})()
   
-  operators <- stringr::str_split(numerator_index, "\\d+") |> 
+  operators <- stringr::str_split(numerator, "\\d+") |> 
     unlist() |>
     grep(pattern = ".+", value = TRUE)
   
@@ -143,7 +181,7 @@ create_synthetic_numerator <- function( data_pivoted, numerator_index,  num_inde
     
   } # end for temp_index in 2:length(indices) 
   
-  data_pivoted[, num_index]  <- lhs
+  data_pivoted[, num_var]  <- lhs
   
   return(data_pivoted)
   

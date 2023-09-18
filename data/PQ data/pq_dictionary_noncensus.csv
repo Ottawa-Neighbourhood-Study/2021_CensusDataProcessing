@@ -1,0 +1,40 @@
+﻿data_ID_non,VAR_ID,type,category
+food_convenience_num_region_plus_buffer,VAR100,Number,Food environment
+food_convenience_num_per_1000_res_plus_buffer,VAR101,Number per 1000,Food environment
+food_convenience_dist_closest_3_popwt,VAR102,Distance,Food environment
+food_convenience_pct_within_15_mins,VAR103,Percent within distance,Food environment
+food_fastfood_num_region_plus_buffer,VAR104,Number,Food environment
+food_fastfood_num_per_1000_res_plus_buffer,VAR105,Number per 1000,Food environment
+food_fastfood_dist_closest_3_popwt,VAR106,Distance,Food environment
+food_fastfood_pct_within_15_mins,VAR107,Percent within distance,Food environment
+food_grocery_num_region_plus_buffer,VAR108,Number,Food environment
+food_grocery_num_per_1000_res_plus_buffer,VAR109,Number per 1000,Food environment
+food_grocery_dist_closest_3_popwt,VAR110,Distance,Food environment
+food_grocery_pct_within_15_mins,VAR111,Percent within distance,Food environment
+food_resto_num_region_plus_buffer,VAR112,Number,Food environment
+food_resto_num_per_1000_res_plus_buffer,VAR113,Number per 1000,Food environment
+food_resto_dist_closest_3_popwt,VAR114,Distance,Food environment
+food_resto_pct_within_15_mins,VAR115,Percent within distance,Food environment
+food_specialty_num_region_plus_buffer,VAR116,Number,Food environment
+food_specialty_num_per_1000_res_plus_buffer,VAR117,Number per 1000,Food environment
+food_specialty_dist_closest_3_popwt,VAR118,Distance,Food environment
+food_specialty_pct_within_15_mins,VAR119,Percent within distance,Food environment
+num_people_attached,VAR120,Number,Primary care attachment
+num_people_uncertainly_attached,VAR121,Number,Primary care attachment
+total_population_attachment,VAR122,Number,Primary care attachment
+percent_attached,VAR123,Percent of pop,Primary care attachment
+percent_uncertaintly_attached,VAR124,Percent of pop,Primary care attachment
+crime_person_total,VAR125,Number,Crime and safety
+crime_property_total,VAR126,Number,Crime and safety
+crime_other_total,VAR127,Number,Crime and safety
+crime_total,VAR128,Number,Crime and safety
+crime_person_total_per_1000pop_plus_50m_buffer,VAR129,Number per 1000,Crime and safety
+crime_property_total_per_1000pop_plus_50m_buffer,VAR130,Number per 1000,Crime and safety
+crime_other_total_per_1000pop_plus_50m_buffer,VAR131,Number per 1000,Crime and safety
+crime_total_per_1000pop_plus_50m_buffer,VAR132,Number per 1000,Crime and safety
+walkscore_mean,VAR133,Average,Transportation
+walkscore_sd,VAR134,Standard deviation,Transportation
+bikescore_mean,VAR135,Average,Transportation
+bikescore_sd,VAR136,Standard deviation,Transportation
+Deciles,VAR145,Index score,SES index
+SES Quintiles,VAR146,Index score,SES index
