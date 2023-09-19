@@ -42,6 +42,8 @@ readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
 
 
+
+###STARTS HERE!
 calculate_ses_indices <- function(raw_data_filename = "data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/SES indexes.csv"){
   
   # Importing the raw 2021 census data
