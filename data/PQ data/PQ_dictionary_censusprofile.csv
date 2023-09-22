@@ -1,129 +1,146 @@
-﻿Parameter,pop,Numerator Data_ID,Denominator Data_ID,Number or percentage,Category
-Total population,total,1,ONE,Number,Demographics
-# of youth age 15-24,youth_15_25,7+8,ONE,Number,Demographics
-% of of pop that are youth age 15-24,youth_15_25,7+8,1,Percentage 1,Demographics
-% of pop that are seniors 65+,seniors_65,17,1,Percentage 1,Demographics
-% of pop that are recent immigrants (arr. 2016-2021),total,1492,1483,Percentage 2,Immigration
-% of pop that are immigrants,total,1485,1483,Percentage 2,Immigration
-% of pop that are Indigenous,total,1445,1444,Percentage 2,Indigenous
-% of Pop that are FN,total,1447,1444,Percentage 2,Indigenous
-% of Pop that are Metis,total,1448,1444,Percentage 2,Indigenous
-% of Pop that are Inuit,total,1449,1444,Percentage 2,Indigenous
-% of pop that are visible minority,total,1640,1639,Percentage 2,Demographics
-% of pop that are refugees,total,1630,1,Percentage 2,Immigration
-% of immigrants that are refugees,total,1630,1625,Percentage 2,Immigration
-% of renter households,households,299,297,Percentage 2,Housing
-% of pop with knowledge of neither English nor French,total,429,425,Percentage 2,Language
-% of pop age 25-64 with no high school diploma or equivalent,total,2059,2058,Percentage 2,Education
-% of pop living alone,total,42,34,Percentage 2,Family comp
-% of census families that are one-parent families,households,397,389,Percentage 2,Family comp
-Unemployment rate,total,1969,ONE,Percentage 1,Employment
-Average after-tax income in 2020 among recipients ($),total,65,ONE,Number,Income
-Average market income in 2020 among recipients ($),total,68,ONE,Number,Income
-Average after-tax income in 2019 among recipients ($),total,143,ONE,Number,Income
-Average market income in 2019 among recipients ($),total,146,ONE,Number,Income
-% of income from government transfers (2019),total,159,ONE,Percentage 1,Income
-% of income from government transfers (2020),total,84,ONE,Percentage 1,Income
-% of households living in subsidized housing,households,374,ONE,Percentage 1,Housing
-% of pop age 25-64 with postsecondary degree/diploma/certificate,total,2064,2061,Percentage 2,Education
-# of refugees,total,1630,ONE,Number,Immigration
-% of households living in core housing need,households,363,362,Percentage 2,Housing
-# of households living in core housing need,households,363,ONE,Number,Housing
-% of owner households in core housing need,households,368,ONE,Percentage 1,Housing
-% of renter households in core housing need,households,376,ONE,Percentage 1,Housing
-% of owner households,households,298,297,Percentage 2,Housing
-# of people in low-income based on LIM-AT,total,171,ONE,Number,Income
-% of people in low income based on LIM-AT,total,171,166,Percentage 2,Income
-# of people 0-17 in low income based on LIM-AT,children_0_17,172,ONE,Number,Income
-% of people 0-17 in low income based on LIM-AT,children_0_17,172,167,Percentage 2,Income
-# of people 18-64 in low income based on LIM-AT,adults_18_64,174,ONE,Number,Income
-% of people 18-64 in low income based on LIM-AT,adults_18_64,174,169,Percentage 2,Income
-# of people 65+ in low-income based on LIM-AT,seniors_65,175,ONE,Number,Income
-% of people 65+ in low-income based on LIM-AT,seniors_65,175,170,Percentage 2,Income
-# of pop living alone (i.e. 1-person household),households,224,ONE,Number,Family comp
-# of one-parent families,households,397,ONE,Number,Family comp
-% of all census families that are one-parent families,households,397,389,Percentage 2,Family comp
-Average after-tax income of one-parent economic families,households,423,ONE,dollar,Income
-Average after-tax income of all economic families,households,405,ONE,dollar,Income
-Average after-tax income of couple-with-children economic families,households,416,ONE,dollar,Income
-Average age of the population,total,32,ONE,Number,Demographics
-Median age of the population,total,33,ONE,Number,Demographics
-# of seniors 65+,seniors_65,30,ONE,Number,Demographics
-# of children living in one-parent families,total,40,ONE,Number,Demographics
-% of children living in one-parent families,total,40,38,Percentage 2,Demographics
-# of people who are Indigenous,total,1445,ONE,Number,Indigenous
-# of people who are FN,total,1447,ONE,Number,Indigenous
-# of people who are Metis,total,1448,ONE,Number,Indigenous
-# of people who are Inuit,total,1449,ONE,Number,Indigenous
-# of immigrants,total,1485,ONE,Number,Immigration
-# of recent immigrants (arr. 2016-2021),total,1492,ONE,Number,Immigration
-Average household size,households,229,ONE,Number,Family comp
-Average number of children in census families with children,households,400,ONE,Number,Family comp
-# of people with knowledge of neither English nor French,total,429,ONE,Number,Language
-# of people with French as a language most spoken at home,total,781+1103+1105+1106,ONE,Number,Language
-% of people with French as a language most spoken at home,total,781+1103+1105+1106,777,Percentage 2,Language
-# of people with knowledge of only French as an official language,total,427,ONE,Number,Language
-% of people with knowledge of only French as an official language,total,427,425,Percentage 2,Language
-Average size of census families,households,388,ONE,Number,Family comp
-"# of workers age 15+ who commute by car, truck, or van",total,2574,ONE,Number,Commuting
-"% of workers age 15+ who commute by car, truck, or van",total,2574,2573,Percentage 2,Commuting
-# of workers age 15+ who commute by public transit,total,2577,ONE,Number,Commuting
-% of workers age 15+ who commute by public transit,total,2577,2573,Percentage 2,Commuting
-# of workers age 15+ who commute by walking,total,2578,ONE,Number,Commuting
-% of workers age 15+ who commute by walking,total,2578,2573,Percentage 2,Commuting
-# of workers age 15+ who commute by bicycle,total,2579,ONE,Number,Commuting
-% of workers age 15+ who commute by bicycle,total,2579,2573,Percentage 2,Commuting
-# of workers age 15+ who commute by other means,total,2580,ONE,Number,Commuting
-% of workers age 15+ who commute by other means,total,2580,2573,Percentage 2,Commuting
-# of workers age 15+ who work at home,total,2564,ONE,Number,Workforce
-% of workers age 15+ who work at home,total,2564,,Percentage 2,Workforce
-# of workers age 15+ who have no fixed workplace address,total,2566,ONE,Number,Workforce
-% of workers age 15+ who have no fixed workplace address,total,2566,,Percentage 2,Workforce
-Average monthly shelter costs for rented dwellings ($),households,378,ONE,dollar,Housing
-Median monthly shelter costs for rented dwellings ($),households,377,ONE,dollar,Housing
-Average monthly shelter costs for owned dwellings ($),households,370,ONE,dollar,Housing
-Median monthly shelter costs for owned dwellings ($),households,369,ONE,dollar,Housing
-% of people age 25-64 with a high school diploma,total,2060,2058,Percentage 2,Education
-% of workers who commute for 60 minutes and over,total,2586,2581,Percentage 2,Commuting
-# of people who are visible minority,total,1640,ONE,Number,Demographics
-"# households 2020 AT income under $10,000",households,278+279,ONE,Number,Income
-"# households 2020 AT income $10,000-$19,999",households,280+281,ONE,Number,Income
-"# households 2020 AT income $20,000 to $29,999",households,282+283,ONE,Number,Income
-"# households 2020 AT income $30,000 to $39,999",households,284+285,ONE,Number,Income
-"# households 2020 AT income $40,000 to $49,999",households,286+287,ONE,Number,Income
-"# households 2020 AT income $50,000 to $59,999",households,288,ONE,Number,Income
-"# households 2020 AT income $60,000 to $69,999",households,289,ONE,Number,Income
-"# households 2020 AT income $70,000 to $79,999",households,290,ONE,Number,Income
-"# households 2020 AT income $80,000 to $89,999",households,291,ONE,Number,Income
-"# households 2020 AT income $90,000 to $99,999",households,292,ONE,Number,Income
-"# households 2020 AT income $100,000 to $124,999",households,294,ONE,Number,Income
-"# households 2020 AT income $125,000 to $149,999",households,295,ONE,Number,Income
-"# households 2020 AT income $150,000 and over",households,296,ONE,Number,Income
-"% households 2020 AT income under $10,000",households,278+279,277,,
-"% households 2020 AT income $10,000-$19,999",households,280+281,277,,
-"% households 2020 AT income $20,000 to $29,999",households,282+283,277,,
-"% households 2020 AT income $30,000 to $39,999",households,284+285,277,,
-"% households 2020 AT income $40,000 to $49,999",households,286+287,277,,
-"% households 2020 AT income $50,000 to $59,999",households,288,277,,
-"% households 2020 AT income $60,000 to $69,999",households,289,277,,
-"% households 2020 AT income $70,000 to $79,999",households,290,277,,
-"% households 2020 AT income $80,000 to $89,999",households,291,277,,
-"% households 2020 AT income $90,000 to $99,999",households,292,277,,
-"% households 2020 AT income $100,000 to $124,999",households,294,277,,
-"% households 2020 AT income $125,000 to $149,999",households,295,277,,
-"% households 2020 AT income $150,000 and over",households,296,277,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
-# Language spoken most often at home: ,total,,,,
+﻿variable_name,secondhalfname,Data_ID,Numerator,Denominator,pop1,pop2,Type1,Type2,Category1,Category 2
+Total population,Total population,total_population,1,ONE,indiv,residents,Number,count,Demographics,Age
+# of youth age 15-24,# of youth age 15-24,number_of_youth_age_15_24,7+8,ONE,indiv,residents,Number,count,Demographics,Age
+% of of pop that are youth age 15-24,youth age 15-24,percent_of_of_pop_that_are_youth_age_15_24,7+8,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
+% of pop that are seniors 65+,seniors 65+,percent_of_pop_that_are_seniors_65,17,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
+% of pop that are recent immigrants (arr. 2016-2021),recent immigrants (arr. 2016-2021),percent_of_pop_that_are_recent_immigrants_arr_2016_2021,1492,1483,indiv,residents,Percentage 2,percent_pop,Immigration,Immigration
+% of pop that are immigrants,immigrants,percent_of_pop_that_are_immigrants,1485,1483,indiv,residents,Percentage 2,percent_pop,Immigration,Immigration
+% of pop that are Indigenous,Indigenous,percent_of_pop_that_are_indigenous,1445,1444,indiv,residents,Percentage 2,percent_pop,Indigenous,Indigenous
+% of Pop that are FN,First Nations,percent_of_pop_that_are_fn,1447,1444,indiv,residents,Percentage 2,percent_pop,Indigenous,Indigenous
+% of Pop that are Metis,Metis,percent_of_pop_that_are_metis,1448,1444,indiv,residents,Percentage 2,percent_pop,Indigenous,Indigenous
+% of Pop that are Inuit,Inuit,percent_of_pop_that_are_inuit,1449,1444,indiv,residents,Percentage 2,percent_pop,Indigenous,Indigenous
+% of pop that are racialized,racialized,percent_of_pop_that_are_racialized,1640,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% of pop that are refugees,refugees,percent_of_pop_that_are_refugees,1630,1,indiv,residents,Percentage 2,percent_pop,Immigration,Immigration
+% of immigrants that are refugees,refugees,percent_of_immigrants_that_are_refugees,1630,1625,indiv,immigrants,Percentage 2,percent_pop,Immigration,Immigration
+% of renter households,renter households,percent_of_renter_households,299,297,households,households,Percentage 2,percent_pop,Housing,Tenure
+% of pop with knowledge of neither English nor French,people with knowledge of neither English nor French,percent_of_pop_with_knowledge_of_neither_english_nor_french,429,425,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
+% of pop age 25-64 with no high school diploma or equivalent,people with no high school diploma or equivalent,percent_of_pop_age_25_64_with_no_high_school_diploma_or_equivalent,2059,2058,indiv,residents aged 25-64,Percentage 2,percent_pop,Education,Education
+% of pop living alone,living alone,percent_of_pop_living_alone,42,34,indiv,residents aged 25-64,Percentage 2,percent_pop,Family,Family composition
+% of census families that are one-parent families,one-parent families,percent_of_census_families_that_are_one_parent_families,397,389,households,census families,Percentage 2,percent_pop,Family,Family composition
+Unemployment rate,unemployed,unemployment_rate,1969,ONE,indiv,residents in the labour force,Percentage 1,percent_pop,Employment,Unemployment
+Average after-tax income in 2020 among recipients ($),Average after-tax income in 2020 among recipients ($),average_after_tax_income_in_2020_among_recipients,65,ONE,indiv,residents,Average,Dollar,Income,individual after-tax income
+Average market income in 2020 among recipients ($),Average market income in 2020 among recipients ($),average_market_income_in_2020_among_recipients,68,ONE,indiv,residents,Average,Dollar,Income,individual market income
+Average after-tax income in 2019 among recipients ($),Average after-tax income in 2019 among recipients ($),average_after_tax_income_in_2019_among_recipients,143,ONE,indiv,residents,Average,Dollar,Income,individual after-tax income
+Average market income in 2019 among recipients ($),Average market income in 2019 among recipients ($),average_market_income_in_2019_among_recipients,146,ONE,indiv,residents,Average,Dollar,Income,individual market income
+% of income from government transfers (2019),% of income from government transfers (2019),percent_of_income_from_government_transfers_2019,159,ONE,indiv,income,Percentage 1,percent_pop,Income,Government transfers
+% of income from government transfers (2020),% of income from government transfers (2020),percent_of_income_from_government_transfers_2020,84,ONE,indiv,income,Percentage 1,percent_pop,Income,Government transfers
+% of pop age 25-64 with postsecondary degree/diploma/certificate,% of pop age 25-64 with postsecondary degree/diploma/certificate,percent_of_pop_age_25_64_with_postsecondary_degree_diploma_certificate,2064,2061,indiv,residents aged 25-64,Percentage 2,percent_pop,Education,Education
+# of refugees,refugees,number_of_refugees,1630,ONE,indiv,residents,Number,count,Immigration,Immigration
+% of households living in core housing need,in core housing need,percent_of_households_living_in_core_housing_need,363,362,households,households,Percentage 2,percent_pop,Housing,Core housing need
+# of households living in core housing need,in core housing need,number_of_households_living_in_core_housing_need,363,ONE,households,households,Number,percent_pop,Housing,Core housing need
+% of owner households in core housing need,in core housing need,percent_of_owner_households_in_core_housing_need,368,ONE,households,owner households,Percentage 1,percent_pop,Housing,Core housing need
+% of renter households in core housing need,in core housing need,percent_of_renter_households_in_core_housing_need,376,ONE,households,renter households,Percentage 1,percent_pop,Housing,Core housing need
+% of owner households,owner households,percent_of_owner_households,298,297,households,households,Percentage 2,percent_pop,Housing,Tenure
+# of people in low-income based on LIM-AT,in low-income based on LIM-AT,number_of_people_in_low_income_based_on_lim_at,171,ONE,indiv,residents,Number,count,Income,LIM-AT
+% of people in low income based on LIM-AT,in low-income based on LIM-AT,percent_of_people_in_low_income_based_on_lim_at,171,166,indiv,residents,Percentage 2,percent_pop,Income,LIM-AT
+# of people 0-17 in low income based on LIM-AT,in low-income based on LIM-AT,number_of_people_0_17_in_low_income_based_on_lim_at,172,ONE,indiv,children_0_17,Number,count,Income,LIM-AT
+% of people 0-17 in low income based on LIM-AT,in low-income based on LIM-AT,percent_of_people_0_17_in_low_income_based_on_lim_at,172,167,indiv,children_0_17,Percentage 2,percent_pop,Income,LIM-AT
+# of people 18-64 in low income based on LIM-AT,in low-income based on LIM-AT,number_of_people_18_64_in_low_income_based_on_lim_at,174,ONE,indiv,adults_18_64,Number,count,Income,LIM-AT
+% of people 18-64 in low income based on LIM-AT,in low-income based on LIM-AT,percent_of_people_18_64_in_low_income_based_on_lim_at,174,169,indiv,adults_18_64,Percentage 2,percent_pop,Income,LIM-AT
+# of people 65+ in low-income based on LIM-AT,in low-income based on LIM-AT,number_of_people_65_in_low_income_based_on_lim_at,175,ONE,indiv,seniors_65,Number,count,Income,LIM-AT
+% of people 65+ in low-income based on LIM-AT,in low-income based on LIM-AT,percent_of_people_65_in_low_income_based_on_lim_at,175,170,indiv,seniors_65,Percentage 2,percent_pop,Income,LIM-AT
+# living alone,living alone,number_living_alone,42,ONE,households,households,Number,count,Family,Family composition
+# of one-parent families,one-parent families,number_of_one_parent_families,397,ONE,households,census families,Number,count,Family,Family composition
+Average after-tax income of one-parent economic families,Average after-tax income of one-parent economic families,average_after_tax_income_of_one_parent_economic_families,423,ONE,households,one-parent families,Average,Dollar,Income,family after-tax income
+Average after-tax income of all economic families,Average after-tax income of all economic families,average_after_tax_income_of_all_economic_families,405,ONE,households,families,Average,Dollar,Income,family after-tax income
+Average after-tax income of couple-with-children economic families,Average after-tax income of couple-with-children economic families,average_after_tax_income_of_couple_with_children_economic_families,416,ONE,households,couple-with-children families,Average,Dollar,Income,family after-tax income
+Average age of the population,Average age of the population,average_age_of_the_population,32,ONE,indiv,residents,Average,Age,Demographics,Age
+Median age of the population,Median age of the population,median_age_of_the_population,33,ONE,indiv,residents,Average,Age,Demographics,Age
+# of seniors 65+,seniors aged 65+,number_of_seniors_65,30,ONE,indiv,residents,Number,count,Demographics,Age
+# of children living in one-parent families,children living in one-parent families,number_of_children_living_in_one_parent_families,40,ONE,indiv,children,Number,count,Family,Isolation
+% of children living in one-parent families,children living in one-parent families,percent_of_children_living_in_one_parent_families,40,38,indiv,children,Percentage 2,percent_pop,Family,Isolation
+# of people who are Indigenous,Indigenous,number_of_people_who_are_indigenous,1445,ONE,indiv,residents,Number,count,Indigenous,Indigenous
+# of people who are FN,First Nations,number_of_people_who_are_fn,1447,ONE,indiv,residents,Number,count,Indigenous,Indigenous
+# of people who are Metis,Metis,number_of_people_who_are_metis,1448,ONE,indiv,residents,Number,count,Indigenous,Indigenous
+# of people who are Inuit,Inuit,number_of_people_who_are_inuit,1449,ONE,indiv,residents,Number,count,Indigenous,Indigenous
+# of immigrants,immigrants,number_of_immigrants,1485,ONE,indiv,residents,Number,count,Immigration,Immigration
+# of recent immigrants (arr. 2016-2021),recent immigrants (arr. 2016-2021),number_of_recent_immigrants_arr_2016_2021,1492,ONE,indiv,residents,Number,count,Immigration,Immigration
+Average household size,Average household size,average_household_size,229,ONE,households,households,Average,count,Family,Family composition
+Average number of children in census families with children,Average number of children in census families with children,average_number_of_children_in_census_families_with_children,400,ONE,households,census families with children,Average,count,Family,Family composition
+# of people with knowledge of neither English nor French,people with knowledge of neither English nor French,number_of_people_with_knowledge_of_neither_english_nor_french,429,ONE,indiv,residents,Number,count,Language,Knowledge of official languages
+# of people with French as a language most spoken at home,people with French as a language most spoken at home,number_of_people_with_french_as_a_language_most_spoken_at_home,781+1103+1105+1106,ONE,indiv,residents,Number,count,Language,Knowledge of official languages
+% of people with French as a language most spoken at home,people with French as a language most spoken at home,percent_of_people_with_french_as_a_language_most_spoken_at_home,781+1103+1105+1106,777,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
+# of people with knowledge of only French as an official language,people with knowledge of only French as an official language,number_of_people_with_knowledge_of_only_french_as_an_official_language,427,ONE,indiv,residents,Number,count,Language,Knowledge of official languages
+% of people with knowledge of only French as an official language,people with knowledge of only French as an official language,percent_of_people_with_knowledge_of_only_french_as_an_official_language,427,425,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
+Average size of census families,Average size of census families,average_size_of_census_families,388,ONE,households,census families,Average,count,Family comp,Family composition
+"# of workers age 15+ who commute by car, truck, or van","workers who commute by car, truck, or van",number_of_workers_age_15_who_commute_by_car_truck_or_van,2574,ONE,indiv,workforce,Number,count,Labour force,Commute
+"% of workers age 15+ who commute by car, truck, or van","workers who commute by car, truck, or van",percent_of_workers_age_15_who_commute_by_car_truck_or_van,2574,2573,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
+# of workers age 15+ who commute by public transit,workers who commute by public transit,number_of_workers_age_15_who_commute_by_public_transit,2577,ONE,indiv,workforce,Number,count,Labour force,Commute
+% of workers age 15+ who commute by public transit,workers who commute by public transit,percent_of_workers_age_15_who_commute_by_public_transit,2577,2573,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
+# of workers age 15+ who commute by walking,workers who commute by walking,number_of_workers_age_15_who_commute_by_walking,2578,ONE,indiv,workforce,Number,count,Labour force,Commute
+% of workers age 15+ who commute by walking,workers who commute by walking,percent_of_workers_age_15_who_commute_by_walking,2578,2573,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
+# of workers age 15+ who commute by bicycle,workers who commute by bicycle,number_of_workers_age_15_who_commute_by_bicycle,2579,ONE,indiv,workforce,Number,count,Labour force,Commute
+% of workers age 15+ who commute by bicycle,workers who commute by bicycle,percent_of_workers_age_15_who_commute_by_bicycle,2579,2573,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
+# of workers age 15+ who commute by other means,workers who commute by other means,number_of_workers_age_15_who_commute_by_other_means,2580,ONE,indiv,workforce,Number,count,Labour force,Commute
+% of workers age 15+ who commute by other means,workers who commute by other means,percent_of_workers_age_15_who_commute_by_other_means,2580,2573,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
+# of workers age 15+ who work at home,workers who work from home,number_of_workers_age_15_who_work_at_home,2564,ONE,indiv,workforce,Number,count,Labour force,Work location
+% of workers age 15+ who work at home,workers who work from home,percent_of_workers_age_15_who_work_at_home,2564,,indiv,workforce,Percentage 2,percent_pop,Labour force,Work location
+# of workers age 15+ who have no fixed workplace address,workers with no fixed workplace address,number_of_workers_age_15_who_have_no_fixed_workplace_address,2566,ONE,indiv,workforce,Number,count,Labour force,Work location
+% of workers age 15+ who have no fixed workplace address,workers with no fixed workplace address,percent_of_workers_age_15_who_have_no_fixed_workplace_address,2566,,indiv,workforce,Percentage 2,percent_pop,Labour force,Work location
+Average monthly shelter costs for rented dwellings ($),Average monthly shelter costs for rented dwellings ($),average_monthly_shelter_costs_for_rented_dwellings,378,ONE,households,renter households,Average,Dollar,Housing,Shelter costs
+Median monthly shelter costs for rented dwellings ($),Median monthly shelter costs for rented dwellings ($),median_monthly_shelter_costs_for_rented_dwellings,377,ONE,households,renter households,Average,Dollar,Housing,Shelter costs
+Average monthly shelter costs for owned dwellings ($),Average monthly shelter costs for owned dwellings ($),average_monthly_shelter_costs_for_owned_dwellings,370,ONE,households,owner households,Average,Dollar,Housing,Shelter costs
+Median monthly shelter costs for owned dwellings ($),Median monthly shelter costs for owned dwellings ($),median_monthly_shelter_costs_for_owned_dwellings,369,ONE,households,owner households,Average,Dollar,Housing,Shelter costs
+% of people age 25-64 with a high school diploma,people who have a high school diploma,percent_of_people_age_25_64_with_a_high_school_diploma,2060,2058,indiv,residents aged 25-64,Percentage 2,percent_pop,Education,Attainment
+% of workers who commute for 60 minutes and over,workers who commute for 60 minutes and over,percent_of_workers_who_commute_for_60_minutes_and_over,2586,2581,indiv,workforce,Percentage 2,percent_pop,Commuting,Commute
+# of people who are racialized,racialized,number_of_people_who_are_racialized,1640,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as South Asian,South Asian,number_self_identified_as_south_asian,1641,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Chinese,Chinese,number_self_identified_as_chinese,1642,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Black,Black,number_self_identified_as_black,1643,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Filipino,Filipino,number_self_identified_as_filipino,1644,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Arab,Arab,number_self_identified_as_arab,1645,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Latin American,Latin American,number_self_identified_as_latin_american,1646,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Southeast Asian,Southeast Asian,number_self_identified_as_southeast_asian,1647,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as West Asian,West Asian,number_self_identified_as_west_asian,1648,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as Korean,Korean,number_self_identified_as_korean,1649,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified as  Japanese,Japanese,number_self_identified_as_japanese,1650,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified with 'other' visible minority,other' visible minority,number_self_identified_with_other_visible_minority,1651,ONE,indiv,residents,Number,count,Demographics,Race
+# self-identified with multiple visible minorities,multiple' visible minorities,number_self_identified_with_multiple_visible_minorities,1652,ONE,indiv,residents,Number,count,Demographics,Race
+# of people who are non-racialized,non-racialized,number_of_people_who_are_non_racialized,1653,ONE,indiv,residents,Number,count,Demographics,Race
+% self-identified as South Asian,South Asian,percent_self_identified_as_south_asian,1641,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Chinese,Chinese,percent_self_identified_as_chinese,1642,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Black,Black,percent_self_identified_as_black,1643,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Filipino,Filipino,percent_self_identified_as_filipino,1644,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Arab,Arab,percent_self_identified_as_arab,1645,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Latin American,Latin American,percent_self_identified_as_latin_american,1646,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Southeast Asian,Southeast Asian,percent_self_identified_as_southeast_asian,1647,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as West Asian,West Asian,percent_self_identified_as_west_asian,1648,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as Korean,Korean,percent_self_identified_as_korean,1649,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified as  Japanese,Japanese,percent_self_identified_as_japanese,1650,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified with 'other' visible minority,other' visible minority,percent_self_identified_with_other_visible_minority,1651,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% self-identified with multiple visible minorities,multiple' visible minorities,percent_self_identified_with_multiple_visible_minorities,1652,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+% of people who are non-racialized,non-racialized,percent_of_people_who_are_non_racialized,1653,1639,indiv,residents,Percentage 2,percent_pop,Demographics,Race
+"# households 2020 AT income under $10,000","# households 2020 AT income under $10,000",number_households_2020_at_income_under_10_000,278+279,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $10,000-$19,999","# households 2020 AT income $10,000-$19,999",number_households_2020_at_income_10_000_19_999,280+281,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $20,000 to $29,999","# households 2020 AT income $20,000 to $29,999",number_households_2020_at_income_20_000_to_29_999,282+283,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $30,000 to $39,999","# households 2020 AT income $30,000 to $39,999",number_households_2020_at_income_30_000_to_39_999,284+285,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $40,000 to $49,999","# households 2020 AT income $40,000 to $49,999",number_households_2020_at_income_40_000_to_49_999,286+287,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $50,000 to $59,999","# households 2020 AT income $50,000 to $59,999",number_households_2020_at_income_50_000_to_59_999,288,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $60,000 to $69,999","# households 2020 AT income $60,000 to $69,999",number_households_2020_at_income_60_000_to_69_999,289,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $70,000 to $79,999","# households 2020 AT income $70,000 to $79,999",number_households_2020_at_income_70_000_to_79_999,290,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $80,000 to $89,999","# households 2020 AT income $80,000 to $89,999",number_households_2020_at_income_80_000_to_89_999,291,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $90,000 to $99,999","# households 2020 AT income $90,000 to $99,999",number_households_2020_at_income_90_000_to_99_999,292,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $100,000 to $124,999","# households 2020 AT income $100,000 to $124,999",number_households_2020_at_income_100_000_to_124_999,294,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $125,000 to $149,999","# households 2020 AT income $125,000 to $149,999",number_households_2020_at_income_125_000_to_149_999,295,ONE,households,households,Number,count,Income,Household income bracket
+"# households 2020 AT income $150,000 and over","# households 2020 AT income $150,000 and over",number_households_2020_at_income_150_000_and_over,296,ONE,households,households,Number,count,Income,Household income bracket
+"% households 2020 AT income under $10,000","% households 2020 AT income under $10,000",percent_households_2020_at_income_under_10_000,278+279,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $10,000-$19,999","% households 2020 AT income $10,000-$19,999",percent_households_2020_at_income_10_000_19_999,280+281,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $20,000 to $29,999","% households 2020 AT income $20,000 to $29,999",percent_households_2020_at_income_20_000_to_29_999,282+283,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $30,000 to $39,999","% households 2020 AT income $30,000 to $39,999",percent_households_2020_at_income_30_000_to_39_999,284+285,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $40,000 to $49,999","% households 2020 AT income $40,000 to $49,999",percent_households_2020_at_income_40_000_to_49_999,286+287,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $50,000 to $59,999","% households 2020 AT income $50,000 to $59,999",percent_households_2020_at_income_50_000_to_59_999,288,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $60,000 to $69,999","% households 2020 AT income $60,000 to $69,999",percent_households_2020_at_income_60_000_to_69_999,289,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $70,000 to $79,999","% households 2020 AT income $70,000 to $79,999",percent_households_2020_at_income_70_000_to_79_999,290,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $80,000 to $89,999","% households 2020 AT income $80,000 to $89,999",percent_households_2020_at_income_80_000_to_89_999,291,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $90,000 to $99,999","% households 2020 AT income $90,000 to $99,999",percent_households_2020_at_income_90_000_to_99_999,292,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $100,000 to $124,999","% households 2020 AT income $100,000 to $124,999",percent_households_2020_at_income_100_000_to_124_999,294,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $125,000 to $149,999","% households 2020 AT income $125,000 to $149,999",percent_households_2020_at_income_125_000_to_149_999,295,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+"% households 2020 AT income $150,000 and over","% households 2020 AT income $150,000 and over",percent_households_2020_at_income_150_000_and_over,296,277,households,households,Percentage 2,percent_pop,Income,Household income bracket
+# households 'not suitable' (overcrowded),not suitable' (overcrowded),number_households_not_suitable_overcrowded,322,ONE,households,households,Number,count,Housing,core housing need
+% households 'not suitable' (overcrowded),not suitable' (overcrowded),percent_households_not_suitable_overcrowded,322,320,households,households,Percentage 2,percent_pop,Housing,core housing need
+# households with major repairs needed,in need of major repairs,number_households_with_major_repairs_needed,334,ONE,households,households,Number,count,Housing,core housing need
+% households with major repairs needed,in need of major repairs,percent_households_with_major_repairs_needed,334,332,households,households,Percentage 2,percent_pop,Housing,core housing need
+% of tenant households in subsidized housing,in subsidized housing,percent_of_tenant_households_in_subsidized_housing,374,ONE,households,renter households,Percentage 1,percent_pop,Housing,core housing need
+% of tenant households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,percent_of_tenant_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,375,ONE,households,renter households,Percentage 1,percent_pop,Housing,core housing need
+% of owner households with a mortgage,households with a mortgage,percent_of_owner_households_with_a_mortgage,366,ONE,households,owner households,Percentage 1,percent_pop,Housing,core housing need
+% of owner households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,percent_of_owner_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,367,ONE,households,owner households,Percentage 1,percent_pop,Housing,core housing need
