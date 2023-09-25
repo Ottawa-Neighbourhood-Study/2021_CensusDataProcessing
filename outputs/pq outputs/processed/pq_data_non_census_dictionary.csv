@@ -1,0 +1,50 @@
+﻿Var_Name_clean,type 1,type 2,cat,Var_Name_dirty,data_ID
+Number of convenience stores in the neighbourhood (plus 50m buffer),Number,Number,Food environment,food_convenience_num_region_plus_buffer,VAR100
+Number of convenience stores in the neighbourhood per 1000 people (plus 50m buffer),Number,Number per 1000,Food environment,food_convenience_num_per_1000_res_plus_buffer,VAR101
+Average distance to closest three convenience stores (population-weighted),Number,Distance,Food environment,food_convenience_dist_closest_3_popwt,VAR102
+Percent of population within a 15-minute walk of a convenience store,Percentage 2,Percentage within distance,Food environment,food_convenience_pct_within_15_mins,VAR103
+Number of fast food restaurants in the neighbourhood (plus 50m buffer),Number,Number,Food environment,food_fastfood_num_region_plus_buffer,VAR104
+Number of fast food restaurants in the neighbourhood per 1000 people (plus 50m buffer),Number,Number per 1000,Food environment,food_fastfood_num_per_1000_res_plus_buffer,VAR105
+Average distance to closest three fast food restaurants (population-weighted),Number,Distance,Food environment,food_fastfood_dist_closest_3_popwt,VAR106
+Percent of population within a 15-minute walk of a fast food restaurant,Percentage 2,Percentage within distance,Food environment,food_fastfood_pct_within_15_mins,VAR107
+Number of grocery stores in the neighbourhood (plus 50m buffer),Number,Number,Food environment,food_grocery_num_region_plus_buffer,VAR108
+Number of grocery stores in the neighbourhood per 1000 people (plus 50m buffer),Number,Number per 1000,Food environment,food_grocery_num_per_1000_res_plus_buffer,VAR109
+Average distance to closest three grocery stores (population-weighted),Number,Distance,Food environment,food_grocery_dist_closest_3_popwt,VAR110
+Percent of population within a 15-minute walk of a grocery store,Percentageage 2,Percentage within distance,Food environment,food_grocery_pct_within_15_mins,VAR111
+Number of restaurants in the neighbourhood (plus 50m buffer),Number,Number,Food environment,food_resto_num_region_plus_buffer,VAR112
+Number of restaurants in the neighbourhood per 1000 people (plus 50m buffer),Number,Number per 1000,Food environment,food_resto_num_per_1000_res_plus_buffer,VAR113
+Average distance to closest three restaurants (population-weighted),Number,Distance,Food environment,food_resto_dist_closest_3_popwt,VAR114
+Percent of population within a 15-minute walk of a restaurant,Percentage 2,Percentage within distance,Food environment,food_resto_pct_within_15_mins,VAR115
+Number of specialty food stores in the neighbourhood (plus 50m buffer),Number,Number,Food environment,food_specialty_num_region_plus_buffer,VAR116
+Number of specialty food stores in the neighbourhood per 1000 people (plus 50m buffer),Number,Number per 1000,Food environment,food_specialty_num_per_1000_res_plus_buffer,VAR117
+Average distance to closest three specialty food stores (population-weighted),Number,Distance,Food environment,food_specialty_dist_closest_3_popwt,VAR118
+Percent of population within a 15-minute walk of a specialty food store,Percentage 2,Percentage within distance,Food environment,food_specialty_pct_within_15_mins,VAR119
+Number of people attached to a primary care physician,Number,Number,Primary care attachment,num_people_attached,VAR120
+Number of people uncertainly attached to a primary care physician,Number,Number,Primary care attachment,num_people_uncertainly_attached,VAR121
+Percent of people attached to a primary care physician,Number,Number,Primary care attachment,total_population_attachment,VAR122
+Percent of people attached to a primary care physician,Percentage 1,Percentage of pop,Primary care attachment,percent_attached,VAR123
+Percent of people uncertainly attached to a primary care physician,Percentage 1,Percentage of pop,Primary care attachment,percent_uncertaintly_attached,VAR124
+Number of crimes against the person,Number,Number,Crime and safety,crime_person_total,VAR125
+Number of property crimes,Number,Number,Crime and safety,crime_property_total,VAR126
+Number of other crimes,Number,Number,Crime and safety,crime_other_total,VAR127
+Number of total crimes,Number,Number,Crime and safety,crime_total,VAR128
+Number of crimes against the person per 1000 people (plus 50m buffer),Number,Number per 1000,Crime and safety,crime_person_total_per_1000pop_plus_50m_buffer,VAR129
+Number of property crimes per 1000 people (plus 50m buffer),Number,Number per 1000,Crime and safety,crime_property_total_per_1000pop_plus_50m_buffer,VAR130
+Number of other crimes per 1000 people (plus 50m buffer),Number,Number per 1000,Crime and safety,crime_other_total_per_1000pop_plus_50m_buffer,VAR131
+Number of total crimes per 1000 people (plus 50m buffer),Number,Number per 1000,Crime and safety,crime_total_per_1000pop_plus_50m_buffer,VAR132
+Mean walk score,Average,Average,Transportation,walkscore_mean,VAR133
+Mean bike score,Average,Average,Transportation,bikescore_mean,VAR134
+SES index rank order,Rank,Rank,SES index,SES_Rank_order,VAR135
+SES index decile,Rank,Rank,SES index,SES_Deciles,VAR136
+SES index quintile,Rank,Rank,SES index,SeS_Quintiles,VAR137
+Percent tree canopy coverage,Percentage 1,Percentage of area,Environment,Percent_coverage_tree canopy,VAR138
+Percent of residential area covered in parkland,Percentage 1,Percentage of area,Environment,Percent_coverage_parkland_residential,VAR139
+Pedestrian network density (km per km squared),Number,Density,Transport networks,Pedestrian_Network_Density_km_per_km2,VAR140
+Cycling network density (km per km squared),Number,Density,Transport networks,Cycling_Network_Density_km_per_km2,VAR141
+Trail network density (km per km squared),Number,Density,Transport networks,Trail_Network_Density_km_per_km2,VAR142
+Number of residents within a 15-minute walk of a CHC,Number,Number,CHC access,Number_of_Residents_within_15_mins_chc,VAR143
+Percent of residents within a 15-minute walk of a CHC,Percentage 1,Percentage within distance,CHC access,Residents_within_15_min_walk_%_chc,VAR144
+Average distance to the nearest CHC (km),Number,Distance,CHC access,Average_distance_to_nearest_chc_km,VAR145
+Total population (2021),Number,Number,General demographics,pop2021_total,VAR146
+Number of private dwellings,Number,Number,General demographics,dwellings_priv_count,VAR147
+Number of households,Number,Number,General demographics,household_count,VAR148
