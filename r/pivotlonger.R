@@ -10,6 +10,7 @@ youth_raw<- read_csv("outputs/pq outputs/processed/quintiles/modified/Quintiles_
 newcomers_raw<-read_csv("outputs/pq outputs/processed/quintiles/modified/Quintiles_Newcomers20162021.csv")
 racialized_raw<-read_csv("outputs/pq outputs/processed/quintiles/modified/Quintiles_Racialized.csv")
 noncensus<-read_csv("data/PQ data/pq_data_non_census_wide.csv")
+noncensusQuintiles<-read_csv("outputs/pq outputs/processed/quintiles/Quintiles_NON_census.csv")
 
 #long
 long_gen<-pivot_longer(genpop_raw,2:ncol(genpop_raw))
@@ -18,9 +19,10 @@ long_youth<-pivot_longer(youth_raw,2:ncol(youth_raw))
 long_newcomers<-pivot_longer(newcomers_raw,2:ncol(newcomers_raw))
 long_racial<-pivot_longer(racialized_raw,2:ncol(racialized_raw))
 long_noncensus<-pivot_longer(noncensus,2:ncol(noncensus))
+long_noncensusQs<-pivot_longer(noncensusQuintiles,2:ncol(noncensusQuintiles))
 
 #rounding values to two decimals
-long_noncensus$value <-round(long_noncensus$value,2)
+# not for quintiles... long_noncensus$value <-round(long_noncensus$value,2)
 
 #writeing long file
 write_csv(long_gen,"outputs/pq outputs/processed/quintiles/modified/long_Quintiles_genpop.csv")
@@ -29,8 +31,7 @@ write_csv(long_youth,"outputs/pq outputs/processed/quintiles/modified/long_Quint
 write_csv(long_newcomers,"outputs/pq outputs/processed/quintiles/modified/long_Quintiles_Newcomers20162021.csv")
 write_csv(long_racial,"outputs/pq outputs/processed/quintiles/modified/long_Quintiles_Racialized.csv")
 
-write_csv(long_noncensus,"outputs/pq outputs/processed/long_NONcensus2023-09-12.csv")
-
+write_csv(long_noncensusQs,"outputs/pq outputs/processed/long_NONcensusQUINTILES_2023-09-12.csv")
 
 
 stats_gen<- read_csv("outputs/pq outputs/processed/quintiles/forQs_genpop.csv")

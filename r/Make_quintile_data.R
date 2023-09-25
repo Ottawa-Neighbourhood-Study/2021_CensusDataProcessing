@@ -13,6 +13,7 @@ filetouse<- "outputs/pq outputs/CLEAN_2021_census_extract-2023-09-14.csv"
 #create clean data file (insert source file for each here above)
 raw_file <- read_csv(filetouse)
 
+
 #Move ONS id to front
 raw_file<-raw_file%>%
   relocate("ONS_ID",.before = name)
@@ -33,17 +34,14 @@ clean_file<-clean_file %>%
 
 clean_file[1,1]="VAR_ID"
 colnames(clean_file) <- clean_file[1,]
-clean_file<- clean_file[-1,]
+clean_file<- clean_file[-1,] #remove first row of ONS ID
 colnames(clean_file)
+
 
 clean_file<-as.tibble(clean_file)
 colnames(clean_file)
 clean_file<-clean_file[-1,]
 
-
-
-####IGNORE THIS PART IF YOU ALREADY SUBSET YOUR DICTIONARY######
-#subsetting dictionary to include only %
 Percentages1<- filter(dictionary_indiv, grepl("Percentage",dictionary_indiv$type,))
 Percentages2<- filter(dictionary_indiv, grepl("Median",dictionary_indiv$type,))
 Percentages3<- filter(dictionary_indiv, grepl("Average",dictionary_indiv$type,))
@@ -67,9 +65,13 @@ comparable_data<- left_join(
 # comparable_data<- clean_file    ---a little different for the non-census data here
 comparable_data2 <- as.data.frame(t(comparable_data))
 colnames(comparable_data2)<- comparable_data2[1,]
+
+
+
 comparable_data2 <- comparable_data2[-1,]
 compare3 <-comparable_data2[-c(1,2,3,4,5,6,7,8,9),]
 
+compare3_backup<-compare3
 #convert to numeric
 ncol(compare3)
 nrow(compare3)
@@ -90,13 +92,19 @@ for (i in 1:(ncol(ranked))) {
   print(ranked[,i])
 }
 
+print(ranked[,2])
+
 #check last column of data
 ncol(ranked)
 colnames(ranked[ncol(ranked)])
 print(ranked[,(ncol(ranked))])
 
 
+ncol(ranked)
 #quintiles
+
+ranked_backup=ranked
+
 x <- ncol(ranked)
 for (i in 1:x) {
   ranked[,i] <- ifelse(ranked[,i]<22.5,"Q1",
@@ -107,14 +115,23 @@ for (i in 1:x) {
   print(ranked[,i])
 }
 
-#transpose
-quintiles<- as.data.frame(t(ranked))
-quintiles<-quintiles %>%
-  mutate(VAR_ID= rownames(quintiles)
-         )
+#transpose - not sure if this part below belongs or not (resolving conflicts)
+#quintiles<- as.data.frame(t(ranked))
+#quintiles<-quintiles %>%
+#  mutate(VAR_ID= rownames(quintiles)) %>% 
+#  relocate("VAR_ID",.before = "3002")
+#
+#compare3 <- as.data.frame(compare3) %>%
+#  t()
+
 quintiles<-quintiles%>% 
   relocate("VAR_ID",.before = "3002")
 
+#colnames(compare3)
 
-write_csv(quintiles,"outputs/pq outputs/processed/quintiles/FINAL_Quintiles_CensusProfile.csv")
+#write CSV
+file_name <- paste0("outputs/pq outputs/processed/quintiles/FINAL_Quintiles_CensusProfile-", Sys.Date(),".csv")
+readr::write_csv(quintiles, file_name)
+message("Results saved to ", file_name)
+
 
