@@ -4,6 +4,7 @@ library(tidyr)
 library(tidyverse)
 library(dplyr)
 
+
 #create dictionary for quintile-able data only
 quintile_dictionary<- as.tibble(read_csv("data/PQ data/Dictionaries/v2_PQ_non-census_dictionary-2023-09-27.csv"))
 
@@ -34,6 +35,9 @@ nrow(quintile_dictionary)
 #filter dictionary by quintilable
 
 quintile_dictionary2 <- filter(quintile_dictionary, Quintilable == "yes")
+
+#need to transpose the clean file so that data_IDs are a column, so it can be
+#joined with the data dictionary
 
 clean_file2<- as.data.frame(raw_file %>%
                              t())
@@ -103,6 +107,18 @@ for (i in 1:x) {
 }
 
 #count how many Q1s, Q2, Q3, etc. for each column. Look up how to do
+
+ranked_count <- ranked |>
+    count(food_convenience_num_per_1000_res_plus_buffer)
+
+#Count how many Q1s, Q2, Q3, etc. in all columns
+
+ranked_long <- gather(ranked, variable, quintile, 
+                      food_convenience_num_per_1000_res_plus_buffer:Average_distance_to_nearest_chc_km, factor_key=FALSE)
+
+ranked_count2 <- ranked_long |>
+    count(quintile)
+print (ranked_count2)
 
 
 #transpose - not sure if this part below belongs or not (resolving conflicts)
