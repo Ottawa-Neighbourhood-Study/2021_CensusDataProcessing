@@ -1,7 +1,24 @@
-﻿Quintile,food_convenience_num_per_1000_res_plus_buffer,food_convenience_dist_closest_3_popwt,food_convenience_pct_within_15_mins,food_fastfood_num_per_1000_res_plus_buffer,food_fastfood_dist_closest_3_popwt,food_fastfood_pct_within_15_mins,food_grocery_num_per_1000_res_plus_buffer,food_grocery_dist_closest_3_popwt,food_grocery_pct_within_15_mins,food_resto_num_per_1000_res_plus_buffer,food_resto_dist_closest_3_popwt,food_resto_pct_within_15_mins,food_specialty_num_per_1000_res_plus_buffer,food_specialty_dist_closest_3_popwt,food_specialty_pct_within_15_mins,percent_attached,percent_uncertaintly_attached,crime_person_total_per_1000pop_plus_50m_buffer,crime_property_total_per_1000pop_plus_50m_buffer,crime_other_total_per_1000pop_plus_50m_buffer,crime_total_per_1000pop_plus_50m_buffer,walkscore_mean,bikescore_mean,Percent_coverage_tree canopy,Percent_coverage_parkland_residential,Pedestrian_Network_Density_km_per_km2,Cycling_Network_Density_km_per_km2,Trail_Network_Density_km_per_km2,Residents_within_15_min_walk_%_chc,Average_distance_to_nearest_chc_km,Sum
+﻿"Cutoff 1: Q1=22.5, intervals of 21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quintile,food_convenience_num_per_1000_res_plus_buffer,food_convenience_dist_closest_3_popwt,food_convenience_pct_within_15_mins,food_fastfood_num_per_1000_res_plus_buffer,food_fastfood_dist_closest_3_popwt,food_fastfood_pct_within_15_mins,food_grocery_num_per_1000_res_plus_buffer,food_grocery_dist_closest_3_popwt,food_grocery_pct_within_15_mins,food_resto_num_per_1000_res_plus_buffer,food_resto_dist_closest_3_popwt,food_resto_pct_within_15_mins,food_specialty_num_per_1000_res_plus_buffer,food_specialty_dist_closest_3_popwt,food_specialty_pct_within_15_mins,percent_attached,percent_uncertaintly_attached,crime_person_total_per_1000pop_plus_50m_buffer,crime_property_total_per_1000pop_plus_50m_buffer,crime_other_total_per_1000pop_plus_50m_buffer,crime_total_per_1000pop_plus_50m_buffer,walkscore_mean,bikescore_mean,Percent_coverage_tree canopy,Percent_coverage_parkland_residential,Pedestrian_Network_Density_km_per_km2,Cycling_Network_Density_km_per_km2,Trail_Network_Density_km_per_km2,Residents_within_15_min_walk_%_chc,Average_distance_to_nearest_chc_km,Sum
 Q1,22,22,22,22,22,22,0,22,22,22,22,22,39,22,22,22,22,22,22,22,22,22,22,22,21,22,22,22,0,22,632
 Q2,21,21,21,21,21,21,49,21,21,21,21,21,4,20,21,21,20,21,21,21,21,21,21,21,22,21,21,21,70,21,689
 Q3,22,21,21,21,21,21,15,21,21,21,21,21,21,22,21,21,22,21,21,21,21,21,21,21,21,21,21,20,0,21,605
 Q4,20,21,15,21,21,3,21,21,21,21,21,10,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,22,15,21,589
 Q5,30,24,30,30,24,42,30,24,24,30,24,35,30,24,24,21,21,31,31,31,29,31,30,31,25,31,31,31,30,30,859
 NA,1,7,7,1,7,7,1,7,7,1,7,7,1,7,7,10,10,0,0,0,2,0,1,0,6,0,0,0,1,1,106
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cutoff 2: intervals of 23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Q1,22,22,22,22,22,22,0,22,22,22,22,22,39,22,22,22,22,22,22,22,22,22,22,22,23,22,22,22,0,22,
+Q2,22,22,22,22,22,22,49,22,22,22,22,22,5,22,22,23,23,22,22,22,22,22,22,22,21,22,22,22,70,22,
+Q3,22,22,22,22,22,22,17,22,22,22,22,22,22,22,22,21,22,22,22,22,22,22,22,22,22,22,22,22,0,22,
+Q4,22,22,13,22,22,43,22,22,22,22,22,8,22,22,22,23,21,22,22,22,22,22,22,22,22,22,22,22,18,22,
+Q5,27,21,30,27,21,0,27,21,21,27,21,35,27,21,21,17,18,28,28,28,26,28,27,28,22,28,28,28,27,27,
+NA,1,7,7,1,7,7,1,7,7,1,7,7,1,7,7,10,10,0,0,0,2,0,1,0,6,0,0,0,1,1,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cutoff 3: intervals of 23.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Q1,23,23,23,23,23,23,0,23,23,23,23,23,39,23,23,22,22,23,23,23,23,23,23,23,23,23,23,23,0,23,
+Q2,23,24,23,23,23,23,49,23,23,23,23,23,7,23,24,24,24,23,23,23,23,23,23,23,23,23,23,23,70,23,
+Q3,24,23,24,24,24,21,21,24,24,24,24,24,24,24,23,23,24,24,24,24,24,24,24,24,24,24,24,24,0,24,
+Q4,23,23,9,23,23,42,23,23,23,23,23,39,23,23,21,24,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
+Q5,22,16,30,22,16,0,22,16,16,22,16,0,22,16,18,13,13,23,23,23,21,23,22,23,17,23,23,23,22,22,
+NA,1,7,7,1,7,7,1,7,7,1,7,7,1,7,7,10,10,0,0,0,2,0,1,0,6,0,0,0,1,1,

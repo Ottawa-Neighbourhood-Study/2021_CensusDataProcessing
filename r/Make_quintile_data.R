@@ -99,10 +99,10 @@ ranked_backup=ranked
 x <- ncol(ranked)
 for (i in 1:x) {
   ranked[,i] <- ifelse(ranked[,i]<22.5,"Q1",
-                       ifelse(ranked[,i]<43.5,"Q2",
-                              ifelse(ranked[,i]<64.5,"Q3",
-                                     ifelse(ranked[,i]<85.5,"Q4",
-                                            ifelse(ranked[,i]>85.49,"Q5","MISTAKE!")))))
+                       ifelse(ranked[,i]<44.5,"Q2",
+                              ifelse(ranked[,i]<66.5,"Q3",
+                                     ifelse(ranked[,i]<88.5,"Q4",
+                                            ifelse(ranked[,i]>88.49,"Q5","MISTAKE!")))))
   print(ranked[,i])
 }
 
