@@ -1,4 +1,4 @@
-﻿Var_Name_clean,type 1,type 2,cat,Quintilable?,data_ID
+﻿Var_Name_clean,type 1,type 2,cat,Quintilable,data_ID
 Number of convenience stores in the neighbourhood per 1000 people (plus 50m buffer),Rate,per 1000,Food environment,yes,food_convenience_num_per_1000_res_plus_buffer
 Average distance to closest three convenience stores (population-weighted),Average distance,to nearest 3,Food environment,yes,food_convenience_dist_closest_3_popwt
 Percent of population within a 15-minute walk of a convenience store,Percentage 2,Within 15 min,Food environment,yes,food_convenience_pct_within_15_mins
