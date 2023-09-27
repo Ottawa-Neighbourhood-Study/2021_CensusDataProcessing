@@ -5,7 +5,7 @@ library(tidyverse)
 library(dplyr)
 
 #create dictionary for quintile-able data only
-quintile_dictionary<- as.tibble(read_csv("data/PQ data/subset_quintile_PQ_dictionary_censusprofile.csv"))
+quintile_dictionary<- as.tibble(read_csv("data/PQ data/Dictionaries/v2_PQ_non-census_dictionary-2023-09-27.csv"))
 
 
 #data

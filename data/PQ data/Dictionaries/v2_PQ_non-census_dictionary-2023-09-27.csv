@@ -1,0 +1,42 @@
+﻿Var_Name_clean,type 1,type 2,cat,Quintilable?,data_ID
+Number of convenience stores in the neighbourhood per 1000 people (plus 50m buffer),Rate,per 1000,Food environment,yes,food_convenience_num_per_1000_res_plus_buffer
+Average distance to closest three convenience stores (population-weighted),Average distance,to nearest 3,Food environment,yes,food_convenience_dist_closest_3_popwt
+Percent of population within a 15-minute walk of a convenience store,Percentage 2,Within 15 min,Food environment,yes,food_convenience_pct_within_15_mins
+Number of fast food restaurants in the neighbourhood per 1000 people (plus 50m buffer),Rate,per 1000,Food environment,yes,food_fastfood_num_per_1000_res_plus_buffer
+Average distance to closest three fast food restaurants (population-weighted),Average distance,to nearest 3,Food environment,yes,food_fastfood_dist_closest_3_popwt
+Percent of population within a 15-minute walk of a fast food restaurant,Percentage 2,Within 15 min,Food environment,yes,food_fastfood_pct_within_15_mins
+Number of grocery stores in the neighbourhood per 1000 people (plus 50m buffer),Rate,per 1000,Food environment,yes,food_grocery_num_per_1000_res_plus_buffer
+Average distance to closest three grocery stores (population-weighted),Average distance,to nearest 3,Food environment,yes,food_grocery_dist_closest_3_popwt
+Percent of population within a 15-minute walk of a grocery store,Percentageage 2,Within 15 min,Food environment,yes,food_grocery_pct_within_15_mins
+Number of restaurants in the neighbourhood per 1000 people (plus 50m buffer),Rate,per 1000,Food environment,yes,food_resto_num_per_1000_res_plus_buffer
+Average distance to closest three restaurants (population-weighted),Average distance,to nearest 3,Food environment,yes,food_resto_dist_closest_3_popwt
+Percent of population within a 15-minute walk of a restaurant,Percentage 2,Within 15 min,Food environment,yes,food_resto_pct_within_15_mins
+Number of specialty food stores in the neighbourhood per 1000 people (plus 50m buffer),Rate,per 1000,Food environment,yes,food_specialty_num_per_1000_res_plus_buffer
+Average distance to closest three specialty food stores (population-weighted),Average distance,to nearest 3,Food environment,yes,food_specialty_dist_closest_3_popwt
+Percent of population within a 15-minute walk of a specialty food store,Percentage 2,Within 15 min,Food environment,yes,food_specialty_pct_within_15_mins
+Percent of people attached to a primary care physician,Percentage 1,of population,Primary care attachment,yes,percent_attached
+Percent of people uncertainly attached to a primary care physician,Percentage 1,of population,Primary care attachment,yes,percent_uncertaintly_attached
+Number of crimes against the person,Count,Number,Crime and safety,no,crime_person_total
+Number of property crimes,Count,Number,Crime and safety,no,crime_property_total
+Number of other crimes,Count,Number,Crime and safety,no,crime_other_total
+Number of total crimes,Count,Number,Crime and safety,no,crime_total
+Number of crimes against the person per 1000 people (plus 50m buffer),Rate,per 1000,Crime and safety,yes,crime_person_total_per_1000pop_plus_50m_buffer
+Number of property crimes per 1000 people (plus 50m buffer),Rate,per 1000,Crime and safety,yes,crime_property_total_per_1000pop_plus_50m_buffer
+Number of other crimes per 1000 people (plus 50m buffer),Rate,per 1000,Crime and safety,yes,crime_other_total_per_1000pop_plus_50m_buffer
+Number of total crimes per 1000 people (plus 50m buffer),Rate,per 1000,Crime and safety,yes,crime_total_per_1000pop_plus_50m_buffer
+Mean walk score,Average,Average,Transportation,yes,walkscore_mean
+Mean bike score,Average,Average,Transportation,yes,bikescore_mean
+SES index rank order,Rank,Rank order,SES index,no,SES_Rank_order
+SES index decile,Rank,Decile,SES index,no,SES_Deciles
+SES index quintile,Rank,Quintile,SES index,no,SeS_Quintiles
+Percent tree canopy coverage,Percentage 1,area coverage,Environment,yes,Percent_coverage_tree canopy
+Percent of residential area covered in parkland,Percentage 1,area coverage,Environment,yes,Percent_coverage_parkland_residential
+Pedestrian network density (km per km squared),Rate,km per km2,Transport networks,yes,Pedestrian_Network_Density_km_per_km2
+Cycling network density (km per km squared),Rate,km per km2,Transport networks,yes,Cycling_Network_Density_km_per_km2
+Trail network density (km per km squared),Rate,km per km2,Transport networks,yes,Trail_Network_Density_km_per_km2
+Number of residents within a 15-minute walk of a CHC,Count,Within 15 min,CHC access,no,Number_of_Residents_within_15_mins_chc
+Percent of residents within a 15-minute walk of a CHC,Percentage 1,Within 15 min,CHC access,yes,Residents_within_15_min_walk_%_chc
+Average distance to the nearest CHC (km),Average distance,to nearest,CHC access,yes,Average_distance_to_nearest_chc_km
+Total population (2021),Count,Number,General demographics,no,pop2021_total
+Number of private dwellings,Count,Number,General demographics,no,dwellings_priv_count
+Number of households,Count,Number,General demographics,no,household_count
