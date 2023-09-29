@@ -39,7 +39,7 @@ quintile_dictionary2 <- filter(quintile_dictionary, Quintilable == "yes")
 #need to transpose the clean file so that data_IDs are a column, so it can be
 #joined with the data dictionary
 
-clean_file2<- as.data.frame(raw_file %>%
+clean_file2<- as.data.frame(clean_file %>%
                              t())
 
 clean_file3 <- clean_file2 |>
@@ -109,12 +109,12 @@ for (i in 1:x) {
 #count how many Q1s, Q2, Q3, etc. for each column. Look up how to do
 
 ranked_count <- ranked |>
-    count(food_convenience_num_per_1000_res_plus_buffer)
+    count(percent_attached)
 
 #Count how many Q1s, Q2, Q3, etc. in all columns
 
 ranked_long <- gather(ranked, variable, quintile, 
-                      food_convenience_num_per_1000_res_plus_buffer:Average_distance_to_nearest_chc_km, factor_key=FALSE)
+                      percent_attached:moneylender_pct_within_15_mins, factor_key=FALSE)
 
 ranked_count2 <- ranked_long |>
     count(quintile)
@@ -132,7 +132,7 @@ print (ranked_count2)
 
 quintiles<-ranked %>%
   mutate(ONS_ID= rownames(ranked)) %>% 
-  relocate("ONS_ID",.before = "food_convenience_num_per_1000_res_plus_buffer")
+  relocate("ONS_ID",.before = "percent_attached")
 
 #colnames(compare3)
 
