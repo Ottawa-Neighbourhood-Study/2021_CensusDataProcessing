@@ -8,14 +8,14 @@ library(data.table)
 # #load readr
 # # read_csv for tibble
 
-tgp_format1 <- read_csv("data/PQ data/tgp_immigrant_2011_2015.csv", locale=locale(encoding="latin1")) #change here
+tgp_format1 <- read_csv("data/PQ data/WIDE_data/tgp_indigenous_all.csv", locale=locale(encoding="latin1")) #change here
 
 #Try to mutate all columns in immigrant TGP to numeric
 tgp_format2 <-  tgp_format1 %>% 
   mutate(across(-c("Data_ID", "Age (33P)"), as.numeric))
 
 
-filename3 <- paste0("data/PQ data/tgp_immigrant_2011_2015.csv") #change_here
+filename3 <- paste0("data/PQ data/WIDE_data/tgp_indigenous_all.csv") #change_here
 readr::write_csv(tgp_format2, filename3)
 message("Results saved to ", filename3)
 
@@ -23,7 +23,7 @@ message("Results saved to ", filename3)
 calculate_ses_indices()
 
 #PART 2- clean the results file and isolate Ottawa neighbourhoods
-dirty_diction <- read_csv("data/PQ data/pq_data_dictionary_tgp.csv") #change_here the data dictionary
+dirty_diction <- read_csv("data/PQ data/Dictionaries/PQ_dictionary_censusprofile_tgp.csv") #change_here the data dictionary
 dirty_diction2<- transpose(dirty_diction)
 colnames(dirty_diction2)<- dirty_diction2[1,]
 
@@ -43,9 +43,9 @@ message("Results saved to ", filename2)
 
 
 # load data
-dirty_data<- read_csv("outputs/pq_tgp_visible_min_south_asian_2023-09-08.csv") #change_here
+dirty_data<- read_csv("outputs/tgp_indigenous_2023-10-27.csv") #change_here
 # remove non-ONS hoods
-dirty2<-dirty_data[grep("ons2022", dirty_data$name),]
+dirty2<-dirty_data[grep("ons2022|ottawa_census_division", dirty_data$name),]
 
 # remove census jargon
 dirty2$name <- gsub("\\_00000.*", "", dirty2$name)
@@ -63,11 +63,11 @@ dirty3<-dirty2 %>%
     ONS_ID = as.numeric(substr(dirty2$name, nchar(dirty2$name) - n_last + 1, nchar(dirty2$name))))
 
 #filter Ottawa hoods based on ONS_ID and drop NA cases
-clean<- dirty3[dirty3$ONS_ID < 3400,]
+clean<- dirty3[dirty3$ONS_ID < 3200|dirty3$ONS_ID == 3506,]
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_pq_tgp_visible_min_south_asian-", Sys.Date(),".csv") #change_here
+filename2 <- paste0("outputs/clean_tgp_indigenous_all-", Sys.Date(),".csv") #change_here
 readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
 
@@ -82,8 +82,8 @@ num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv"
 
 
 #change_here
-calculate_ses_indices <- function(raw_data_filename = "data/PQ data/tgp_visible_min_south_asian.csv", num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv") {
-  nameoffile <- "pq_tgp_visible_min_south_asian_" #change_here
+calculate_ses_indices <- function(raw_data_filename = "data/PQ data/WIDE_data/tgp_indigenous_all.csv", num_den_filename = "data/PQ data/Dictionaries/PQ_dictionary_censusprofile_tgp.csv") {
+  nameoffile <- "tgp_indigenous_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
