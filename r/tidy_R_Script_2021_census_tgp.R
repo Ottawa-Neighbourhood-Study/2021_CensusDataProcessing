@@ -43,7 +43,7 @@ message("Results saved to ", filename2)
 
 
 # load data
-dirty_data<- read_csv("outputs/tgp_indigenous_2023-10-27.csv") #change_here
+dirty_data<- read_csv("outputs/tgp_lim-at.csv") #change_here
 # remove non-ONS hoods
 dirty2<-dirty_data[grep("ons2022|ottawa_census_division", dirty_data$name),]
 
@@ -67,7 +67,7 @@ clean<- dirty3[dirty3$ONS_ID < 3200|dirty3$ONS_ID == 3506,]
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_tgp_indigenous_all-", Sys.Date(),".csv") #change_here
+filename2 <- paste0("outputs/clean_lim-at-", Sys.Date(),".csv") #change_here
 readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
 
@@ -82,8 +82,8 @@ num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv"
 
 
 #change_here
-calculate_ses_indices <- function(raw_data_filename = "data/PQ data/WIDE_data/tgp_indigenous_all.csv", num_den_filename = "data/PQ data/Dictionaries/PQ_dictionary_censusprofile_tgp.csv") {
-  nameoffile <- "tgp_indigenous_" #change_here
+calculate_ses_indices <- function(raw_data_filename = "data/PQ data/WIDE_data/tgp_lim-at.csv", num_den_filename = "data/PQ data/Dictionaries/PQ_dictionary_censusprofile_tgp.csv") {
+  nameoffile <- "tgp_lim-at_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
@@ -222,3 +222,4 @@ create_synthetic_numerator <- function( data_pivoted, numerator_index,  num_inde
   return(data_pivoted)
   
 }
+

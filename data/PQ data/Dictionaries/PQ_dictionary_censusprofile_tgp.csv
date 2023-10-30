@@ -1,7 +1,11 @@
 ﻿variables,secondhalfname,Data_ID,Numerator,Denominator,pop1,pop2,Type1,Type2,Category1,Category 2
 Total population,Total population,total_population,1,ONE,indiv,residents,Number,count,Demographics,Age
+# of children age 0-14,# of children age 0-14,number_of_children_age_0_14,2,ONE,indiv,residents,Number,count,Demographics,Age
+% of pop that are children age 0-14,children age 0-14,percent_of_pop_that_are_children_age_0_14,2,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
 # of youth age 15-24,# of youth age 15-24,number_of_youth_age_15_24,7+8,ONE,indiv,residents,Number,count,Demographics,Age
-% of of pop that are youth age 15-24,youth age 15-24,percent_of_of_pop_that_are_youth_age_15_24,7+8,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
+% of pop that are youth age 15-24,youth age 15-24,percent_of_pop_that_are_youth_age_15_24,7+8,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
+# of adults age 25-64,# of adults age 25-64,number_of_adults_age_25_64,9+10+11+12+13+14+15+16,ONE,indiv,residents,Number,count,Demographics,Age
+% of pop that are adults age 25-64,adults age 25-64,percent_of_pop_that_are_adults_age_25_64,9+10+11+12+13+14+15+16,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
 % of pop that are seniors 65+,seniors 65+,percent_of_pop_that_are_seniors_65,17,1,indiv,residents,Percentage 1,percent_pop,Demographics,Age
 % of pop that are recent immigrants (arr. 2016-2021),recent immigrants (arr. 2016-2021),percent_of_pop_that_are_recent_immigrants_arr_2016_2021,1281,1272,indiv,residents,Percentage 2,percent_pop,Immigration,Immigration
 % of pop that are immigrants,immigrants,percent_of_pop_that_are_immigrants,1274,1272,indiv,residents,Percentage 2,percent_pop,Immigration,Immigration
@@ -45,9 +49,9 @@ Median age of the population,Median age of the population,median_age_of_the_popu
 # of recent immigrants (arr. 2016-2021),recent immigrants (arr. 2016-2021),number_of_recent_immigrants_arr_2016_2021,1281,ONE,indiv,residents,Number,count,Immigration,Immigration
 # of people with knowledge of neither English nor French,people with knowledge of neither English nor French,number_of_people_with_knowledge_of_neither_english_nor_french,218,ONE,indiv,residents,Number,count,Language,Knowledge of official languages
 # of people with French as a language most spoken at home,people with French as a language most spoken at home,number_of_people_with_french_as_a_language_most_spoken_at_home,570+892+894+895,ONE,indiv,residents,Number,count,Language,Knowledge of official languages
-% of people with French as a language most spoken at home,people with French as a language most spoken at home,percent_of_people_with_french_as_a_language_most_spoken_at_home,570+892+894+895,777,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
+% of people with French as a language most spoken at home,people with French as a language most spoken at home,percent_of_people_with_french_as_a_language_most_spoken_at_home,570+892+894+895,566,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
 # of people with knowledge of only French as an official language,people with knowledge of only French as an official language,number_of_people_with_knowledge_of_only_french_as_an_official_language,216,ONE,indiv,residents,Number,count,Language,Knowledge of official languages
-% of people with knowledge of only French as an official language,people with knowledge of only French as an official language,percent_of_people_with_knowledge_of_only_french_as_an_official_language,216,425,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
+% of people with knowledge of only French as an official language,people with knowledge of only French as an official language,percent_of_people_with_knowledge_of_only_french_as_an_official_language,216,214,indiv,residents,Percentage 2,percent_pop,Language,Knowledge of official languages
 "# of workers age 15+ who commute by car, truck, or van","workers who commute by car, truck, or van",number_of_workers_age_15_who_commute_by_car_truck_or_van,2363,ONE,indiv,workforce,Number,count,Labour force,Commute
 "% of workers age 15+ who commute by car, truck, or van","workers who commute by car, truck, or van",percent_of_workers_age_15_who_commute_by_car_truck_or_van,2363,2362,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
 # of workers age 15+ who commute by public transit,workers who commute by public transit,number_of_workers_age_15_who_commute_by_public_transit,2366,ONE,indiv,workforce,Number,count,Labour force,Commute
