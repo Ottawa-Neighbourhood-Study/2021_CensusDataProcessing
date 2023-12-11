@@ -50,7 +50,7 @@ Average after-tax income of all economic families,Average after-tax income of al
 Average after-tax income of couple-with-children economic families,Average after-tax income of couple-with-children economic families,average_after_tax_income_of_couple_with_children_economic_families,416,ONE,households,couple-with-children families,Average,Dollar,Income,family after-tax income
 Average age of the population,Average age of the population,average_age_of_the_population,32,ONE,indiv,residents,Average,Age,Demographics,Age
 Median age of the population,Median age of the population,median_age_of_the_population,33,ONE,indiv,residents,Average,Age,Demographics,Age
-# of seniors 65+,seniors aged 65+,number_of_seniors_65,30,ONE,indiv,residents,Number,count,Demographics,Age
+# of seniors 65+,seniors aged 65+,number_of_seniors_65,17,ONE,indiv,residents,Number,count,Demographics,Age
 # of children living in one-parent families,children living in one-parent families,number_of_children_living_in_one_parent_families,40,ONE,indiv,children,Number,count,Family,Isolation
 % of children living in one-parent families,children living in one-parent families,percent_of_children_living_in_one_parent_families,40,38,indiv,children,Percentage 2,percent_pop,Family,Isolation
 # of people who are Indigenous,Indigenous,number_of_people_who_are_indigenous,1445,ONE,indiv,residents,Number,count,Indigenous,Indigenous
@@ -78,9 +78,9 @@ Average size of census families,Average size of census families,average_size_of_
 # of workers age 15+ who commute by other means,workers who commute by other means,number_of_workers_age_15_who_commute_by_other_means,2580,ONE,indiv,workforce,Number,count,Labour force,Commute
 % of workers age 15+ who commute by other means,workers who commute by other means,percent_of_workers_age_15_who_commute_by_other_means,2580,2573,indiv,workforce,Percentage 2,percent_pop,Labour force,Commute
 # of workers age 15+ who work at home,workers who work from home,number_of_workers_age_15_who_work_at_home,2564,ONE,indiv,workforce,Number,count,Labour force,Work location
-% of workers age 15+ who work at home,workers who work from home,percent_of_workers_age_15_who_work_at_home,2564,,indiv,workforce,Percentage 2,percent_pop,Labour force,Work location
+% of workers age 15+ who work at home,workers who work from home,percent_of_workers_age_15_who_work_at_home,2564,2563,indiv,workforce,Percentage 2,percent_pop,Labour force,Work location
 # of workers age 15+ who have no fixed workplace address,workers with no fixed workplace address,number_of_workers_age_15_who_have_no_fixed_workplace_address,2566,ONE,indiv,workforce,Number,count,Labour force,Work location
-% of workers age 15+ who have no fixed workplace address,workers with no fixed workplace address,percent_of_workers_age_15_who_have_no_fixed_workplace_address,2566,,indiv,workforce,Percentage 2,percent_pop,Labour force,Work location
+% of workers age 15+ who have no fixed workplace address,workers with no fixed workplace address,percent_of_workers_age_15_who_have_no_fixed_workplace_address,2566,2563,indiv,workforce,Percentage 2,percent_pop,Labour force,Work location
 Average monthly shelter costs for rented dwellings ($),Average monthly shelter costs for rented dwellings ($),average_monthly_shelter_costs_for_rented_dwellings,378,ONE,households,renter households,Average,Dollar,Housing,Shelter costs
 Median monthly shelter costs for rented dwellings ($),Median monthly shelter costs for rented dwellings ($),median_monthly_shelter_costs_for_rented_dwellings,377,ONE,households,renter households,Average,Dollar,Housing,Shelter costs
 Average monthly shelter costs for owned dwellings ($),Average monthly shelter costs for owned dwellings ($),average_monthly_shelter_costs_for_owned_dwellings,370,ONE,households,owner households,Average,Dollar,Housing,Shelter costs
@@ -144,6 +144,8 @@ Median monthly shelter costs for owned dwellings ($),Median monthly shelter cost
 % households 'not suitable' (overcrowded),not suitable' (overcrowded),percent_households_not_suitable_overcrowded,322,320,households,households,Percentage 2,percent_pop,Housing,core housing need
 # households with major repairs needed,in need of major repairs,number_households_with_major_repairs_needed,334,ONE,households,households,Number,count,Housing,core housing need
 % households with major repairs needed,in need of major repairs,percent_households_with_major_repairs_needed,334,332,households,households,Percentage 2,percent_pop,Housing,core housing need
+# households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,census_general_number_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,360,ONE,households,households,Number,count,Housing,core housing need
+% households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,census_general_percent_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,360,358,households,households,Percentage 2,percent_pop,Housing,core housing need
 % of tenant households in subsidized housing,in subsidized housing,percent_of_tenant_households_in_subsidized_housing,374,ONE,households,renter households,Percentage 1,percent_pop,Housing,core housing need
 % of tenant households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,percent_of_tenant_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,375,ONE,households,renter households,Percentage 1,percent_pop,Housing,core housing need
 % of owner households with a mortgage,households with a mortgage,percent_of_owner_households_with_a_mortgage,366,ONE,households,owner households,Percentage 1,percent_pop,Housing,core housing need
