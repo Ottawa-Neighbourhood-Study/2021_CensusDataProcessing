@@ -35,6 +35,8 @@ Average market income in 2019 among recipients ($),Average market income in 2019
 % of owner households in core housing need,in core housing need,percent_of_owner_households_in_core_housing_need,368,ONE,households,owner households,Percentage 1,percent_pop,Housing,Core housing need
 % of renter households in core housing need,in core housing need,percent_of_renter_households_in_core_housing_need,376,ONE,households,renter households,Percentage 1,percent_pop,Housing,Core housing need
 % of owner households,owner households,percent_of_owner_households,298,297,households,households,Percentage 2,percent_pop,Housing,Tenure
+# of owner households,owner households,number_of_owner_households,298,ONE,households,households,Number,Count,Housing,Tenure
+# of renter households,renter households,number_of_renter_households,299,ONE,households,households,Number,Count,Housing,Tenure
 # of people in low-income based on LIM-AT,in low-income based on LIM-AT,number_of_people_in_low_income_based_on_lim_at,171,ONE,indiv,residents,Number,count,Income,LIM-AT
 % of people in low income based on LIM-AT,in low-income based on LIM-AT,percent_of_people_in_low_income_based_on_lim_at,171,166,indiv,residents,Percentage 2,percent_pop,Income,LIM-AT
 # of people 0-17 in low income based on LIM-AT,in low-income based on LIM-AT,number_of_people_0_17_in_low_income_based_on_lim_at,172,ONE,indiv,children_0_17,Number,count,Income,LIM-AT
@@ -150,3 +152,42 @@ Median monthly shelter costs for owned dwellings ($),Median monthly shelter cost
 % of tenant households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,percent_of_tenant_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,375,ONE,households,renter households,Percentage 1,percent_pop,Housing,core housing need
 % of owner households with a mortgage,households with a mortgage,percent_of_owner_households_with_a_mortgage,366,ONE,households,owner households,Percentage 1,percent_pop,Housing,core housing need
 % of owner households spending 30% or more of its income on shelter costs,spending 30% or more of its income on shelter costs,percent_of_owner_households_spending_30_percent_or_more_of_its_income_on_shelter_costs,367,ONE,households,owner households,Percentage 1,percent_pop,Housing,core housing need
+Median value of owned dwellings ($),value of owned dwellings ($),median_value_of_owned_dwellings,371,ONE,households,households,Number,Dollar,Housing,Shelter costs
+Average value of owned dwellings ($),value of owned dwellings ($),average_value_of_owned_dwellings,372,ONE,households,households,Number,Dollar,Housing,Shelter costs
+# of private dwellings,of private dwellings,number_of_private_dwellings,214,ONE,households,private dwellings,Number,count,Housing,private dwellings
+# of private dwellings unaffordable only,private dwellings unaffordable only,number_private_dwellings_unaffordable_only,350,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings unaffordable only,private dwellings unaffordable only,percent_private_dwellings_unaffordable_only,350,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of private dwellings unsuitable only,private dwellings unsuitable only,number_private_dwellings_unsuitable_only,351,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings unsuitable only,private dwellings unsuitable only,percent_private_dwellings_unsuitable_only,351,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of private dwellings inadequate only,private dwellings inadequate only,number_private_dwellings_inadequate_only,352,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings inadequate only,private dwellings inadequate only,percent_private_dwellings_inadequate_only,352,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of private dwellings unaffordable and unsuitable,private dwellings unaffordable and unsuitable,number_private_dwellings_unaffordable_unsuitable,353,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings unaffordable and unsuitable,private dwellings unaffordable and unsuitable,percent_private_dwellings_unaffordable_unsuitable,353,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of private dwellings unaffordable and inadequate,private dwellings unaffordable and inadequate,number_private_dwellings_unaffordable_inadequate,354,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings unaffordable and inadequate,private dwellings unaffordable and inadequate,percent_private_dwellings_unaffordable_inadequate,354,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of private dwellings unsuitable and inadequate,private dwellings unsuitable and inadequate,number_private_dwellings_unsuitable_inadequate,355,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings unsuitable and inadequate,private dwellings unsuitable and inadequate,percent_private_dwellings_unsuitable_inadequate,355,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+"# of private dwellings unaffordable, unsuitable, and inadequate","private dwellings unaffordable, unsuitable, and inadequate",number_private_dwellings_unaffordable_unsuitable_inadequate,356,ONE,households,private dwellings,Number,count,Housing,core housing need
+"% of private dwellings unaffordable, unsuitable, and inadequate","private dwellings unaffordable, unsuitable, and inadequate",percent_private_dwellings_unaffordable_unsuitable_inadequate,356,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of private dwellings that are acceptable housing,private dwellings that are acceptable housing,number_private_dwellings_acceptable_housing,357,ONE,households,private dwellings,Number,count,Housing,core housing need
+% of private dwellings that are acceptable housing,private dwellings that are acceptable housing,percent_private_dwellings_acceptable_housing,357,348,households,private dwellings,Percentage 2,percent_pop,Housing,core housing need
+# of single-detached houses,single-detached houses,number_of_single_detached_houses,215,ONE,households,private dwellings,Number,count,Housing,structure types
+% of single-detached houses,single-detached houses,percent_of_single_detached_houses,215,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of semi-detached houses,semi-detached houses,number_of_semi_detached_houses,216,ONE,households,private dwellings,Number,count,Housing,structure types
+% of semi-detached houses,semi-detached houses,percent_of_semi_detached_houses,216,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of row houses,row houses,number_of_row_houses,217,ONE,households,private dwellings,Number,count,Housing,structure types
+% of row houses,row houses,percent_of_row_houses,217,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of apartments or flats in a duplex,apartments or flats in a duplex,number_of_apartments_or_flats_in_a_duplex,218,ONE,households,private dwellings,Number,count,Housing,structure types
+% of apartments or flats in a duplex,apartments or flats in a duplex,percent_of_apartments_or_flats_in_a_duplex,218,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of apartments in a building fewer than five storeys,apartments in a building fewer than five storeys,number_of_apartments_in_a_building_fewer_than_five_storeys,219,ONE,households,private dwellings,Number,count,Housing,structure types
+% of apartments in a building fewer than five storeys,apartments in a building fewer than five storeys,percent_of_apartments_in_a_building_fewer_than_five_storeys,219,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of apartments in a building five or more storeys,apartments in a building five or more storeys,number_of_apartments_in_a_building_five_or_more_storeys,220,ONE,households,private dwellings,Number,count,Housing,structure types
+% of apartments in a building five or more storeys,apartments in a building five or more storeys,percent_of_apartments_in_a_building_five_or_more_storeys,220,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of other single-attached houses,other single-attached houses,number_of_other_single_attached_houses,221,ONE,households,private dwellings,Number,count,Housing,structure types
+% of other single-attached houses,other single-attached houses,percent_of_other_single_attached_houses,221,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# of movable dwellings,movable dwellings,number_of_movable_dwellings,222,ONE,households,private dwellings,Number,count,Housing,structure types
+% of movable dwellings,movable dwellings,percent_of_movable_dwellings,222,214,households,private dwellings,Percentage 2,percent_pop,Housing,structure types
+# private dwellings that are condos,private dwellings that are condos,number_private_dwellings_that_are_condos,302,ONE,households,private dwellings,Number,count,Housing,condos
+% private dwellings that are condos,private dwellings that are condos,percent_private_dwellings_that_are_condos,302,301,households,private dwellings,Percentage 2,percent_pop,Housing,condos
+# private dwellings that are not condos,private dwellings that are not condos,number_private_dwellings_that_are_not_condos,303,ONE,households,private dwellings,Number,count,Housing,condos
+% private dwellings that are not condos,private dwellings that are not condos,percent_private_dwellings_that_are_not_condos,303,301,households,private dwellings,Percentage 2,percent_pop,Housing,condos
