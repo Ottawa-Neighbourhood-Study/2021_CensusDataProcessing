@@ -38,7 +38,7 @@ Average market income in 2019 among recipients ($),Average market income in 2019
 % of people 65+ in low-income based on LIM-AT,in low-income based on LIM-AT,percent_of_people_65_in_low_income_based_on_lim_at,175,170,indiv,seniors_65,Percentage 2,percent_pop,Income,LIM-AT
 Average age of the population,Average age of the population,average_age_of_the_population,32,ONE,indiv,residents,Average,Age,Demographics,Age
 Median age of the population,Median age of the population,median_age_of_the_population,33,ONE,indiv,residents,Average,Age,Demographics,Age
-# of seniors 65+,seniors aged 65+,number_of_seniors_65,30,ONE,indiv,residents,Number,count,Demographics,Age
+# of seniors 65+,seniors aged 65+,number_of_seniors_65,17,ONE,indiv,residents,Number,count,Demographics,Age
 # of children living in one-parent families,children living in one-parent families,number_of_children_living_in_one_parent_families,40,ONE,indiv,children,Number,count,Family,Isolation
 % of children living in one-parent families,children living in one-parent families,percent_of_children_living_in_one_parent_families,40,38,indiv,children,Percentage 2,percent_pop,Family,Isolation
 # of people who are Indigenous,Indigenous,number_of_people_who_are_indigenous,1234,ONE,indiv,residents,Number,count,Indigenous,Indigenous
