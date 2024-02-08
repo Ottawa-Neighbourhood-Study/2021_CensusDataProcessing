@@ -1,5 +1,5 @@
 ﻿variables,secondhalfname,Data_ID,Numerator,Denominator,pop1,pop2,Type1,Type2,Category1,Category 2
-# of people who identify with a religion,people who identify with a religion,number_of_people_who_identify_with_a_religion,1906+1907+1923+1924+1925+1926+1927+1928+1929,ONE,indiv,residents,Number,count,Demographics,Religion
+# of people who identify with a religion,people who identify with a religion,number_of_people_who_identify_with_a_religion,1906+1907+1923+1924+1925+1926+1927+1928,ONE,indiv,residents,Number,count,Demographics,Religion
 # Buddhists,Buddhists,number_buddhists,1906,ONE,indiv,residents,Number,count,Demographics,Religion
 # Christians,Christians,number_christians,1907,ONE,indiv,residents,Number,count,Demographics,Religion
 # Hindus,Hindus,number_hindus,1923,ONE,indiv,residents,Number,count,Demographics,Religion
@@ -9,7 +9,7 @@
 # Traditional (North American Indigenous) spirituality,Traditional (North American Indigenous) spirituality,number_traditional_north_american_indigenous_spirituality,1927,ONE,indiv,residents,Number,count,Demographics,Religion
 # Other religions and spiritual traditions,Other religions and spiritual traditions,number_other_religions_and_spirital_traditions,1928,ONE,indiv,residents,Number,count,Demographics,Religion
 # No religion and secular perspectives,No religion and secular perspectives,number_no_religion_and_secular_perspectives,1929,ONE,indiv,residents,Number,count,Demographics,Religion
-% of people who identify with a religion,of people who identify with a religion,percent_of_people_who_identify_with_a_religion,1906+1907+1923+1924+1925+1926+1927+1928+1929,1905,indiv,residents,Percentage 2,percent_pop,Demographics,Religion
+% of people who identify with a religion,of people who identify with a religion,percent_of_people_who_identify_with_a_religion,1906+1907+1923+1924+1925+1926+1927+1928,1905,indiv,residents,Percentage 2,percent_pop,Demographics,Religion
 % Buddhists,Buddhists,percent_buddhists,1906,1905,indiv,residents,Percentage 2,percent_pop,Demographics,Religion
 % Christians,Christians,percent_christians,1907,1905,indiv,residents,Percentage 2,percent_pop,Demographics,Religion
 % Hindus,Hindus,percent_hindus,1923,1905,indiv,residents,Percentage 2,percent_pop,Demographics,Religion
