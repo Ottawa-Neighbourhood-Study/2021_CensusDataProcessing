@@ -43,7 +43,7 @@ message("Results saved to ", filename2)
 
 
 # load data
-dirty_data<- read_csv("outputs/census_data_extra_2024-02-08.csv") #change_here
+dirty_data<- read_csv("outputs/census_data_rural_2024-07-24.csv") #change_here
 # remove non-ONS hoods
 dirty2<-dirty_data[grep("ons2022|census_division_ottawa_", dirty_data$name),] #use census_division_ottawa_ for general census profile
                                                                               #use ottawa_census_division_ for TGPs
@@ -68,10 +68,9 @@ clean<- dirty3[dirty3$ONS_ID < 3900|dirty3$ONS_ID == 3506,]
 
 
 #write CSV
-filename2 <- paste0("outputs/clean_census_data_extra_", Sys.Date(),".csv") #change_here
+filename2 <- paste0("outputs/clean_census_data_rural_", Sys.Date(),".csv") #change_here
 readr::write_csv(clean, filename2)
 message("Results saved to ", filename2)
-
 
 ##TESTING
 raw_data_filename = "data/PQ data/tgp_immigrant_all.csv"
@@ -84,7 +83,7 @@ num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv"
 
 #change_here
 calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/Dictionaries/PQ_dictionary_censusprofile.csv") {
-  nameoffile <- "census_data_extra_" #change_here
+  nameoffile <- "census_data_rural_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
