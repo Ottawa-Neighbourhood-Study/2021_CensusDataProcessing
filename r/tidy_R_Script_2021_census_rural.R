@@ -82,8 +82,8 @@ num_den_filename = "data/PQ data/pq_data_dictionary_tgp.csv"
 
 
 #change_here
-calculate_ses_indices <- function(raw_data_filename = "data/PQ data/RAW_Census_Profile_2021_Gen3 - Copy.csv", num_den_filename = "data/PQ data/Dictionaries/PQ_dictionary_censusprofile.csv") {
-  nameoffile <- "census_data_rural_" #change_here
+calculate_ses_indices <- function(raw_data_filename = "data/PQ data/WIDE_data/tgp_francophone_ott.csv", num_den_filename = "data/PQ data/Dictionaries/dictionary_censusprofile_tgp_2025-07-16.csv") {
+  nameoffile <- "tgp_francophone_" #change_here
   # Importing the raw 2021 census data
   message("Loading census data: ", raw_data_filename)  
   raw_data_long <- readr::read_csv(raw_data_filename, col_types = readr::cols())
